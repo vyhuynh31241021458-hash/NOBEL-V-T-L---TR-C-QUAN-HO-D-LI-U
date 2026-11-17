@@ -1,0 +1,6 @@
+﻿{
+    "status":  "failed",
+    "request":  "https://comtradeapi.un.org/public/v1/getDa/C/A/HS?period=2024\u0026reporterCode=704",
+    "http_status":  500,
+    "note":  "Availability endpoint failed. This file is not a trade observation and supplies no evidence of reporting availability."
+}

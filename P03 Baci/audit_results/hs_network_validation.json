@@ -1,0 +1,165 @@
+{
+  "hs": [
+    {
+      "table": "product_year",
+      "rows": 3840,
+      "missing_classifications": 0,
+      "total_before_usd": 7977565159113,
+      "total_after_usd": 7977565159113
+    },
+    {
+      "table": "partner_product_year",
+      "rows": 283666,
+      "missing_classifications": 0,
+      "total_before_usd": 7977565159113,
+      "total_after_usd": 7977565159113
+    }
+  ],
+  "chapter_count": 96,
+  "section_count": 21,
+  "network_node_count": 34,
+  "network": [
+    {
+      "year": 2005,
+      "raw_rows": 8504006,
+      "kept_product_rows": 1909490,
+      "directed_edges": 1094,
+      "max_vietnam_reference_difference_usd": 0
+    },
+    {
+      "year": 2006,
+      "raw_rows": 8955818,
+      "kept_product_rows": 1932631,
+      "directed_edges": 1097,
+      "max_vietnam_reference_difference_usd": 0
+    },
+    {
+      "year": 2007,
+      "raw_rows": 9177831,
+      "kept_product_rows": 1961596,
+      "directed_edges": 1108,
+      "max_vietnam_reference_difference_usd": 0
+    },
+    {
+      "year": 2008,
+      "raw_rows": 9430914,
+      "kept_product_rows": 1967460,
+      "directed_edges": 1111,
+      "max_vietnam_reference_difference_usd": 0
+    },
+    {
+      "year": 2009,
+      "raw_rows": 9327154,
+      "kept_product_rows": 1914674,
+      "directed_edges": 1107,
+      "max_vietnam_reference_difference_usd": 0
+    },
+    {
+      "year": 2010,
+      "raw_rows": 9660044,
+      "kept_product_rows": 1973168,
+      "directed_edges": 1121,
+      "max_vietnam_reference_difference_usd": 0
+    },
+    {
+      "year": 2011,
+      "raw_rows": 9862639,
+      "kept_product_rows": 2024574,
+      "directed_edges": 1121,
+      "max_vietnam_reference_difference_usd": 0
+    },
+    {
+      "year": 2012,
+      "raw_rows": 10180818,
+      "kept_product_rows": 2093072,
+      "directed_edges": 1120,
+      "max_vietnam_reference_difference_usd": 0
+    },
+    {
+      "year": 2013,
+      "raw_rows": 10357176,
+      "kept_product_rows": 2094034,
+      "directed_edges": 1118,
+      "max_vietnam_reference_difference_usd": 0
+    },
+    {
+      "year": 2014,
+      "raw_rows": 10404780,
+      "kept_product_rows": 2093451,
+      "directed_edges": 1119,
+      "max_vietnam_reference_difference_usd": 0
+    },
+    {
+      "year": 2015,
+      "raw_rows": 10772335,
+      "kept_product_rows": 2144367,
+      "directed_edges": 1120,
+      "max_vietnam_reference_difference_usd": 0
+    },
+    {
+      "year": 2016,
+      "raw_rows": 10841919,
+      "kept_product_rows": 2131340,
+      "directed_edges": 1120,
+      "max_vietnam_reference_difference_usd": 0
+    },
+    {
+      "year": 2017,
+      "raw_rows": 11126776,
+      "kept_product_rows": 2168516,
+      "directed_edges": 1122,
+      "max_vietnam_reference_difference_usd": 0
+    },
+    {
+      "year": 2018,
+      "raw_rows": 11236908,
+      "kept_product_rows": 2193365,
+      "directed_edges": 1122,
+      "max_vietnam_reference_difference_usd": 0
+    },
+    {
+      "year": 2019,
+      "raw_rows": 11333137,
+      "kept_product_rows": 2211938,
+      "directed_edges": 1122,
+      "max_vietnam_reference_difference_usd": 0
+    },
+    {
+      "year": 2020,
+      "raw_rows": 10944141,
+      "kept_product_rows": 2160983,
+      "directed_edges": 1122,
+      "max_vietnam_reference_difference_usd": 0
+    },
+    {
+      "year": 2021,
+      "raw_rows": 11467434,
+      "kept_product_rows": 2182006,
+      "directed_edges": 1121,
+      "max_vietnam_reference_difference_usd": 0
+    },
+    {
+      "year": 2022,
+      "raw_rows": 11475566,
+      "kept_product_rows": 2161915,
+      "directed_edges": 1121,
+      "max_vietnam_reference_difference_usd": 0
+    },
+    {
+      "year": 2023,
+      "raw_rows": 11514720,
+      "kept_product_rows": 2162253,
+      "directed_edges": 1120,
+      "max_vietnam_reference_difference_usd": 0
+    },
+    {
+      "year": 2024,
+      "raw_rows": 10880899,
+      "kept_product_rows": 2077720,
+      "directed_edges": 1105,
+      "max_vietnam_reference_difference_usd": 0
+    }
+  ],
+  "selection": "Historical ASEAN-10 plus top 30 Vietnam partners by cumulative nominal exports+imports, 2005-2024; fixed node list",
+  "source_url": "https://www.wcoomd.org/en/topics/nomenclature/instrument-and-tools/hs_nomenclature_previous_editions/hs_nomenclature_table_2002.aspx"
+}
