@@ -22,7 +22,7 @@ Người kiểm tra: [Ngọc], ngày [20/11/2026]. Các giá trị gốc vẫn c
 | record_id | Giá trị gốc | Sau khi kiểm tra | Lý do |
 |---|---|---|---|
 | GO_175 | Giá "233 00" (sai định dạng, không rõ 23.300 hay 233.000) | **233.000 VNĐ** | Đối chiếu ảnh nhãn giá |
-| GO_060 | Thương hiệu để trống | **Meejena** | Đối chiếu ảnh nhãn |
+| GO_060 | Thương hiệu để trống | **WM** | Đối chiếu ảnh nhãn |
 
 ## 3. Đã kiểm tra, giữ nguyên (9 dòng vẫn mang cờ "Cần xác minh" trong file)
 Code đánh dấu các dòng này theo quy tắc nên cờ vẫn hiện, nhưng nhóm đã kiểm tra và quyết định như sau:
@@ -32,7 +32,7 @@ Code đánh dấu các dòng này theo quy tắc nên cờ vẫn hiện, nhưng 
 | AEON_026, 112, 113, 114, 116, 118, 119, 123 | Giá cao hơn 10 lần giá giữa của cả bảng (89.000đ) | Đã đối chiếu ảnh giá, **không đổi giá**. Giá đúng vì là đồ điện tử / mỹ phẩm cao cấp |
 
 ## 4. Ghi chú khác
-- 8 sản phẩm thiếu "Thông tin chi tiết" (chủ yếu quần áo, nón, dây sạc) và 2 sản phẩm thiếu giờ khảo sát: không bắt buộc, để trống.
+- 8 sản phẩm thiếu "Thông tin chi tiết" (dây nịt, nón, dép, tất, dây sạc) là GO_040, 041, 044, 046, 047, 056, 057, 070 và 2 sản phẩm thiếu giờ khảo sát: không bắt buộc, để trống.
 - Cột "Thông tin chi tiết" gồm nhiều loại: 213 dòng có dung tích/khối lượng (đã tách `spec_value`, `spec_unit`), 41 dòng là size, 88 dòng là mô tả khác (chất liệu, kích thước…). Dòng ghi hai đơn vị (vd "3,8 kg; 3,84 L") chỉ tách đơn vị đầu tiên; chuỗi gốc vẫn còn ở `spec_text`.
 - Bảng chưa có cột ngành hàng nên chưa kiểm tra giá bất thường theo từng ngành (sẽ làm ở Task 4).
 - Lưu ý khi tải CSV từ Google Sheet: Sheet có thể tự đổi giá "7.000" thành số 7. Luôn kiểm tra cột giá trước khi chạy code.
