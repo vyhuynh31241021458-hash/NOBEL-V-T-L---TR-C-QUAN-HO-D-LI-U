@@ -1,231 +1,37 @@
-﻿record_id,field,raw_value,problem,action,status
-AEON_072,origin,"xuất xứ thương hiệu Nhật Bản, sản xuất tại Việt Nam",Nhãn ghi gộp nhiều thông tin (thương hiệu / nơi sản xuất),Tách: nơi sản xuất = Việt Nam; thương hiệu = Nhật Bản,Đã sửa
-AEON_129,brand,Giorno Mimosa,Cùng thương hiệu nhưng viết hoa/thường khác nhau,Thống nhất thành 'GIORNO MIMOSA',Đã sửa
-AEON_130,brand,Giorno Mimosa,Cùng thương hiệu nhưng viết hoa/thường khác nhau,Thống nhất thành 'GIORNO MIMOSA',Đã sửa
-AEON_131,brand,Giorno Mimosa,Cùng thương hiệu nhưng viết hoa/thường khác nhau,Thống nhất thành 'GIORNO MIMOSA',Đã sửa
-AEON_132,brand,Giorno Mimosa,Cùng thương hiệu nhưng viết hoa/thường khác nhau,Thống nhất thành 'GIORNO MIMOSA',Đã sửa
-AEON_133,origin,Cambodia,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Campuchia',Đã sửa
-AEON_135,brand,Giorno Mimosa,Cùng thương hiệu nhưng viết hoa/thường khác nhau,Thống nhất thành 'GIORNO MIMOSA',Đã sửa
-AEON_141,price,319 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 319000,Đã sửa
-AEON_141,origin,TQ,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Trung Quốc',Đã sửa
-AEON_142,price,759 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 759000,Đã sửa
-AEON_142,origin,TQ,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Trung Quốc',Đã sửa
-AEON_143,price,199 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 199000,Đã sửa
-AEON_143,origin,TQ,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Trung Quốc',Đã sửa
-AEON_144,price,349 000 ,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 349000,Đã sửa
-AEON_144,origin,TQ,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Trung Quốc',Đã sửa
-AEON_145,price,129 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 129000,Đã sửa
-AEON_145,origin,TQ,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Trung Quốc',Đã sửa
-AEON_146,price,99 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 99000,Đã sửa
-AEON_146,origin,VN,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-AEON_147,price,129 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 129000,Đã sửa
-AEON_147,origin,VN,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-AEON_148,price,129 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 129000,Đã sửa
-AEON_148,origin,VN,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-AEON_149,price,259 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 259000,Đã sửa
-AEON_149,origin,Xuất xứ thương hiệu VN sản xuất TQ,Nhãn ghi gộp nhiều thông tin (thương hiệu / nơi sản xuất),Tách: nơi sản xuất = Trung Quốc; thương hiệu = Việt Nam,Đã sửa
-AEON_150,price,199 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 199000,Đã sửa
-AEON_150,origin,TQ,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Trung Quốc',Đã sửa
-AEON_151,price,129 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 129000,Đã sửa
-AEON_151,origin,VN,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-AEON_152,price,259 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 259000,Đã sửa
-AEON_152,origin,TQ,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Trung Quốc',Đã sửa
-AEON_153,price,229 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 229000,Đã sửa
-AEON_153,origin,Xuất xứ thương hiệu VN sản xuất TQ,Nhãn ghi gộp nhiều thông tin (thương hiệu / nơi sản xuất),Tách: nơi sản xuất = Trung Quốc; thương hiệu = Việt Nam,Đã sửa
-AEON_154,price,279 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 279000,Đã sửa
-AEON_154,origin,Xuất xứ thương hiệu VN sản xuất TQ,Nhãn ghi gộp nhiều thông tin (thương hiệu / nơi sản xuất),Tách: nơi sản xuất = Trung Quốc; thương hiệu = Việt Nam,Đã sửa
-AEON_155,price,179 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 179000,Đã sửa
-AEON_155,origin,TQ,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Trung Quốc',Đã sửa
-AEON_156,price,179 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 179000,Đã sửa
-AEON_156,origin,TQ,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Trung Quốc',Đã sửa
-AEON_157,price,229 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 229000,Đã sửa
-AEON_157,origin,TQ,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Trung Quốc',Đã sửa
-AEON_158,price,199 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 199000,Đã sửa
-AEON_158,origin,TQ,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Trung Quốc',Đã sửa
-AEON_159,price,150 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 150000,Đã sửa
-AEON_159,origin,TQ,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Trung Quốc',Đã sửa
-AEON_160,price,159 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 159000,Đã sửa
-AEON_160,origin,TQ,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Trung Quốc',Đã sửa
-AEON_161,price,25 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 25000,Đã sửa
-AEON_161,origin,VN,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-AEON_162,price,24 500,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 24500,Đã sửa
-AEON_162,origin,VN,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-AEON_163,price,120 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 120000,Đã sửa
-AEON_163,origin,Xuất xứ thương hiệu TL sản xuất VN,Nhãn ghi gộp nhiều thông tin (thương hiệu / nơi sản xuất),Tách: nơi sản xuất = Việt Nam; thương hiệu = Thái Lan,Đã sửa
-AEON_164,price,15 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 15000,Đã sửa
-AEON_164,origin,VN,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-AEON_165,price,55 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 55000,Đã sửa
-AEON_165,origin,VN,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-AEON_166,price,21 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 21000,Đã sửa
-AEON_166,origin,VN,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-AEON_167,price,73 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 73000,Đã sửa
-AEON_167,origin,VN,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-AEON_168,brand,Thiên long ,Cùng thương hiệu nhưng viết hoa/thường khác nhau,Thống nhất thành 'Thiên Long',Đã sửa
-AEON_168,price,28 400,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 28400,Đã sửa
-AEON_168,origin,VN,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-AEON_169,price,79 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 79000,Đã sửa
-AEON_169,origin,VN,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-AEON_170,price,98 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 98000,Đã sửa
-AEON_170,origin,VN,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-AEON_171,price,29 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 29000,Đã sửa
-AEON_171,origin,VN,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-AEON_172,price,22 500,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 22500,Đã sửa
-AEON_172,origin,VN,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-AEON_173,price,10 500,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 10500,Đã sửa
-AEON_173,origin,VN,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-AEON_174,price,20 800,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 20800,Đã sửa
-AEON_174,origin,VN,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-AEON_175,price,33 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 33000,Đã sửa
-AEON_175,origin,VN,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-GO_001,time,8h45,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 08:45,Đã sửa
-GO_002,time,8h47,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 08:47,Đã sửa
-GO_003,time,8h51,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 08:51,Đã sửa
-GO_004,time,9h03,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:03,Đã sửa
-GO_005,time,9h05,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:05,Đã sửa
-GO_006,time,9h06,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:06,Đã sửa
-GO_007,time,9h09,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:09,Đã sửa
-GO_008,time,9h10,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:10,Đã sửa
-GO_009,time,9h13,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:13,Đã sửa
-GO_010,time,8h42,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 08:42,Đã sửa
-GO_011,time,9h16,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:16,Đã sửa
-GO_012,time,9h17,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:17,Đã sửa
-GO_013,time,9h20,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:20,Đã sửa
-GO_014,time,9h23,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:23,Đã sửa
-GO_015,time,9h27,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:27,Đã sửa
-GO_016,time,9h29,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:29,Đã sửa
-GO_017,time,9h30,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:30,Đã sửa
-GO_018,time,9h32,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:32,Đã sửa
-GO_019,time,9h33,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:33,Đã sửa
-GO_021,time,9h37,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:37,Đã sửa
-GO_022,brand,Purité De Provence ,Cùng thương hiệu nhưng viết hoa/thường khác nhau,Thống nhất thành 'Purité de Provence',Đã sửa
-GO_022,time,9h38,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:38,Đã sửa
-GO_023,time,9h40,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:40,Đã sửa
-GO_024,time,9h48,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:48,Đã sửa
-GO_025,time,9h50,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:50,Đã sửa
-GO_026,time,9h51,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:51,Đã sửa
-GO_027,time,9h53,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:53,Đã sửa
-GO_028,time,9h56,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:56,Đã sửa
-GO_029,time,9h58,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:58,Đã sửa
-GO_031,time,10h03,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 10:03,Đã sửa
-GO_032,time,10h05,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 10:05,Đã sửa
-GO_033,time,10h07,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 10:07,Đã sửa
-GO_034,time,10h09,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 10:09,Đã sửa
-GO_035,time,10h12,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 10:12,Đã sửa
-GO_040,spec,,Thiếu thông tin chi tiết,Để trống,Ghi chú
-GO_041,spec,,Thiếu thông tin chi tiết,Để trống,Ghi chú
-GO_044,spec,,Thiếu thông tin chi tiết,Để trống,Ghi chú
-GO_046,spec,,Thiếu thông tin chi tiết,Để trống,Ghi chú
-GO_047,spec,,Thiếu thông tin chi tiết,Để trống,Ghi chú
-GO_056,spec,,Thiếu thông tin chi tiết,Để trống,Ghi chú
-GO_057,spec,,Thiếu thông tin chi tiết,Để trống,Ghi chú
-GO_070,spec,,Thiếu thông tin chi tiết,Để trống,Ghi chú
-GO_074,origin,Seul Korea,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Hàn Quốc',Đã sửa
-GO_075,origin,Thái lan,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Thái Lan',Đã sửa
-GO_099,origin,Hàn quốc,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Hàn Quốc',Đã sửa
-GO_129,origin,Trung quốc,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Trung Quốc',Đã sửa
-GO_131,origin,Trung quốc,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Trung Quốc',Đã sửa
-GO_134,origin,Trung quốc,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Trung Quốc',Đã sửa
-GO_141,price,63 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 63000,Đã sửa
-GO_141,origin,Sản xuất tai Việt Nam,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-GO_142,price,32 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 32000,Đã sửa
-GO_142,origin,Xuất xứ Việt Nam,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-GO_143,price,79 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 79000,Đã sửa
-GO_143,origin,Xuất xứ Ba Lan,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Ba Lan',Đã sửa
-GO_144,price,38 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 38000,Đã sửa
-GO_144,time,8h55,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 08:55,Đã sửa
-GO_145,price,21 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 21000,Đã sửa
-GO_145,time,,Thiếu giờ khảo sát,Để trống,Ghi chú
-GO_146,price,9 900,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 9900,Đã sửa
-GO_147,price,16 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 16000,Đã sửa
-GO_147,origin,Xuất xứ VN cấp phép bởi Thái Lan,Nhãn ghi 'cấp phép' - chưa rõ nơi sản xuất thật,"Tạm ghi 'Việt Nam', cần xác minh",Cần xác minh
-GO_148,price,29 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 29000,Đã sửa
-GO_148,origin,VN,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-GO_148,time,9h6,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:06,Đã sửa
-GO_149,price,10 600,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 10600,Đã sửa
-GO_149,origin,VN,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-GO_149,time,9h9,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:09,Đã sửa
-GO_150,price,10 200,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 10200,Đã sửa
-GO_150,origin,VN,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-GO_150,time,9h10,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:10,Đã sửa
-GO_151,price,12 900,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 12900,Đã sửa
-GO_151,origin,Singapor,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Singapore',Đã sửa
-GO_151,time,9h14,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:14,Đã sửa
-GO_152,price,11 100,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 11100,Đã sửa
-GO_152,origin,VN,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-GO_152,time,9h16,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:16,Đã sửa
-GO_153,price,13 500,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 13500,Đã sửa
-GO_153,origin,VN,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-GO_153,time,9h17,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:17,Đã sửa
-GO_154,price,18 400,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 18400,Đã sửa
-GO_154,origin,VN,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-GO_154,time,9h19,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:19,Đã sửa
-GO_155,price,10 100,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 10100,Đã sửa
-GO_155,origin,VN,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-GO_155,time,9h20,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:20,Đã sửa
-GO_156,price,28 600,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 28600,Đã sửa
-GO_156,origin,Hàn,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Hàn Quốc',Đã sửa
-GO_156,time,9h22,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:22,Đã sửa
-GO_157,price,12 800,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 12800,Đã sửa
-GO_157,origin,VN,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-GO_157,time,9h26,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:26,Đã sửa
-GO_158,price,8 300,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 8300,Đã sửa
-GO_158,origin,VN ,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-GO_158,time,9h28,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:28,Đã sửa
-GO_159,price,10 100,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 10100,Đã sửa
-GO_159,origin,VN,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-GO_159,time,9h31,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:31,Đã sửa
-GO_160,price,7 800,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 7800,Đã sửa
-GO_160,origin,VN,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-GO_160,time,9h34,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:34,Đã sửa
-GO_161,price,140 500,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 140500,Đã sửa
-GO_161,origin,Sản xuất thái lan nhập khẩu chịu trách nhiệm Unilever VN,Nhãn ghi gộp nhiều thông tin (thương hiệu / nơi sản xuất),Tách: nơi sản xuất = Thái Lan,Đã sửa
-GO_161,time,9h37,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:37,Đã sửa
-GO_162,price,226 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 226000,Đã sửa
-GO_162,time,9h39,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:39,Đã sửa
-GO_163,price,198 500,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 198500,Đã sửa
-GO_163,origin,VN,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-GO_163,time,9h40,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:40,Đã sửa
-GO_164,price,188 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 188000,Đã sửa
-GO_164,origin,VN,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-GO_164,time,9h45,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:45,Đã sửa
-GO_165,price,74 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 74000,Đã sửa
-GO_165,origin,VN,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-GO_165,time,9h47,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:47,Đã sửa
-GO_166,price,71 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 71000,Đã sửa
-GO_166,origin,VN,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-GO_166,time,9h48,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:48,Đã sửa
-GO_167,price,205 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 205000,Đã sửa
-GO_167,origin,China,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Trung Quốc',Đã sửa
-GO_167,time,9h50,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:50,Đã sửa
-GO_168,price,226 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 226000,Đã sửa
-GO_168,origin,VN,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-GO_168,time,9h52,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:52,Đã sửa
-GO_169,price,468 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 468000,Đã sửa
-GO_169,origin,VN,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-GO_169,time,9h55,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:55,Đã sửa
-GO_170,price,77 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 77000,Đã sửa
-GO_170,origin,VN,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-GO_170,time,9h59,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 09:59,Đã sửa
-GO_171,price,72 500,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 72500,Đã sửa
-GO_171,origin,Sx thái lan chịu trách nhiệm VN,Nhãn ghi gộp nhiều thông tin (thương hiệu / nơi sản xuất),Tách: nơi sản xuất = Thái Lan,Đã sửa
-GO_171,time,10h3,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 10:03,Đã sửa
-GO_172,price,169 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 169000,Đã sửa
-GO_172,origin,VN,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-GO_172,time,10h5,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 10:05,Đã sửa
-GO_173,price,230 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 230000,Đã sửa
-GO_173,origin,Sx thái lan chịu tracha nhiệm Vn,Nhãn ghi gộp nhiều thông tin (thương hiệu / nơi sản xuất),Tách: nơi sản xuất = Thái Lan,Đã sửa
-GO_173,time,10h7,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 10:07,Đã sửa
-GO_174,price,177 500,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 177500,Đã sửa
-GO_174,origin,VN,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Việt Nam',Đã sửa
-GO_174,time,,Thiếu giờ khảo sát,Để trống,Ghi chú
-GO_175,price,233 000,Giá viết cách bằng dấu cách thay vì dấu chấm,Chuẩn hóa thành 233000,Đã sửa
-GO_175,origin,Nhật bản,Cách viết xuất xứ không thống nhất (viết tắt/sai chính tả),Chuẩn hóa thành 'Nhật Bản',Đã sửa
-GO_175,time,10n15,Giờ viết dạng '9h10' hoặc thiếu số 0 / gõ nhầm chữ,Chuẩn hóa thành 10:15,Đã sửa
-AEON_026,price,1575000,"Giá cao hơn 10 lần giá giữa của cả bảng (89,000 VNĐ)","Giữ nguyên, đối chiếu ảnh nhãn giá (có thể đúng nếu là đồ điện tử/mỹ phẩm cao cấp)",Cần xác minh
-AEON_112,price,1590000,"Giá cao hơn 10 lần giá giữa của cả bảng (89,000 VNĐ)","Giữ nguyên, đối chiếu ảnh nhãn giá (có thể đúng nếu là đồ điện tử/mỹ phẩm cao cấp)",Cần xác minh
-AEON_113,price,1350000,"Giá cao hơn 10 lần giá giữa của cả bảng (89,000 VNĐ)","Giữ nguyên, đối chiếu ảnh nhãn giá (có thể đúng nếu là đồ điện tử/mỹ phẩm cao cấp)",Cần xác minh
-AEON_114,price,1390000,"Giá cao hơn 10 lần giá giữa của cả bảng (89,000 VNĐ)","Giữ nguyên, đối chiếu ảnh nhãn giá (có thể đúng nếu là đồ điện tử/mỹ phẩm cao cấp)",Cần xác minh
-AEON_116,price,7844700,"Giá cao hơn 10 lần giá giữa của cả bảng (89,000 VNĐ)","Giữ nguyên, đối chiếu ảnh nhãn giá (có thể đúng nếu là đồ điện tử/mỹ phẩm cao cấp)",Cần xác minh
-AEON_118,price,2492800,"Giá cao hơn 10 lần giá giữa của cả bảng (89,000 VNĐ)","Giữ nguyên, đối chiếu ảnh nhãn giá (có thể đúng nếu là đồ điện tử/mỹ phẩm cao cấp)",Cần xác minh
-AEON_119,price,1190000,"Giá cao hơn 10 lần giá giữa của cả bảng (89,000 VNĐ)","Giữ nguyên, đối chiếu ảnh nhãn giá (có thể đúng nếu là đồ điện tử/mỹ phẩm cao cấp)",Cần xác minh
-AEON_123,price,959000,"Giá cao hơn 10 lần giá giữa của cả bảng (89,000 VNĐ)","Giữ nguyên, đối chiếu ảnh nhãn giá (có thể đúng nếu là đồ điện tử/mỹ phẩm cao cấp)",Cần xác minh
+﻿record_id,van_de,gia_tri,xu_ly
+AEON_026,Cần xác minh,price,Đối chiếu bảng gốc hoặc nhãn
+AEON_112,Cần xác minh,price,Đối chiếu bảng gốc hoặc nhãn
+AEON_113,Cần xác minh,price,Đối chiếu bảng gốc hoặc nhãn
+AEON_114,Cần xác minh,price,Đối chiếu bảng gốc hoặc nhãn
+AEON_116,Cần xác minh,price,Đối chiếu bảng gốc hoặc nhãn
+AEON_118,Cần xác minh,price,Đối chiếu bảng gốc hoặc nhãn
+AEON_119,Cần xác minh,price,Đối chiếu bảng gốc hoặc nhãn
+AEON_123,Cần xác minh,price,Đối chiếu bảng gốc hoặc nhãn
+AEON_140,Thiếu dữ liệu,brand,Để trống
+AEON_186,Cần xác minh,origin,Đối chiếu bảng gốc hoặc nhãn
+GO_040,Thiếu dữ liệu,spec_text,Để trống
+GO_041,Thiếu dữ liệu,spec_text,Để trống
+GO_044,Thiếu dữ liệu,spec_text,Để trống
+GO_046,Thiếu dữ liệu,spec_text,Để trống
+GO_047,Thiếu dữ liệu,spec_text,Để trống
+GO_056,Thiếu dữ liệu,spec_text,Để trống
+GO_057,Thiếu dữ liệu,spec_text,Để trống
+GO_121,Thiếu dữ liệu,brand,Để trống
+GO_122,Thiếu dữ liệu,brand,Để trống
+GO_123,Thiếu dữ liệu,brand,Để trống
+GO_124,Thiếu dữ liệu,brand,Để trống
+GO_128,Thiếu dữ liệu,brand,Để trống
+GO_129,Thiếu dữ liệu,brand,Để trống
+GO_134,Thiếu dữ liệu,brand,Để trống
+GO_135,Thiếu dữ liệu,brand,Để trống
+GO_139,Thiếu dữ liệu,brand,Để trống
+GO_140,Thiếu dữ liệu,brand,Để trống
+GO_147,Cần xác minh,origin,Đối chiếu bảng gốc hoặc nhãn
+GO_192,Cần xác minh,price,Đối chiếu bảng gốc hoặc nhãn
+GO_196,Thiếu dữ liệu,brand,Để trống
+GO_197,Thiếu dữ liệu,brand,Để trống
+GO_199,Thiếu dữ liệu,brand,Để trống
+GO_203,Cần xác minh,spec,Đối chiếu bảng gốc hoặc nhãn
+GO_206,Thiếu dữ liệu,brand,Để trống
+GO_209,Cần xác minh,origin,Đối chiếu bảng gốc hoặc nhãn
+GO_210,Cần xác minh,origin,Đối chiếu bảng gốc hoặc nhãn

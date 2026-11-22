@@ -1,0 +1,403 @@
+GO_210,Mã sản phẩm,Siêu thị,Ngày khảo sát,Tên sản phẩm,Thông tin chi tiết,Thương hiệu,Giá (VNĐ),Xuất xứ nguyên văn trên nhãn,Giờ khảo sát
+1,AEON_001,AEON Bình Tân,12/11/2026,Nước Ngọt Vị Cam Sleek,320ml,Fanta,7.000,Việt Nam,11:30
+2,AEON_002,AEON Bình Tân,12/11/2026,Nước Ngọt Có Ga Hương Chanh Tự Nhiên,390ml,7Up,8.000,Việt Nam,11:32
+3,AEON_003,AEON Bình Tân,12/11/2026,Nước Giải Khát Soda ,320ml,Schweppes,6.000,Việt Nam,11:35
+4,AEON_004,AEON Bình Tân,12/11/2026,Nước Khoáng Có Gas ,430ml,Đảnh Thạnh,10.000,Việt Nam,11:39
+5,AEON_005,AEON Bình Tân,12/11/2026,Nước Uống Có Gaz Hương Vải,320ml,Mirinda,8.000,Việt Nam,11:42
+6,AEON_006,AEON Bình Tân,12/11/2026,Nước Uống Ion Kiềm,680ml,Fujiwa,11.000,Việt Nam,11:47
+7,AEON_007,AEON Bình Tân,12/11/2026,Nước Khoáng Thiên Nhiên ,500ml,Vivant,4.500,Việt Nam,11:50
+8,AEON_008,AEON Bình Tân,12/11/2026,Trà Ô Long Nho,450ml,Tea Plus,8.500,Việt Nam,11:51
+9,AEON_009,AEON Bình Tân,12/11/2026,Nước Uống Có Gas Vị Dưa Hấu ,350ml,SFC,27.000,Hàn Quốc,11:56
+10,AEON_010,AEON Bình Tân,12/11/2026,Cà phê sữa ,230ml,Highlands,16.000,Việt Nam,11:58
+11,AEON_011,AEON Bình Tân,12/11/2026,Nước Giải Khát Vị Chanh Daily-C,140ml,Lotte,19.000,Hàn Quốc,11:59
+12,AEON_012,AEON Bình Tân,12/11/2026,Trà Oolong ,2L,TOPVALU,55.000,Trung Quốc,12:01
+13,AEON_013,AEON Bình Tân,12/11/2026,Trà Vải ,450ml,TVT,11.000,Việt Nam,12:03
+14,AEON_014,AEON Bình Tân,12/11/2026,Trà Olong Sleek ,320ml,Tea Plus,9.800,Việt Nam,12:06
+15,AEON_015,AEON Bình Tân,12/11/2026,Hồng Trà Vị Táo,430ml,Kirin,52.000,Nhật Bản,12:09
+16,AEON_016,AEON Bình Tân,12/11/2026,Nước Uống Hương Vị Sữa,235ml,Pororo,20.000,Hàn Quốc,12:11
+17,AEON_017,AEON Bình Tân,12/11/2026,Sữa Rửa Mặt 1025 Dokdo,150ml,Round Lab,338.700,Hàn Quốc,12:15
+18,AEON_018,AEON Bình Tân,12/11/2026,Son Dưỡng Hương Tự Nhiên,4.3g,Lipice,79.000,Việt Nam,12:17
+19,AEON_019,AEON Bình Tân,12/11/2026,"Son Thỏi Với Chất Son Satin Ẩm Mịn, Bền Màu Gel Technosatin Lipstick Màu 417",3.3g,SHISEIDO,835.000,Nhật Bản,12:19
+20,AEON_020,AEON Bình Tân,12/11/2026,Nước Tẩy Trang Dưỡng Ẩm & Sáng Da Reihaku Cleansing Lotion,500ml,Hatomugi,219.000,Nhật Bản,12:32
+21,AEON_021,AEON Bình Tân,12/11/2026,Sữa Rửa Mặt Tạo Bọt Mịn Màng Foaming Face Wash,150ml,Copernica,275.000,Nhật Bản,12:34
+22,AEON_022,AEON Bình Tân,12/11/2026,Kem Chống Nắng Cho Trẻ Em,40ml,BZU BZU,167.000,Singapore,12:35
+23,AEON_023,AEON Bình Tân,12/11/2026,Phấn Má Hồng Màu 06 Cam Sữa,2g,Judy Doll,131.000,Trung Quốc,12:38
+24,AEON_024,AEON Bình Tân,12/11/2026,Nước Hoa Hồng Dưỡng Ẩm Có Mùi Supple Preparation Facial Toner,180ml,Klairs,435.000,Hàn Quốc,12:39
+25,AEON_025,AEON Bình Tân,12/11/2026,Phấn nước Superstay 24H Baby Matte Cushion,11g,MAYBELLINE,428.000,Trung Quốc,12:41
+26,AEON_026,AEON Bình Tân,12/11/2026,Kem Dưỡng Ẩm Essential Energy Hydrating Cream,50ml,SHISEIDO,1.575.000,Nhật Bản,12:43
+27,AEON_027,AEON Bình Tân,12/11/2026,Kem Dưỡng Ẩm Cho Bé Huggies Power of Seed,150g,Huggies,189.000,Trung Quốc,12:45
+28,AEON_028,AEON Bình Tân,12/11/2026,Son Tint Bóng COLOR KEY Airy Mirrior Màu #B708 Hồng Trà Đào,1.7g,COLOR KEY,165.900,Trung Quốc,12:46
+29,AEON_029,AEON Bình Tân,12/11/2026,Sáp Tẩy Trang Chiết Xuất Than Hoạt Tính Giúp Da Mịn Màng Topvalu Glamatical Charcoal Cleansing Balm,100g,TOPVALU,519.000,Nhật Bản,12:48
+30,AEON_030,AEON Bình Tân,12/11/2026,"Sunplay Super Block
+Sữa chống nắng cực mạnh ",30g,Sunplay,115.000,Việt Nam,12:49
+31,AEON_031,AEON Bình Tân,12/11/2026,Mặt Nạ Phục Hồi Chuyên Sâu Wonjin Effect Nourising Supplement,30g,Wonjin,35.000,Hàn Quốc,12:51
+32,AEON_032,AEON Bình Tân,12/11/2026,Toner Dưỡng Da Tươi Sáng Glycolic Acid Daily Clarifying Toner ,80ml,SKINTIFIC,234.600,Canada,12:53
+33,AEON_033,AEON Bình Tân,12/11/2026,Sữa Rửa Mặt Sạch Sâu Chống Oxy Hóa Embryolisse,200ml,Embryolisse,475.000,Pháp,12:54
+34,AEON_034,AEON Bình Tân,12/11/2026,Kem Dưỡng Ẩm Cetaphil Dịu Lành Cho Da Nhạy Cảm,453g ,Cetaphil,500.000,Ba Lan,12:56
+35,AEON_035,AEON Bình Tân,12/11/2026,Kem Che Khuyết Điểm Silkygirl Màu #01 Tông Sáng,8g,Silkygirl,178.000,Thái Lan,12:58
+36,AEON_036,AEON Bình Tân,12/11/2026,Bánh Ngàn Lớp Bánh Ngọt,125g,Matilde Vicenzi,80.000,Ý,11:33
+37,AEON_037,AEON Bình Tân,12/11/2026,Bánh Abbracci,168g,"Danisa
+",35.000,Indonesia,11:35
+38,AEON_038,AEON Bình Tân,12/11/2026,Bánh Trứng Tipo ,250g,Hữu Nghị,59.000,Việt Nam,11:39
+39,AEON_039,AEON Bình Tân,12/11/2026,Bánh Dứa ,200g,Yeou Bin,95.000,Đài Loan,11:42
+40,AEON_040,AEON Bình Tân,12/11/2026,Bánh gạo One One vị phô mai ngô,118g,One One,37.000,Việt Nam,11:45
+41,AEON_041,AEON Bình Tân,12/11/2026,Bánh Khọt,270g,Cholimex,34.000,Việt Nam,11:47
+42,AEON_042,AEON Bình Tân,12/11/2026,Bánh Quy Socola Vị Matcha,96g,Meiji,89.000,Nhật Bản,11:51
+43,AEON_043,AEON Bình Tân,12/11/2026,Bánh Que Pepero Hạnh Nhân,32g,Lotte,24.500,Hàn Quốc,11:54
+44,AEON_044,AEON Bình Tân,12/11/2026,Bánh Que Vị Tomyum Stick ,62g,Dorkbua,19.000,Thái Lan,11:59
+45,AEON_045,AEON Bình Tân,12/11/2026,Khoai Tây Bánh Rosty'S ,800g,Mccain,139.000,Bỉ,12:03
+46,AEON_046,AEON Bình Tân,12/11/2026,Bánh Snack Potato Cheese,90g,Slide,35.000,Malaysia,12:07
+47,AEON_047,AEON Bình Tân,12/11/2026,Bánh Gạo An Ngô 16P ,120g,Orion,28.400,Việt Nam,12:10
+48,AEON_048,AEON Bình Tân,12/11/2026,Bánh Gạo Vị Rong Biển,240g,Vetrue,79.000,Trung Quốc,12:12
+49,AEON_049,AEON Bình Tân,12/11/2026,Bánh Cốm Non Mỏng Giòn ,261g,AFC,49.000,Việt Nam,12:15
+50,AEON_050,AEON Bình Tân,12/11/2026,Snack Rong Biển Big Bang Vị Truyền Thống,6g,Taokaenoi,12.000,Thái Lan,12:16
+51,AEON_051,AEON Bình Tân,12/11/2026,Bánh Custar Less Sugar,282g,Orion,65.000,Việt Nam,12:20
+52,AEON_052,AEON Bình Tân,12/11/2026,Bánh Quy Gạo Vị Phô Mai,108g,Want Want,59.000,Đài Loan,12:25
+53,AEON_053,AEON Bình Tân,12/11/2026,Bánh Rán Hotteok Nhân Pizza CJ Foods,300g,Cj Foods,85.000,Việt Nam,12:27
+54,AEON_054,AEON Bình Tân,12/11/2026,Bánh Xốp Kem Vị Vani,250g,"Gastone Lago
+",87.300,Ý,12:30
+55,AEON_055,AEON Bình Tân,12/11/2026,Bánh Quy Cà Phê Hảo Hạng,156g,Coffee Joy,22.000,Indonesia,12:33
+56,AEON_056,AEON Bình Tân,12/11/2026,Bánh Snack Vị Xốt Mayo Kiểu Hàn Quốc,78g,O'Star,20.000,Việt Nam,12:37
+57,AEON_057,AEON Bình Tân,12/11/2026,Bánh Que Kem Dâu ,168g,Pocky,69.000,Thái Lan,12:40
+58,AEON_058,AEON Bình Tân,12/11/2026,Bánh Que Vị Ớt Cay,150g,MIX,39.200,Thái Lan,12:43
+59,AEON_059,AEON Bình Tân,12/11/2026,Nước Tăng Lực ,150ml,Carabao,13.000,Thái Lan,12:45
+60,AEON_060,AEON Bình Tân,12/11/2026,Nước Tăng Lực Monster Pipeline Sleek,335ml,Monster Energy,26.000,Malaysia,12:48
+61,AEON_061,AEON Bình Tân,12/11/2026,Nước Tăng Lực ,250ml,Rockstar,12.000,Việt Nam,12:50
+62,AEON_062,AEON Bình Tân,12/11/2026,Nước Tăng Lực Gold ,330ml,Sting,10.000,Việt Nam,12:55
+63,AEON_063,AEON Bình Tân,12/11/2026,Nước Tăng Lực Có Thạch Dâu,180ml,Top Up,7.000,Việt Nam,12:57
+64,AEON_064,AEON Bình Tân,12/11/2026,Nước Tăng Lực Warrior Vị Nho,330ml,Warrior,8.000,Việt Nam,13:00
+65,AEON_065,AEON Bình Tân,12/11/2026,Nước Tăng Lực Có Thạch Nguyên Bản,180ml,Powerman 48H,7.000,Việt Nam,13:03
+66,AEON_066,AEON Bình Tân,12/11/2026,Cà Phê Cốt Dừa,12x15g,Cộng,75.000,Việt Nam,13:07
+67,AEON_067,AEON Bình Tân,12/11/2026,Cà Phê Đen,375g,TOPVALU,30.000,Nhật Bản,13:09
+68,AEON_068,AEON Bình Tân,12/11/2026,Cà Phê Sữa Max,180ml,Georgia,11.000,Việt Nam,13:12
+69,AEON_069,AEON Bình Tân,12/11/2026,Cà Phê White Vanilla,250ml,Coffe Town,46.000,Hàn Quốc,13:15
+70,AEON_070,AEON Bình Tân,12/11/2026,Nước tăng lực Tazzan,250ml,Hillway,15.000,Việt Nam,13:17
+71,AEON_071,AEON Bình Tân,12/11/2026,Nước lau sàn hương hoa hạ & bạc hà,"Can 3,6 kg",Sunlight,89.000,Việt Nam,14:00
+72,AEON_072,AEON Bình Tân,12/11/2026,Nước lau sàn hương chanh Yuzu & tinh dầu sả,"Can 3,8 kg; 3,84 L",TOPVALU,82.000,"xuất xứ thương hiệu Nhật Bản, sản xuất tại Việt Nam",14:03
+73,AEON_073,AEON Bình Tân,12/11/2026,Dung dịch tẩy phòng tắm cực mạnh Tipo’s,Chai xịt 300 ml,Tipo’s – YUWA,185.500,Nhật Bản,14:06
+74,AEON_074,AEON Bình Tân,12/11/2026,Viên treo bồn cầu Power 5 trà xanh & chanh vàng,"Vỉ 55 g, gồm 5 khối tẩy",Vim,29.500,Ba Lan,14:09
+75,AEON_075,AEON Bình Tân,12/11/2026,Nước tẩy nhà tắm Pro,Chai 900 ml,Duck,40.000,Việt Nam,14:12
+76,AEON_076,AEON Bình Tân,12/11/2026,Gel tẩy bồn cầu và nhà tắm Trắng Sáng hương chanh sả,Chai 870 ml,Vim,35.000,Việt Nam,14:15
+77,AEON_077,AEON Bình Tân,12/11/2026,Nước lau sàn Floor & Surface Essentials – Eucalyptus Clean,Chai 1 L; hương bạch đàn,Earth Choice,120.000,Úc ,14:18
+78,AEON_078,AEON Bình Tân,12/11/2026,Nước rửa chén thiên nhiên muối khoáng & lô hội,"Túi 3,3 kg",Sunlight,95.000,Việt Nam,14:21
+79,AEON_079,AEON Bình Tân,12/11/2026,Nước xả vải Passion Đam Mê,"Túi 3,5 L",Downy,199.000,Việt Nam,14:24
+80,AEON_080,AEON Bình Tân,12/11/2026,Nước giặt đồ lót hương hoa anh đào thanh lịch,Chai vòi nhấn 300 g; 291 ml,OMO,58.000,Trung Quốc,14:27
+81,AEON_081,AEON Bình Tân,12/11/2026,Nước giặt Silver Power nano bạc – khử mùi hương Nắng Xuân,"Túi 3,6 kg",Gift,159.000,Việt Nam,14:30
+82,AEON_082,AEON Bình Tân,12/11/2026,Nước tẩy quần áo Oxygen đậm đặc,Túi châm thêm 960 ml,TOPVALU BESTPRICE,75.000,Nhật Bản,14:33
+83,AEON_083,AEON Bình Tân,12/11/2026,Viên tẩy lồng máy giặt,15 g/viên; chưa rõ số viên/hộp trong ảnh,Mr. Fresh,42.000,Việt Nam ,14:36
+84,AEON_084,AEON Bình Tân,12/11/2026,Bột giặt hương thơm mát,Dạng túi; chưa rõ khối lượng trong ảnh,OMO,275.000,Việt Nam ,14:39
+85,AEON_085,AEON Bình Tân,12/11/2026,Xịt dưỡng tóc bóng mượt Premium Treatment Water,Chai xịt 210 ml,Tsubaki,175.700,Nhật Bản,14:42
+86,AEON_086,AEON Bình Tân,12/11/2026,Sữa tắm Cherry Blossom hương hoa anh đào,"Chai vòi nhấn 1,1 L",Purité de Provence,215.000,Việt Nam,14:45
+87,AEON_087,AEON Bình Tân,12/11/2026,Kem xả serum Ceramide phục hồi hư tổn,Chai vòi nhấn 600 g,Dove,149.000,Việt Nam,14:48
+88,AEON_088,AEON Bình Tân,12/11/2026,Sữa tắm sáng da hương nước hoa dâu tây bạch tuyết & lily hồng,Chai vòi nhấn 900 g,Gervenne,94.000,Việt Nam,14:51
+89,AEON_089,AEON Bình Tân,12/11/2026,Dầu xả siêu dưỡng Miracles Biotin ngăn rụng tóc,Tuýp 300 ml; Pro-vitamin B5 và Biotin,Pantene,109.000,Thái Lan,14:54
+90,AEON_090,AEON Bình Tân,12/11/2026,Nước tẩy quần áo màu cho da nhạy cảm hương thanh khiết,Chai 800 ml,AXO,54.000,Việt Nam,14:59
+91,AEON_091,AEON Bình Tân,12/11/2026,Serum Derma Scalp Hairfall Recovery 3-in-1 Strengthening,Chai 45 ml,Dove,190.000,Việt Nam,15:00
+92,AEON_092,AEON Bình Tân,12/11/2026,Dầu gội và xả Naturals Intensive Moisture Coconut Cream,Chai vòi nhấn 600 ml; chiết xuất sữa dừa,Palmolive,132.500,Thái Lan,15:03
+93,AEON_093,AEON Bình Tân,12/11/2026,Dầu xả Extra phục hồi tóc yếu hư tổn,Chai 1.000 ml,Salon Link,254.200,Nhật Bản,15:06
+94,AEON_094,AEON Bình Tân,12/11/2026,Dầu xả ngăn rụng tóc Hair Fall Control,Chai vòi nhấn 250 ml,50 Megumi,165.900,Việt Nam,15:09
+95,AEON_095,AEON Bình Tân,12/11/2026,"Dầu gội Premium Cool & Repair phục hồi, sạch dầu, mát lạnh",Chai vòi nhấn 450 ml,Tsubaki,169.000,Nhật Bản,15:15
+96,AEON_096,AEON Bình Tân,12/11/2026,Dầu gội dược liệu dành cho tóc thường,Chai 450 ml; 470 g,Nguyên Xuân,145.000,Việt Nam,15:18
+97,AEON_097,AEON Bình Tân,12/11/2026,Tinh chất phục hồi tóc hư tổn Re*,Chai 90 ml,Lúcido-L,224.800,Nhật Bản,15:21
+98,AEON_098,AEON Bình Tân,12/11/2026,Dầu dưỡng tóc Argan Rich Oil Repair,Chai 60 ml; hộp xanh,Lúcido-L,215.000,Nhật Bản,15:24
+99,AEON_099,AEON Bình Tân,12/11/2026,Nước dưỡng bóng tóc Elseve Glycolic Gloss Ultra Gloss Acidifier,Chai xịt 100 ml,L’Oréal Paris,200.000,Trung Quốc ,15:27
+100,AEON_100,AEON Bình Tân,12/11/2026,"Dầu xả Premium Cool & Repair phục hồi, sạch dầu, mát lạnh",Chai vòi nhấn 450 ml,Tsubaki,169.000,Nhật Bản,15:29
+101,AEON_101,AEON Bình Tân,12/11/2026,Dầu dưỡng tóc Elseve Extraordinary Oil chiết xuất hoa hồng,Chai vòi nhấn 100 ml; màu hồng,L’Oréal Paris,299.000,Trung Quốc ,15:30
+102,AEON_102,AEON Bình Tân,12/11/2026,Dầu dưỡng tóc Elseve Extraordinary Oil với 6 loại dầu hoa tự nhiên,Chai vòi nhấn 100 ml; màu vàng,L’Oréal Paris,299.000,Trung Quốc,15:33
+103,AEON_103,AEON Bình Tân,12/11/2026,Sữa dưỡng thể Gluta-Hya dưỡng sáng ẩm mượt ban đêm,"Tuýp 300 ml, theo tên sản phẩm trên web",Vaseline,119.000,Thái Lan,15:36
+104,AEON_104,AEON Bình Tân,12/11/2026,Sữa dưỡng thể Crazy In Love Brightening Body Lotion,"Tuýp 226 g; hương quả mọng đỏ, hoa hồng và hổ phách",Kiss My Body,159.000,Thái Lan,15:39
+105,AEON_105,AEON Bình Tân,12/11/2026,Sữa dưỡng thể Lost In Paradise Brightening Body Lotion,"Tuýp 226 g; hương táo, hoa hồng và vanilla",Kiss My Body,159.000,Thái Lan,15:42
+106,AEON_106,AEON Bình Tân,12/11/2026,Cáp Sạc Nhanh Nam Châm Chống Rối Baseus Picogo Magnetic C To C 240W 1M Màu Xanh,"USB-C sang USB-C, 240 W, 1 m, xanh",Baseus,342.700,Trung Quốc,20:35
+107,AEON_107,AEON Bình Tân,12/11/2026,Cáp Sạc Philips DLC8601P Type-C To Type-C 1.2m 60W Màu Tím,"USB-C sang USB-C, 60 W, 1,2 m, tím",Philips,160.000,Trung Quốc,20:36
+108,AEON_108,AEON Bình Tân,12/11/2026,Cáp Sạc Pisen Pro Mars 3In1 AP-FC15-1200,"Pro Mars 3 trong 1, AP-FC15-1200",Pisen,696.000,Trung Quốc,20:37
+109,AEON_109,AEON Bình Tân,12/11/2026,Cáp Sạc Baseus Dura Series C To C 100W 2M Màu Đỏ Đen,"USB-C sang USB-C, 100 W, 2 m, đỏ đen",Baseus,156.100,Trung Quốc,20:38
+110,AEON_110,AEON Bình Tân,12/11/2026,Sạc dự phòng 10000mAh Model: C106,màu hồng,Miniso,249.900,Trung Quốc,20:39
+111,AEON_111,AEON Bình Tân,12/11/2026,Sạc 9Fit PD 20W USB-C Màu Trắng,"USB-C PD, 20 W, màu trắng",9Fit,190.000,Trung Quốc,20:40
+112,AEON_112,AEON Bình Tân,12/11/2026,Củ Sạc Điện Thoại Philips DLP6335CW Màu Trắng,"DLP6335CW, màu trắng",Philips,1.590.000,Trung Quốc,20:41
+113,AEON_113,AEON Bình Tân,12/11/2026,Bộ Tai Nghe Bluetooth JLab JBuds Mini Black/ Đen,"JBuds Mini, Bluetooth, màu đen",JLab,1.350.000,Trung Quốc,20:42
+114,AEON_114,AEON Bình Tân,12/11/2026,Tai Nghe Bluetooth Choàng Đầu JLab Studio Pro Màu Đen,"Studio Pro, Bluetooth, chụp tai, đen",JLab,1.390.000,Trung Quốc,20:43
+115,AEON_115,AEON Bình Tân,12/11/2026,Tai Nghe Có Dây Sony MDREX155APWQE Màu Trắng,"MDREX155APWQE, có dây, màu trắng",Sony,382.900,Thái Lan,20:44
+116,AEON_116,AEON Bình Tân,12/11/2026,Tai Nghe Không Dây Chống Ồn Sony WH1000XM5 Màu Bạc,"WH-1000XM5, chống ồn, màu bạc",Sony,7.844.700,Trung Quốc,20:45
+117,AEON_117,AEON Bình Tân,12/11/2026,Chuột Không Dây Silent Logitech POP Icon Màu Than Chì,"POP Icon Silent, không dây, than chì",Logitech,833.600,Trung Quốc,20:46
+118,AEON_118,AEON Bình Tân,12/11/2026,Chuột Logitech G304 Lightspeed Wireless,"G304 Lightspeed, không dây",Logitech,2.492.800,Trung Quốc,20:47
+119,AEON_119,AEON Bình Tân,12/11/2026,Bàn Phím Logitech POP Icon Màu Than Chì Và Xanh Lá,"POP Icon, than chì và xanh lá",Logitech,1.190.000,Trung Quốc,20:48
+120,AEON_120,AEON Bình Tân,12/11/2026,Tai nghe TWS Mode,"Bluetooth, màu trắng",Miniso,199.900,Trung Quốc,20:49
+121,AEON_121,AEON Bình Tân,12/11/2026,Giá Đỡ Điện Thoại Pisen LP-ZJ08 Màu Đen,"LP-ZJ08, màu đen",Pisen,96.000,Trung Quốc,20:50
+122,AEON_122,AEON Bình Tân,12/11/2026,"Sạc Dự Phòng Energizer 10,000mAh /3.7V Li-Polymer UE10055PQBK","UE10055PQBK, 10.000 mAh, 3,7 V",Energizer,650.000,Trung Quốc,20:51
+123,AEON_123,AEON Bình Tân,12/11/2026,Sạc Dự Phòng Tiny Pisen 22.5W 10000mAh TP-D29 Màu Trắng,"TP-D29, 10.000 mAh, 22,5 W, trắng",Pisen,959.000,Trung Quốc,20:52
+124,AEON_124,AEON Bình Tân,12/11/2026,Áo Thun Nam In Hình GIORNO MIMOSA Be M,"Size M, màu be, in hình",GIORNO MIMOSA,244.400,Việt Nam,20:53
+125,AEON_125,AEON Bình Tân,12/11/2026,Áo Thun Nam Thêu Đắp GIORNO MIMOSA Be M,"Size M, màu be, thêu đắp",GIORNO MIMOSA,244.400,Việt Nam,20:54
+126,AEON_126,AEON Bình Tân,12/11/2026,Áo Thun Nam Thêu KTS GIORNO MIMOSA Xanh Dương M,"Size M, xanh dương, thêu kỹ thuật số",GIORNO MIMOSA,244.400,Việt Nam,20:55
+127,AEON_127,AEON Bình Tân,12/11/2026,Áo Thun Nữ The Cool Dáng Rộng GIORNO MIMOSA Be S,"Size S, màu be, dáng rộng",GIORNO MIMOSA,244.400,Việt Nam,20:56
+128,AEON_128,AEON Bình Tân,12/11/2026,Áo Thun Nữ Tim Babytee GIORNO MIMOSA Be S,"Size S, màu be, cổ tim",GIORNO MIMOSA,195.300,Việt Nam,20:57
+129,AEON_129,AEON Bình Tân,12/11/2026,Áo Thun Nữ Ngắn Tay Giorno Mimosa 26AW LD01 Màu Xanh Lá Size S,"Size S, xanh lá, mã 26AW LD01",Giorno Mimosa,195.300,Việt Nam,20:58
+130,AEON_130,AEON Bình Tân,12/11/2026,Áo Thun Nữ Polo Sọc Giorno Mimosa 26AW LD04 Màu Hồng Size S,"Size S, sọc hồng, mã 26AW LD04",Giorno Mimosa,244.400,Việt Nam,20:59
+131,AEON_131,AEON Bình Tân,12/11/2026,Áo Polo Nam Ngắn Tay Giorno Mimosa 26AW ME03 Màu Trắng Size M,"Size M, trắng, mã 26AW ME03",Giorno Mimosa,293.500,Việt Nam,21:00
+132,AEON_132,AEON Bình Tân,12/11/2026,Áo Khoác Nữ Có Mũ Giorno Mimosa 26AW LD14 Màu Kem Size S,"Size S, màu kem, có mũ, mã 26AW LD14",Giorno Mimosa,391.700,Việt Nam,21:01
+133,AEON_133,AEON Bình Tân,12/11/2026,Áo Sơ Mi Nữ TVC Tay Lửng Màu Xanh Nhạt Size S,"Size S, xanh nhạt, tay lửng",TVC,500.000,Cambodia,21:02
+134,AEON_134,AEON Bình Tân,12/11/2026,Quần Dài Dù Nữ Túi Nắp GIORNO MIMOSA Xanh Đen S,"Size S, xanh đen, túi nắp",GIORNO MIMOSA,342.600,Việt Nam,21:03
+135,AEON_135,AEON Bình Tân,12/11/2026,Quần Dài Nam Dù Giorno Mimosa 26AW ME16 Màu Đen Size S,"Size S, đen, mã 26AW ME16",Giorno Mimosa,342.600,Việt Nam,21:04
+136,AEON_136,AEON Bình Tân,12/11/2026,Quần Short Nỉ Nam TVC Màu Đen Size M,"Size M, màu đen, vải nỉ",TVC,500.000,Campuchia,21:05
+137,AEON_137,AEON Bình Tân,12/11/2026,Quần Jeans Nam TVC Dáng Slim Co Giãn Màu Xanh Dương Size XL,"Size XL, xanh dương, dáng slim co giãn",TVC,600.000,Campuchia,21:06
+138,AEON_138,AEON Bình Tân,12/11/2026,Chân Váy Dù Nữ Chữ A GIORNO MIMOSA Be S,"Size S, màu be, dáng chữ A",GIORNO MIMOSA,342.600,Việt Nam,21:07
+139,AEON_139,AEON Bình Tân,12/11/2026,Áo Ba Lỗ MYCLOSET MC26SS0313 Basic Màu Tím Size S,"Size S, tím, mã MC26SS0313",MYCLOSET,195.300,Việt Nam,21:08
+140,AEON_140,AEON Bình Tân,12/11/2026,Nón Kết Thể Thao Màu Đen,"Màu đen, polyester, 1 chiếc",N/A,175.700,Trung Quốc,21:09
+141,AEON_141,AEON Bình Tân,12/11/2026,Đồ chơi trẻ em lắp ráp chuột hamster dễ thương ,Nhựa,Lego,319.000,TQ,12:18
+142,AEON_142,AEON Bình Tân,12/11/2026,Đồ chơi lắp ráp bánh xe donut di động ,Nhựa,Lego,759.000,TQ,12:20
+143,AEON_143,AEON Bình Tân,12/11/2026,Trò chơi rút gỗ,Nhựa,Cardinal classics,199.000,TQ,12:22
+144,AEON_144,AEON Bình Tân,12/11/2026,Thú nhồi bông mini,"Vải, bông",Lankybox ,349.000,TQ,12:26
+145,AEON_145,AEON Bình Tân,12/11/2026,Đồ chơi siêu thị,Nhựa,Mini kitchen,129.000,TQ,12:28
+146,AEON_146,AEON Bình Tân,12/11/2026,Tháp thả bánh tư duy,Nhựa,Hoang thu toys,99.000,VN,12:32
+147,AEON_147,AEON Bình Tân,12/11/2026,Lưới bowling lớn,Nhựa,Hoang thu toys,129.000,VN,12:35
+148,AEON_148,AEON Bình Tân,12/11/2026,Đồ Chơi Xếp Hình Sáng Tạo,Nhựa,Hoang thu toys,129.000,VN,12:36
+149,AEON_149,AEON Bình Tân,12/11/2026,Bộ cờ 4 trong 1 kỳ thủ vô địch,Nhựa,Cresta,259.000,Xuất xứ thương hiệu VN sản xuất TQ,12:38
+150,AEON_150,AEON Bình Tân,12/11/2026,Bộ Đồ Chơi Ô Tô Mô Hình Màu Xanh Quân Đội,Nhựa,Minggao,199.000,TQ,12:41
+151,AEON_151,AEON Bình Tân,12/11/2026,Đồ Chơi Vỉ Gà Rán - Sinh Tố,Nhựa,Hoang thu toys,129.000,VN,12:44
+152,AEON_152,AEON Bình Tân,12/11/2026,Đồ Chơi Xe Jeep Điều Khiển,"Nhựa ABS cao cấp, hợp kim",WINKA,259.000,TQ,12:49
+153,AEON_153,AEON Bình Tân,12/11/2026,Đồ Chơi Xe Cảnh Sát,Nhựa,WINKA,229.000,Xuất xứ thương hiệu VN sản xuất TQ,12:51
+154,AEON_154,AEON Bình Tân,12/11/2026,Đồ Chơi Xe Tăng Điều Khiển - Vua Chiến Trường,Nhựa,WINKA,279.000,Xuất xứ thương hiệu VN sản xuất TQ,12:53
+155,AEON_155,AEON Bình Tân,12/11/2026,Hộp Đồ Chơi Mô Phỏng Nội Thất Quán Ăn,Nhựa,AVN,179.000,TQ,12:55
+156,AEON_156,AEON Bình Tân,12/11/2026,Hộp Đồ Chơi Mô Phỏng Nội Thất Quán Nước Ép,Nhựa,AVN,179.000,TQ,12:56
+157,AEON_157,AEON Bình Tân,12/11/2026,Đồ Chơi Ô Tô Điều Khiển,Nhựa,AVN,229.000,TQ,12:58
+158,AEON_158,AEON Bình Tân,12/11/2026,Đồ Chơi Xếp Hình Sinh Vật Biển,Nhựa,Pop Pin,199.000,TQ,13:02
+159,AEON_159,AEON Bình Tân,12/11/2026,Bộ Xếp Hình Xây Dựng,Nhựa,Vijago,150.000,TQ,13:05
+160,AEON_160,AEON Bình Tân,12/11/2026,Đồ chơi vali bếp,Nhựa,AVN,159.000,TQ,13:10
+161,AEON_161,AEON Bình Tân,12/11/2026,Bộ Thước 4 Món,40g,Thiên Long,25.000,VN,13:20
+162,AEON_162,AEON Bình Tân,12/11/2026,Bấm Kim,"Thép không gỉ, đầu bọc nhựa ABS",Thiên Long,24.500,VN,13:22
+163,AEON_163,AEON Bình Tân,12/11/2026,Giấy A4,"80gsm. Khổ A4, 500 tờ/ 1 ream",Double A,120.000,Xuất xứ thương hiệu TL sản xuất VN,13:25
+164,AEON_164,AEON Bình Tân,12/11/2026,Túi Giấy Kraft In Ngang,Chất liệu: Giấy,Linh Lan,15.000,VN,13:26
+165,AEON_165,AEON Bình Tân,12/11/2026,Lịch Để Bàn Mr.Happy,Chất liệu: Giấy,Linh Lan,55.000,VN,13:28
+166,AEON_166,AEON Bình Tân,12/11/2026,Gôm Xoay Pokemon,Màu Vàng,PLUS,21.000,VN,13:31
+167,AEON_167,AEON Bình Tân,12/11/2026,Gôm điện tự động,64.5g khong pin,Thiên Long,73.000,VN,13:35
+168,AEON_168,AEON Bình Tân,12/11/2026,Bìa Lá Đa Năng,Nhựa,Thiên long ,28.400,VN,13:36
+169,AEON_169,AEON Bình Tân,12/11/2026,Bút Lông Màu Rửa Được Colokit,"Thân bọc nhựa, ngòi sợi Polyester",Thiên long colokitt,79.000,VN,13:38
+170,AEON_170,AEON Bình Tân,12/11/2026,Bút bi bấm Ballpoint pen ,Màu đỏ. 20 bút/ hộp,Thiên Long,98.000,VN,13:41
+171,AEON_171,AEON Bình Tân,12/11/2026,Bộ Dây Đeo Thẻ Demon Slayer,Nhựa,Thiên Long,29.000,VN,13:44
+172,AEON_172,AEON Bình Tân,12/11/2026,Vở 80 Trang ,Định Lượng 70gsm,Campus,22.500,VN,13:45
+173,AEON_173,AEON Bình Tân,12/11/2026,Dao dọc giấy,"Nhựa , kim loại",Bitex,10.500,VN,13:48
+174,AEON_174,AEON Bình Tân,12/11/2026,Bộ sáp màu 12 màu ,"Sáp, bột màu, phụ gia ",Thiên long colokitt,20.800,VN,13:49
+175,AEON_175,AEON Bình Tân,12/11/2026,Sổ lò xo a5 ku,100 trang. 70g/m2,Campus,33.000,VN,13:50
+176,AEON_176,AEON Tạ Quang Bửu,22/11/2026,Nước rửa chén thiên nhiên lô hội,"Túi 4,5 kg.",Sunlight,159.000,Việt Nam,13:55
+177,AEON_177,AEON Tạ Quang Bửu,22/11/2026,Nước rửa chén khử mùi tanh Matcha trà Nhật,"Túi 3,3 kg.",Sunlight,94.500,Việt Nam,14:03
+178,AEON_178,AEON Tạ Quang Bửu,22/11/2026,Nước xả vải Passion Đam Mê,Túi 4 L.,Downy,245.000,Việt Nam,14:11
+179,AEON_179,AEON Tạ Quang Bửu,22/11/2026,Nước giặt cửa trước 10X hương Nắng Sớm,"Túi 3,7 kg.",Ariel,309.300,Việt Nam,14:19
+180,AEON_180,AEON Tạ Quang Bửu,22/11/2026,Nước xả vải hương nước hoa Dreamy,"Túi 3,2 kg.",Gift,216.000,Việt Nam,14:27
+181,AEON_181,AEON Tạ Quang Bửu,22/11/2026,Nước xả vải hương nước hoa Diệu Kỳ,"Túi 3,1 L.",Comfort,230.700,Việt Nam,14:35
+182,AEON_182,AEON Tạ Quang Bửu,22/11/2026,Cá đù một nắng,Gói 500 g.,TOPVALU,125.000,Việt Nam,14:43
+183,AEON_183,AEON Tạ Quang Bửu,22/11/2026,Cá saba Na Uy phi lê đông lạnh,Gói 600 g. Nguyên liệu nhập khẩu từ Na Uy.,TOPVALU,299.000,Việt Nam,14:50
+184,AEON_184,AEON Tạ Quang Bửu,22/11/2026,Cá saba xốt Kabayaki,Vỉ 270 g. Nguyên liệu cá saba Na Uy. Mã vạch 8935275600643.,OG Blue,125.000,Việt Nam,14:58
+185,AEON_185,AEON Tạ Quang Bửu,22/11/2026,Lườn cá hồi Atlantic đông lạnh,Khay 500 g. Nhãn ghi nguyên liệu nhập khẩu từ Na Uy. Mã vạch 8936213194811.,TOPVALU,120.000,Việt Nam,15:06
+186,AEON_186,AEON Tạ Quang Bửu,22/11/2026,Tôm đông lạnh size 26-30,Gói 400 g.,Nhật Vân,185.000,Việt Nam,15:14
+187,AEON_187,AEON Tạ Quang Bửu,22/11/2026,Mắt cá ngừ đông lạnh,Khay 500 g.,YFC,95.000,Việt Nam,15:22
+188,AEON_188,AEON Tạ Quang Bửu,22/11/2026,Cồi sò điệp Hokkaido Nhật đông lạnh,"Khay 240 g. Sản xuất tại Tây Ninh, Việt Nam theo nhãn. Nguyên liệu cồi sò điệp Hokkaido, Nhật Bản.",OG Blue,365.000,Việt Nam,15:30
+189,GO_001,GO! An Lạc,12/11/2026,Tẩy tế bào chết dưa lưới,250g,Châu Hương,75.000,Việt Nam,8h45
+190,GO_002,GO! An Lạc,12/11/2026,Thuốc nhuộm tóc Bigen 4 nâu caramen,80g,Bigen,249.000,Nhật Bản,8h47
+191,GO_003,GO! An Lạc,12/11/2026,Serum sunsilk tinh chất lumino,45ml,Sunsilk,83.000,Thái Lan,8h51
+192,GO_004,GO! An Lạc,12/11/2026,Kem xả Dove ngăn gãy rụng tóc Bio,300g,Dove,110.000,Việt Nam,9h03
+193,GO_005,GO! An Lạc,12/11/2026,Kem ủ tóc Pantene Miracles,300ml,Pantene,209.000,Thái Lan,9h05
+194,GO_006,GO! An Lạc,12/11/2026,Dầu gội Selsun chống gàu ,50ml,Selsun,61.000,Việt Nam,9h06
+195,GO_007,GO! An Lạc,12/11/2026,Dưỡng tóc Ellips Smooth & Skilky,6ml,Ellips,23.400,Indonesia,9h09
+196,GO_008,GO! An Lạc,12/11/2026,Sáp vuốt tóc Romano Clay ,68g,Romano,83.000,Việt Nam,9h10
+197,GO_009,GO! An Lạc,12/11/2026,Sữa tắm gội Coast Hair & Body wash,946ml ,Coast,192.500,Mỹ,9h13
+198,GO_010,GO! An Lạc,12/11/2026,Sữa tắm Lashe dưỡng da sáng mịn,610g,Super food,187.000,Việt Nam,8h42
+199,GO_011,GO! An Lạc,12/11/2026,Serum Nivea trắng da đêm ,180ml,Nivea,159.000,Thái Lan,9h16
+200,GO_012,GO! An Lạc,12/11/2026,SDT sáng da Olay,260g,Olay,209.000,Trung Quốc,9h17
+201,GO_013,GO! An Lạc,12/11/2026,Dầu dưỡng thể Love,150ml,Moaw moaw,285.000,Việt Nam,9h20
+202,GO_014,GO! An Lạc,12/11/2026,Dầu gội dược liệu Thái Dương 7 plus,500ml,Thái Dương,284.000,Việt Nam,9h23
+203,GO_015,GO! An Lạc,12/11/2026,Dầu gội Head & Shoulders Zero băng lạnh,800ml,Head & Shoulders,241.000,Thái Lan,9h27
+204,GO_016,GO! An Lạc,12/11/2026,Dầu gội Clear Derma sạch gàu và bảo vệ da đầu ,300g,Clear,204.000,Thái Lan,9h29
+205,GO_017,GO! An Lạc,12/11/2026,Lô 2 kem đánh răng Colgate ngừa sâu răng ,225g,Colgate ,69.000,Việt Nam,9h30
+206,GO_018,GO! An Lạc,12/11/2026,Kem đánh răng Perioe Total 7 Intense Original Repair,120g,Perioe ,55.000,Hàn Quốc,9h32
+207,GO_019,GO! An Lạc,12/11/2026,Nước rửa tay Lifebuoy Vitamin chanh khử mùi,400g,Lifebuoy ,51.000,Việt Nam,9h33
+208,GO_020,GO! An Lạc,12/11/2026,Nước Rửa Chén Đậm Đặc Hương Trà Xanh  Earth's Choice,500ml,Earth Choice,120.000,Úc,09:35
+209,GO_021,GO! An Lạc,12/11/2026,Kem đánh răng P/S Pro Care ngăn ngừa mảng bám,100g,P/S,44.600,Việt Nam,9h37
+210,GO_022,GO! An Lạc,12/11/2026,Sữa tắm Purite hoa hồng ,850ml,Purité De Provence ,250.000,Việt Nam,9h38
+211,GO_023,GO! An Lạc,12/11/2026,Sữa tắm nước hoa Jane High On,450ml,Jane ,228.000,Việt Nam,9h40
+212,GO_024,GO! An Lạc,12/11/2026,Nước giặt Comfort dưỡng vải đa năng thiên nhiên thanh khiết ,3kg,Confort,248.000,Việt Nam,9h48
+213,GO_025,GO! An Lạc,12/11/2026,Nước Tẩy Bồn Cầu Vim Diệt Khuẩn Xanh Biển,880ml,Vim ,35.600,Việt Nam,9h50
+214,GO_026,GO! An Lạc,12/11/2026,Nước rửa chén Sunlight trà xanh,3.3kg,Sunlight,89.000,Việt Nam,9h51
+215,GO_027,GO! An Lạc,12/11/2026,Viên giặt xả Max Kleen hương ngày thư thái,34 viên,MaxKleen,101.500,Trung Quốc,9h53
+216,GO_028,GO! An Lạc,12/11/2026,Nước giặt Swat phơi trong nhà,3.5kg,Swat,201.000,Việt Nam,9h56
+217,GO_029,GO! An Lạc,12/11/2026,Nước giặt Lix đậm đặc,3.3kg,Lix,145.500,Việt Nam,9h58
+218,GO_030,GO! An Lạc,12/11/2026,Men xử lý bể phốt ,200g,WIN,30.000,Việt Nam,10:00
+219,GO_031,GO! An Lạc,12/11/2026,Nước giặt xả Chante Mona Lisa,3.05kg,Chanté ,105.000,Việt Nam,10h03
+220,GO_032,GO! An Lạc,12/11/2026,Nước xả vải Blue hương thanh xuân ,3.2l,Blue ,195.000,Việt Nam,10h05
+221,GO_033,GO! An Lạc,12/11/2026,Nước rửa chén Suzy hương quế,2.1kg,Suzy,68.500,Việt Nam,10h07
+222,GO_034,GO! An Lạc,12/11/2026,Nước lau sàn Power100 hoa thiên nhiên,3.5kg,Power100,88.000,Việt Nam,10h09
+223,GO_035,GO! An Lạc,12/11/2026,Nước lau sàn MaxKleen ban mai thanh mát ,3.6kg,MaxKleen ,76.500,Việt Nam,10h12
+224,GO_036,GO! An Lạc,12/11/2026,Đầm BG đính nơ hồng,Size: 12,Milaross Fashion,179.000,Việt Nam,08:46
+225,GO_037,GO! An Lạc,12/11/2026,Áo thun ngắn tay trẻ em phối túi ,Size: 8,C Collection,109.000,Việt Nam,08:48
+226,GO_038,GO! An Lạc,12/11/2026,Quần Jeans nữ,Size: 29,Calnivil,199.000,Việt Nam,08:55
+227,GO_039,GO! An Lạc,12/11/2026,Áo khoác Kaki,Size L,TK Fashion,279.000,Việt Nam,08:57
+228,GO_040,GO! An Lạc,12/11/2026,Dây nịt nữ kiểu 3 0326,,Công ty TNHH Thương mại Sản xuất May mặc Phan Trần (không có thương hiệu),169.000,Việt Nam,09:00
+229,GO_041,GO! An Lạc,12/11/2026,Nón kết thêu The Best,,Phan Trần,119.000,Việt Nam,09:03
+230,GO_042,GO! An Lạc,12/11/2026,Áo sơ mi nam - DT sọc thưa M75 sọc xanh,size: XXL,Seven Stars,249.000,Việt Nam,09:06
+231,GO_043,GO! An Lạc,12/11/2026,Áo đầm,xanh ngọc,M Collection,349.000,Việt Nam,09:11
+232,GO_044,GO! An Lạc,12/11/2026,Dép nhựa TE,,Red Apple,139.000,Thái Lan,09:13
+233,GO_045,GO! An Lạc,12/11/2026,Als TN BT Spain bã trầu,Size: 4,Yuha,109.000,Việt Nam,09:16
+234,GO_046,GO! An Lạc,12/11/2026,CM Pack 2 tất gấu,,Coolmate's socks,39.000,Việt Nam,09:19
+235,GO_047,GO! An Lạc,12/11/2026,CM Pack 2 tất bản tím,,Relax,39.000,Việt Nam,09:20
+236,GO_048,GO! An Lạc,12/11/2026,Áo sọc Polo nam ngắn tay màu trắng xám ,Size M ,Dino Robert ,149.000,Việt Nam,09:22
+237,GO_049,GO! An Lạc,12/11/2026,Áo thun nữ Hồng Nhật cổ tròn tay ngắn màu hồng,Size M,Hồng Nhật ,89.000,Việt Nam,09:25
+238,GO_050,GO! An Lạc,12/11/2026,Áo len hươu vàng,Size S,Spryyn,249.000,Việt Nam,09:27
+239,GO_051,GO! An Lạc,12/11/2026,Áo thun nữ The Look tay ngắn ,"Size L, màu trắng",The Look,159.000,Việt Nam,09:29
+240,GO_052,GO! An Lạc,12/11/2026,Áo thun Unisex in Kara Go ,Size M màu đỏ,Việt Ý ,129.000,Việt Nam,09:30
+241,GO_053,GO! An Lạc,12/11/2026,Quần short kaki lưng bo ABLT TP màu xám ,Size M ,Zennio,169.000,Việt Nam,09:32
+242,GO_054,GO! An Lạc,12/11/2026,Sandal Quai hậu Nhựa dẻo Nữ Hù Kiệt,Size 38,Hù Kiệt,129.000,Việt Nam,09:38
+243,GO_055,GO! An Lạc,12/11/2026,Quần kiểu dài Q159 trắng kem,Size L ,Nguyễn Hiền,169.000,Việt Nam,09:40
+244,GO_056,GO! An Lạc,12/11/2026,Nón bảo hiểm nửa đầu Asia,,Asia,279.000,Việt Nam,09:42
+245,GO_057,GO! An Lạc,12/11/2026,Nón bảo hiểm nửa đầu Chita caro,,Chita ,249.000,Việt Nam,09:45
+246,GO_058,GO! An Lạc,12/11/2026,Chân váy jean nữ HVM VJW41 màu xanh đậm,Size 27,Calnivil,189.000,Việt Nam,09:50
+247,GO_059,GO! An Lạc,12/11/2026,Váy kaki kiểu dài Thy Thy màu đen,Size L,Thy Thy,149.000,Việt Nam,09:52
+248,GO_060,GO! An Lạc,12/11/2026,Áo sơ mi trẻ em thêu mèo,Màu trắng,WM,149.000,Việt Nam,09:54
+249,GO_061,GO! An Lạc,12/11/2026,Chân váy bí bé gái Tre Xanh ,Size 8,Tre Xanh,109.000,Việt Nam,09:55
+250,GO_062,GO! An Lạc,12/11/2026,Chân váy jean bé gái Kata 2 túi dập đen,Size 16,Kata,149.000,Việt Nam,09:58
+251,GO_063,GO! An Lạc,12/11/2026,Áo sơ mi tay dài Spun PL 329 màu kem,Size L,VINHTIEN,329.000,Việt Nam,10:02
+252,GO_064,GO! An Lạc,12/11/2026,Áo sơ mi nam trơn ngắn tay M19 màu xanh đen ,Size M,Winmaxx ,229.000,Việt Nam,10:03
+253,GO_065,GO! An Lạc,12/11/2026,Áo kiểu Minh Minh A13350 thêu màu đỏ,Size M,Minh Minh,179.000,Việt Nam,10:05
+254,GO_066,GO! An Lạc,12/11/2026,Áo thun tay ngắn bé trai Yuha Start màu kem ,Size 8,Yuha,99.000,Việt Nam,10:07
+255,GO_067,GO! An Lạc,12/11/2026,Áo thun sát nách bé trai BOO màu xám,Size 4,BOO ,99.000,Việt Nam,10:08
+256,GO_068,GO! An Lạc,12/11/2026,Áo thun bé trai Rabity 500053 màu xanh,Size 4,Rabity,99.000,Việt Nam,10:10
+257,GO_069,GO! An Lạc,12/11/2026,Áo Sơ mi học sinh bé gái ASM 02,Size 8,BPC,189.000,Việt Nam,10:14
+258,GO_070,GO! An Lạc,12/11/2026,Áo polo nam xanh ngọc THP ,Size L,THP,199.000,Việt Nam,10:17
+259,GO_071,GO! An Lạc,12/11/2026,KTC SLIDE PHÔ MAI,60G/75G,SLIDE -Mondelēz International,26.100,Malaysia,08:42
+260,GO_072,GO! An Lạc,12/11/2026,Bánh snack O'STAR VỊ XỔ MAYO,75G,Orion,20.500,Việt Nam,08:45
+261,GO_073,GO! An Lạc,12/11/2026,Bánh xốp vị socola fullo blast,204g ( 12x17g),Fullo,50.500,Indonesia,08:47
+262,GO_074,GO! An Lạc,12/11/2026,Bánh lotte kancho Chocolate,42g,Lotte,17.400,Seul Korea,08:52
+263,GO_075,GO! An Lạc,12/11/2026,Bánh Pocky Blueberry yogurt,38g,Glico,21.900,Thái lan,08:58
+264,GO_076,GO! An Lạc,12/11/2026,Bánh xốp Matilde Vicezi Phu D,125g,Matilde Vicenzi,78.500,Ý,09:01
+265,GO_077,GO! An Lạc,12/11/2026,Bánh Mochi Bạc Hả socola Roy,180g,Royal family,92.000,Đài Loan,09:04
+266,GO_078,GO! An Lạc,12/11/2026,Banh karo trứng chà bông,260G,Richy,53.500,Việt Nam,09:06
+267,GO_079,GO! An Lạc,12/11/2026,Bánh Croissant antonelli nhân dâu,250G,Antonelli,99.000,Ý,09:11
+268,GO_080,GO! An Lạc,12/11/2026,Banh PeFa dâu,191G, Pepperidge Farm ,117.500,Mỹ,09:13
+269,GO_081,GO! An Lạc,12/11/2026,Bánh gạo nướng An chà bông,208G,Orio,41.100,Việt Nam,09:15
+270,GO_082,GO! An Lạc,12/11/2026,Bánh cupcake Top'N Top Dâu,180G,Topcake,39.100,Việt Nam,09:17
+271,GO_083,GO! An Lạc,12/11/2026,Bánh pilows vị sữa oáhu, 75G,Oshi,9.900,Việt Nam,09:18
+272,GO_084,GO! An Lạc,12/11/2026,Bánh Koalas March socola,37G,Thái Lan,18.800,Thái Lan,09:20
+273,GO_085,GO! An Lạc,12/11/2026,Bắp chiên Hùng Cường,500G,Hùng Cường,56.000,Việt Nam,09:23
+274,GO_086,GO! An Lạc,12/11/2026,Cơm cháy gạo lức muối mè,160G,Thành Việt,71.500,Việt Nam,09:25
+275,GO_087,GO! An Lạc,12/11/2026,Kẹo dẻo Jongkol sandwich,500g,Jongkol,100.500,Thái Lan,09:28
+276,GO_088,GO! An Lạc,12/11/2026,Kẹo xốp Haribo Chamalows Pin & white,150g,Haribo,48.000,Thổ Nhĩ Kỳ,09:30
+277,GO_089,GO! An Lạc,12/11/2026,Thạch Hương sữa chua ABC,930g,Vietfood,48.000,Việt Nam,09:33
+278,GO_090,GO! An Lạc,12/11/2026,Nước khoáng tự nhiên đảnh thạnh,430ml,Đảnh Thạnh – Vikoda,11.000,Việt Nam,09:37
+279,GO_091,GO! An Lạc,12/11/2026,Cafe sữa đá phố,235ML,Mac coffee,18.400,Việt Nam,09:40
+280,GO_092,GO! An Lạc,12/11/2026,Nước gạo rang TH True Milk,300ml,TH true Milk,15.800,Việt Nam,09:42
+281,GO_093,GO! An Lạc,12/11/2026,Nước dừa cocoxim dừa đưa non,330ml,Cocoxim,21.000,Việt Nam,09:43
+282,GO_094,GO! An Lạc,12/11/2026,Nước ngọt coca cola zero chai,390ml,Coca cola,7.300,Việt Nam,09:45
+283,GO_095,GO! An Lạc,12/11/2026,Nước pepso zero vị phúc bổn tự ,320ml,Pepsi,9.700,Việt Nam,09:47
+284,GO_096,GO! An Lạc,12/11/2026,Nước ipn pocari sweet,900ml,Pocari Sweet,24.000,Indonesia,09:48
+285,GO_097,GO! An Lạc,12/11/2026,Nước yến sào Khánh Hoà,190ml,Yến sào Khánh Hoà,12.800,Việt Nam,09:51
+286,GO_098,GO! An Lạc,12/11/2026,Hồng Trà Green Time Hương Bưởi,580ml,Green Time ,22.200,Đài Loan,09:52
+287,GO_099,GO! An Lạc,12/11/2026,Nước ép lợi khuẩn vị đào ,"1,5L",Woongjin,64.000,Hàn quốc,09:55
+288,GO_100,GO! An Lạc,12/11/2026,NTC Thạch Gumi Gumi Vitamin B,135g,GUMI GUMI,13.500,Thái Lan,09:57
+289,GO_101,GO! An Lạc,12/11/2026,Trà bí đao La Hán Quả,320ml,Fuze Tea,7.700,Việt Nam,09:59
+290,GO_102,GO! An Lạc,12/11/2026,Trà Olong tea Plus,1L,Tea + plus,15.500,Việt Nam,10:01
+291,GO_103,GO! An Lạc,12/11/2026,Nước ép Malee vải,1L,Malee premium,79.000,Thái Lan,10:03
+292,GO_104,GO! An Lạc,12/11/2026,NTC Nutriboost dâu sữa yến mạch,1L,Nutriboost,26.300,Việt Nam,10:04
+293,GO_105,GO! An Lạc,12/11/2026,NTL STING DÂU TÂY ĐỎ,330ml,Sting,10.100,Việt Nam,10:07
+294,GO_106,GO! An Lạc,12/11/2026,Bút gelB 032 xanh túi 3 cây,"0.5mm, 3 cây",Thiên Long,29.000,Việt Nam,08:40
+295,GO_107,GO! An Lạc,12/11/2026,Bút gelB 028 xanh túi 2 cây,"0.5mm, 2 cây",Thiên Long,29.000,Việt Nam,08:41
+296,GO_108,GO! An Lạc,12/11/2026,Bút gel 066 đen túi 2 cây,"0.5mm, 2 cây",Thiên Long,29.000,Việt Nam,08:42
+297,GO_109,GO! An Lạc,12/11/2026,Bút gel 056 xanh vi 3 cây,"0.5mm, 3 cây",Thiên Long,29.000,Việt Nam,08:43
+298,GO_110,GO! An Lạc,12/11/2026,Bút gel 056 tím vi 3 cây,"0.5mm, 3 cây",Thiên Long,29.000,Việt Nam,08:44
+299,GO_111,GO! An Lạc,12/11/2026,Bút gel gel.071.Plus xanh túi 2 cây,"0.5mm, 2 cây",Thiên Long,29.000,Việt Nam,08:45
+300,GO_112,GO! An Lạc,12/11/2026,Bút gel gel.071.Plus tím túi 2 cây,"0.5mm, 2 cây",Thiên Long,19.000,Việt Nam,08:46
+301,GO_113,GO! An Lạc,12/11/2026,Bút gel gel.072.Plus tím túi 2 cây,"0.5mm, 2 cây",Thiên Long,19.000,Việt Nam,08:47
+302,GO_114,GO! An Lạc,12/11/2026,Bút gel gel.072.Plus xanh túi 2 cây,"0.5mm, 2 cây",Thiên Long,19.000,Việt Nam,08:48
+303,GO_115,GO! An Lạc,12/11/2026,Bút gel gel.072.Plus đen túi 2 cây,"0.5mm, 2 cây",Thiên Long,19.000,Việt Nam,08:49
+304,GO_116,GO! An Lạc,12/11/2026,Lô 2 Bút bi TL 036 xanh,"0.5mm, 2 cây",Thiên Long,35.000,Việt Nam,08:50
+305,GO_117,GO! An Lạc,12/11/2026,Lô 5 Bút bi TL 08 xanh,"0.5mm, 5 cây",Thiên Long,29.000,Việt Nam,08:51
+306,GO_118,GO! An Lạc,12/11/2026,Lô 5 Bút bi TL 08 đen,"0.5mm, 5 cây",Thiên Long,29.000,Việt Nam,08:52
+307,GO_119,GO! An Lạc,12/11/2026,Vi 5 cây TL 079 xanh,"0.5mm, 5 cây",Thiên Long,29.000,Việt Nam,08:53
+308,GO_120,GO! An Lạc,12/11/2026,Lô 5 Bút bi TL 027 xanh,"0.5mm, 5 cây",Thiên Long,29.000,Việt Nam,08:54
+309,GO_121,GO! An Lạc,12/11/2026,Bóp viết H50 (8152),"180g, vải, 21x10x6cm",N/A,79.000,Trung Quốc,08:55
+310,GO_122,GO! An Lạc,12/11/2026,Túi bút dây rút BK,Vải,N/A,99.000,Trung Quốc,08:56
+311,GO_123,GO! An Lạc,12/11/2026,Túi Tag hoạt hình BK,Vải,N/A,99.000,Trung Quốc,08:57
+312,GO_124,GO! An Lạc,12/11/2026,Túi bút mèo BK,Vải,N/A,109.000,Trung Quốc,08:58
+313,GO_125,GO! An Lạc,12/11/2026,Túi đựng bút pokemon PCA-024/PKM,"Vải polyester phủ PU, kiếng PVC, 210x110x70cm",Thiên Long,99.000,Việt Nam,08:59
+314,GO_126,GO! An Lạc,12/11/2026,Túi đựng bút JOYEE PCA-025/JO,"Vải polyester phủ PU, kiếng PVC, 210x110x70cm",Thiên Long,89.000,Việt Nam,09:00
+315,GO_127,GO! An Lạc,12/11/2026,Túi đựng bút DORAEMON PCA-024/DO,"Vải polyester phủ PU, kiếng PVC, 210x65x70cm",Thiên Long,89.000,Việt Nam,09:01
+316,GO_128,GO! An Lạc,12/11/2026,Bóp viết vải H102,"Vải, 20x9cm, Vàng",N/A,45.000,Trung Quốc,09:02
+317,GO_129,GO! An Lạc,12/11/2026,Túi bút lưới 20.5x9cm,"20.5x9cm, vải, nhựa",N/A,35.000,Trung quốc,09:03
+318,GO_130,GO! An Lạc,12/11/2026,Túi đựng bút DEMON SLAYER PCA-022/DS,"Vải polyester phủ PU, 210x90x30cm",Thiên Long,89.000,Việt Nam,09:04
+319,GO_131,GO! An Lạc,12/11/2026,Kéo học sinh PLASTIKID,18cm,Deli,25.000,Trung quốc,09:05
+320,GO_132,GO! An Lạc,12/11/2026,Kéo văn phòng FO Sc01 HOP 12,18cm,Thiên Long,28.000,Việt Nam,09:06
+321,GO_133,GO! An Lạc,12/11/2026,Bút dạ quang HL 023 xanh pastel,N/A,Thiên Long,15.000,Việt Nam,09:07
+322,GO_134,GO! An Lạc,12/11/2026,Đồ chơi bé trai HF1010 8AB 666,Không dùng Pin,N/A,139.000,Trung quốc,09:08
+323,GO_135,GO! An Lạc,12/11/2026,Cắm viết nhựa SF.365,"300g, 12x2x11cm",N/A,79.000,Trung Quốc,09:09
+324,GO_136,GO! An Lạc,12/11/2026,Băng xoá BE Danh lam thắng cảnh,"Chiều rộng 5mm, chiều dài băng kéo 7m",PLUS,25.000,Nhật Bản,09:10
+325,GO_137,GO! An Lạc,12/11/2026,Sổ phân trang a6 32g DONERLANI,"A6, 20-80g, 10.5x15cm, giấy ",GuangBen,39.000,Trung Quốc,09:11
+326,GO_138,GO! An Lạc,12/11/2026,Sổ lò xo A5 MB 025 vàng 120T,"A5, 210x148cm, 120 trang",Thiên Long,29.000,Việt Nam,09:12
+327,GO_139,GO! An Lạc,12/11/2026,Hình dán 20-22cm H10,"Giấy, 20-80g, 20-22cm ",N/A,19.000,Trung Quốc,09:13
+328,GO_140,GO! An Lạc,12/11/2026,Hình dán 20-22cm H18,"Giấy, 20-80g, 20-22cm ",N/A,29.000,Trung Quốc,09:14
+329,GO_141,GO! An Lạc,12/11/2026,Nước ép cam,1 lít,Vinamilk,63.000,Sản xuất tai Việt Nam,08:41
+330,GO_142,GO! An Lạc,12/11/2026,Chanh dây ép ,1 lit,Cty YNGSHIN,32.000,Xuất xứ Việt Nam,08:45
+331,GO_143,GO! An Lạc,12/11/2026,Nước ép hỗn hợp kiwi chanh hortex,1 lít ,Hortex,79.000,Xuất xứ Ba Lan,08:52
+332,GO_144,GO! An Lạc,12/11/2026,Kombucha có gaz vị hoa đậu biếc,320 ml ,Vinamilk,38.000,Việt Nam ,8h55
+333,GO_145,GO! An Lạc,12/11/2026,Nước dừa đóng hộp vị dừa dứa non,330 ml,Cocoxim,21.000,Việt Nam ,
+334,GO_146,GO! An Lạc,12/11/2026,Nước uống sữa trái cây Nutriboost hương bánh quy kem,297 ml,Nutriboost,9.900,Việt Nam ,09:00
+335,GO_147,GO! An Lạc,12/11/2026,Nước ép trái cây có thạch hương nho,150 g, Jele Beautie,16.000,Xuất xứ VN cấp phép bởi Thái Lan,09:04
+336,GO_148,GO! An Lạc,12/11/2026,Trà lên men Star Kombucha vị Lựu Đỏ,250 ml,Star Kombucha,29.000,VN,9h6
+337,GO_149,GO! An Lạc,12/11/2026,Trà Mật Ong BONCHA vị Tắc ,450 ml,BOncha - Uniben,10.600,VN,9h9
+338,GO_150,GO! An Lạc,12/11/2026,Trà xanh  C2 vị trà vải thanh lài,455 ml,C2 ,10.200,VN,9h10
+339,GO_151,GO! An Lạc,12/11/2026,Trà Bí đao JJ,300 ml,JJ,12.900,Singapor,9h14
+340,GO_152,GO! An Lạc,12/11/2026,Trà đào tự nhiên k đg,350 ml,TH True,11.100,VN,9h16
+341,GO_153,GO! An Lạc,12/11/2026,Cafe sữa highland,230 ml,Highland coffee,13.500,VN,9h17
+342,GO_154,GO! An Lạc,12/11/2026,Cà phê sữa đá cafe phố,235 ml,MAccoffee,18.400,VN,9h19
+343,GO_155,GO! An Lạc,12/11/2026,Nước yến nha đam,450 ml,YenViet,10.100,VN,9h20
+344,GO_156,GO! An Lạc,12/11/2026,Nước Gạo Rang Hàn Quốc Woongjin Morning Rice,500 ml,Morning rice Woongjin Foods,28.600,Hàn,9h22
+345,GO_157,GO! An Lạc,12/11/2026,Nước Yến sào Khánh Hòa Sanest không đường,190 ml,Sanest,12.800,VN,9h26
+346,GO_158,GO! An Lạc,12/11/2026,Trà Bí Đao Wonderfarm,440 ml,Wonderfarm,8.300,VN ,9h28
+347,GO_159,GO! An Lạc,12/11/2026,Nước tăng lực Sting hương Dâu Tây Đỏ,330 ml,Sting,10.100,VN,9h31
+348,GO_160,GO! An Lạc,12/11/2026,Nước uống vận động Aquarius,390 ml,Aquarius,7.800,VN,9h34
+349,GO_161,GO! An Lạc,12/11/2026,Sữa rửa mặt simple sạch thoáng,150 ml,Simple,140.500,Sản xuất thái lan nhập khẩu chịu trách nhiệm Unilever VN,9h37
+350,GO_162,GO! An Lạc,12/11/2026,Bọt rửa mặt dưỡng ẩm hadalabo,160 ml,Hàda labo,226.000,Nhật Bản ,9h39
+351,GO_163,GO! An Lạc,12/11/2026,Gel rửa mặt cà phê dak lak ,140 ml,Cocoon,198.500,VN,9h40
+352,GO_164,GO! An Lạc,12/11/2026,Son liponlip glowy satin đỏ ruby,"2,2 g",Lip on lip,188.000,VN,9h45
+353,GO_165,GO! An Lạc,12/11/2026,Son dưỡng lipice dưa hấu,"3,3g",Lipice,74.000,VN,9h47
+354,GO_166,GO! An Lạc,12/11/2026,Xịt khử mùi whitening perfume ,30 ml,Refre,71.000,VN,9h48
+355,GO_167,GO! An Lạc,12/11/2026,Nước tẩy trang tươi mát,400 ml,Loreal,205.000,China,9h50
+356,GO_168,GO! An Lạc,12/11/2026,Lotion Chống nắng dưỡng thể trắng mịn màu hồng,150g,Sunplay skin aqua,226.000,VN,9h52
+357,GO_169,GO! An Lạc,12/11/2026,Kem dưỡng ẩm senka deep moist cream,50g,Senka,468.000,VN,9h55
+358,GO_170,GO! An Lạc,12/11/2026,Gel dưỡng da giảm mụn đầu trắng đầu đen,18g,Acness,77.000,VN,9h59
+359,GO_171,GO! An Lạc,12/11/2026,Nước súc miệng listerine bạc hà,250 ml,Liisterine ,72.500,Sx thái lan chịu trách nhiệm VN,10h3
+360,GO_172,GO! An Lạc,12/11/2026,Sáp khử mùi hương anh đào purite,70g,Purite - marico,169.000,VN,10h5
+361,GO_173,GO! An Lạc,12/11/2026,Ser chống nắng dưỡng thể tan như nước trên da vaseline gluta hýa ,260 ml,Vaseline,230.000,Sx thái lan chịu tracha nhiệm Vn,10h7
+362,GO_174,GO! An Lạc,12/11/2026,Sữa tắm lifebuoy tra xanh kho qua,800g,Lifebuoy,177.500,VN,10h12
+363,GO_175,GO! An Lạc,12/11/2026,Dầu xả phục hồi sạch xâu mát lạnh,450ml,Tsubaki,233.000,Nhật bản,10n15
+364,GO_176,GO! Tô Hiến Thành,22/11/2026,Gel tẩy rửa tác động sâu hoa oải hương,Chai 500 ml.,Duck,25.900,Việt Nam,9h47
+365,GO_177,GO! Tô Hiến Thành,22/11/2026,Viên tẩy toilet Mr. Fresh 3 viên,Vỉ 3 viên × 40 g. ,Mr. Fresh,46.400,Hàn Quốc,9h48
+366,GO_178,GO! Tô Hiến Thành,22/11/2026,Nước lau sàn sả chanh,"Can 3,6 kg. ",SWAT,105.000,Việt Nam,9h50
+367,GO_179,GO! Tô Hiến Thành,22/11/2026,Viên thả vệ sinh bồn cầu hương bạc hà mát lạnh,"Vỉ 4 viên, 180 g. ",Vim,56.000,Trung Quốc,9h52
+368,GO_180,GO! Tô Hiến Thành,22/11/2026,Nước lau sàn Ngàn Hoa Ngọt Ngào,"Túi 3,6 kg. ",MaxKleen,77.000,Việt Nam,9h55
+369,GO_181,GO! Tô Hiến Thành,22/11/2026,Nước lau sàn công nghệ sinh học hương Lavender,"Túi 3,2 L. ",Bell,79.000,Việt Nam,9h59
+370,GO_182,GO! Tô Hiến Thành,22/11/2026,Hộp mô hình xe 6692 - Firestation Storage Parking Lot,36 chi tiết / bộ,	Tianqi Zhixing,199.000,Trung Quốc,10h3
+371,GO_183,GO! Tô Hiến Thành,22/11/2026,Hộp mô hình xe BS9928A – Mini Scene DIY Repair Bay,1 hộp,Idea Fly,139.000,Trung Quốc,10h5
+372,GO_184,GO! Tô Hiến Thành,22/11/2026,Bóng đèn bông hoa lắp ráp 92029 - 33548,"19 × 14 × 4,5 cm. ",QIZHILE,99.000,Trung Quốc,10h7
+373,GO_185,GO! Tô Hiến Thành,22/11/2026,Đồ chơi xe đội nón vui nhộn HT7774,"30 × 12,5 × 18,5 cm.",Hoàng Thu,109.000,Việt Nam,10h8
+374,GO_186,GO! Tô Hiến Thành,22/11/2026,Xe điều khiển Racing số 36 – 6611.S1A,"1 hộp
+",	Jia Di Qi Toys (JDQ),249.000,Trung Quốc,10h15
+375,GO_187,GO! Tô Hiến Thành,22/11/2026,Đồ chơi vỉ bếp có đèn nhạc HT7625,1 vỉ. ,Hoàng Thu,109.000,Việt Nam,10:30
+376,GO_188,GO! Tô Hiến Thành,22/11/2026,Xe Sports R/C – BY3788A-1788A ,1 hộp,	Feng Niu,379.000,Trung Quốc,10:33
+377,GO_189,GO! Tô Hiến Thành,22/11/2026,Đồ chơi xe đẩy siêu thị HT7880,51 × 43 × 30 cm. ,Hoàng Thu,209.000,Việt Nam,10:36
+378,GO_190,GO! Tô Hiến Thành,22/11/2026,Ghép hình tàu tuần tra 148 chi tiết – DK81066,148 chi tiết/bộ. ,Cresta,109.000,Trung Quốc,10:39
+379,GO_191,GO! Tô Hiến Thành,22/11/2026,Đồ chơi khối lắp ráp Blocks 830.49,1 túi,Không có thương hiệu,159.000,Made in China,10:42
+380,GO_192,GO! Tô Hiến Thành,22/11/2026,Hộp xếp hình lâu đài 10053 - Fairy Castle 10053-4,81 chi tiết / bộ. ,	Pingao Blocks,39.000,Trung Quốc,10:45
+381,GO_193,GO! Tô Hiến Thành,22/11/2026,Đồ chơi xếp hình 224-L3,1 bộ.,Vina Toy,119.000,Việt Nam,10:49
+382,GO_194,GO! Tô Hiến Thành,22/11/2026,Bộ đồ chơi xếp hình 229-L3,1 bộ. ,Vina Toy,119.000,Việt Nam,10:52
+383,GO_195,GO! Tô Hiến Thành,22/11/2026,Hộp xếp hình chữ in HT7577,1 hộp,Hoàng Thu,169.000,Sản xuất tại Việt Nam,10:55
+384,GO_196,GO! Tô Hiến Thành,22/11/2026,Mực lá đại dương đông lạnh,"Khay 304 g, 302000 đ/kg. ",N/A,91.808,Việt Nam,10:58
+385,GO_197,GO! Tô Hiến Thành,22/11/2026,Bào ngư đông lạnh,"Khay 338 g, 321000 đ/kg. Đóng gói tại GO! Miền Đông theo nhãn.",N/A,108.498,Trung Quốc,11:01
+386,GO_198,GO! Tô Hiến Thành,22/11/2026,Tôm thẻ thịt đông lạnh size 31/40,Khay 300 g,Minh Phú,139.000,Việt Nam,11:04
+387,GO_199,GO! Tô Hiến Thành,22/11/2026,Cá hồng phi lê đông lạnh,Gói 300 g.,N/A,121.200,Việt Nam,11:07
+388,GO_200,GO! Tô Hiến Thành,22/11/2026,Tôm sú thịt đông lạnh size 41/50,Gói 333 g,HomeFood,159.000,Việt Nam,11:10
+389,GO_201,GO! Tô Hiến Thành,22/11/2026,Cá hồi cắt thỏi đông lạnh,Khay 200 g.,Hải Nam Foods,145.000,Việt Nam,11:13
+390,GO_202,GO! Tô Hiến Thành,22/11/2026,Cá đù phi lê đông lạnh, Gói 500 g,Foodymart,105.000,Việt Nam,11:16
+391,GO_203,GO! Tô Hiến Thành,22/11/2026,Cá hồi phi lê đông lạnh,Gói 200 g,Tân Hải Hòa,106.500,Việt Nam,11:19
+392,GO_204,GO! Tô Hiến Thành,22/11/2026,Cá hồi cắt khúc đông lạnh,Khay 300 g,Tân Hải Hòa,132.500,Việt Nam,11:22
+393,GO_205,GO! Tô Hiến Thành,22/11/2026,Cá thu một nắng,Gói 500 g. ,Hợp tác xã (HTX) Hải sản Nguyên Phát,176.000,Việt Nam,11:26
+394,GO_206,GO! Tô Hiến Thành,22/11/2026,Cá trứng đông lạnh,Khay 400 g.,N/A,187.000,CANADA,11:29
+395,GO_207,GO! Tô Hiến Thành,22/11/2026,Cá dứa một nắng,"Gói cân 822 g, 369000 đ/kg. Sản xuất bởi HTX Hải sản Nguyên Phát.",Hợp tác xã (HTX) Hải sản Nguyên Phát,303.318,Việt Nam,11:32
+396,GO_208,GO! Tô Hiến Thành,22/11/2026,Tôm sú thịt đông lạnh size 31–40,Khay 300 g,Minh Phú,169.000,Việt Nam,11:35
+397,GO_209,GO! Tô Hiến Thành,22/11/2026,Bào ngư đông lạnh,Gói 300 g,Foodymart,190.000,Việt Nam,11:38
+398,GO_210,GO! Tô Hiến Thành,22/11/2026,Bào ngư đông lạnh,Gói 300 g,Tân Hải Hòa,197.500,Việt Nam,11:41
