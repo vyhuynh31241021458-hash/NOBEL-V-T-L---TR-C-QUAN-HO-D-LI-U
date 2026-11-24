@@ -10,16 +10,16 @@ import numpy as np
 from matplotlib.colors import to_rgb
 from matplotlib.ticker import FuncFormatter
 
-from p03_style import DIVERGING_CMAP, apply_style, diverging_norm, format_number, sequential_norm
-from p03_style.accessibility import CVD_TYPES, grayscale, simulate_cvd
-from p03_style.colour_rules import MISSING_COLOR, MISSING_LABEL, color_for_value, ordered_present
-from p03_style.highlight import highlight_colors
-from p03_style.hs_palette import HS_COLORS, HS_LABELS, HS_ORDER
-from p03_style.partner_palette import PARTNER_COLORS, PARTNER_HATCHES, PARTNER_LABELS, PARTNER_ORDER
-from p03_style.sequential import SEQUENTIAL_COLORS
-from p03_style.theme import BAR_WIDTH, ZERO_LINE, declutter
-from p03_style.trade_flow import TRADE_FLOW_COLORS, TRADE_FLOW_LABELS, TRADE_FLOW_ORDER
-from p03_style.typography import DIRECT_LABEL, SOURCE, SUBTITLE
+from notebooks.house_style import DIVERGING_CMAP, apply_style, diverging_norm, format_number, sequential_norm
+from notebooks.house_style import CVD_TYPES, grayscale, simulate_cvd
+from notebooks.house_style import MISSING_COLOR, MISSING_LABEL, color_for_value, ordered_present
+from notebooks.house_style import highlight_colors
+from notebooks.house_style import HS_COLORS, HS_LABELS, HS_ORDER
+from notebooks.house_style import PARTNER_COLORS, PARTNER_HATCHES, PARTNER_LABELS, PARTNER_ORDER
+from notebooks.house_style import SEQUENTIAL_COLORS
+from notebooks.house_style import BAR_WIDTH, ZERO_LINE, declutter
+from notebooks.house_style import TRADE_FLOW_COLORS, TRADE_FLOW_LABELS, TRADE_FLOW_ORDER
+from notebooks.house_style import DIRECT_LABEL, SOURCE, SUBTITLE
 
 OUTPUT = Path(__file__).resolve().parent
 MODES = dict(zip(

@@ -2,7 +2,7 @@ from unittest import TestCase
 
 import numpy as np
 from matplotlib.colors import to_hex
-from p03_style import DIVERGING_CMAP, diverging_norm
+from notebooks.house_style import DIVERGING_CMAP, diverging_norm
 
 class DivergingTests(TestCase):
     def test_symmetry_center_and_direction(self):

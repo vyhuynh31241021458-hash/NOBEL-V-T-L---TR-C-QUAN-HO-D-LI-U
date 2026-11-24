@@ -4,9 +4,9 @@ import matplotlib
 import numpy as np
 from matplotlib.colors import to_rgb
 
-from p03_style import apply_style
-from p03_style.accessibility import CVD_TYPES, grayscale, simulate_cvd
-from p03_style.partner_palette import PARTNER_COLORS
+from notebooks.house_style import apply_style
+from notebooks.house_style import CVD_TYPES, grayscale, simulate_cvd
+from notebooks.house_style import PARTNER_COLORS
 
 class AccessibilityTests(TestCase):
     def test_simulations(self):

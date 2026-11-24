@@ -1,3 +1,5 @@
+> Cập nhật cấu trúc: các module được mô tả trong báo cáo này đã gộp vào `notebooks/house_style.py`. Tên module cũ là tên các phần code trong file này. Font ở `assets/fonts/`, ảnh và script minh chứng ở `evidence/house_style/`, kiểm thử ở `tests/house_style/`.
+
 # House Style P03 · Đặc tả thiết kế và báo cáo kiểm chứng
 
 **Phạm vi:** phiên bản House Style hiện có trong repository, gồm Typography Modern Editorial và bộ ảnh minh chứng. **Kết quả rà soát:** 14/14 kiểm thử tự động đạt trong lần chạy phục vụ báo cáo. Các hình dùng số liệu minh họa để kiểm chứng cách trình bày. Mọi đề xuất trong báo cáo được ghi riêng với quy chuẩn đã triển khai.
@@ -6,7 +8,7 @@
 
 House Style thống nhất cách trình bày biểu đồ P03 về màu, thứ tự nhóm, font, số và đơn vị. Mục đích là giúp người đọc nhận ra cùng một đối tác qua nhiều hình, hiểu ngay màu đang chỉ **nhóm nào**, **giá trị lớn đến đâu** hay **nằm phía nào của mốc 0**, và vẫn đọc được biểu đồ khi mất thông tin màu.
 
-Package `notebooks/p03_style/` tách quy chuẩn khỏi phần vẽ biểu đồ. Một notebook có thể dùng theme và formatter chung rồi chọn bảng màu theo câu hỏi. Cấu hình hiện phù hợp để tái sử dụng cho BACI, WDI, mạng thương mại và khảo sát, với mức tích hợp khác nhau được ghi ở mục 8. Bằng chứng hiện tập trung vào biểu đồ đối tác, HS Section, cán cân và điểm nhấn.
+File `notebooks/house_style.py` chứa toàn bộ quy chuẩn, tách khỏi phần vẽ biểu đồ. Một notebook có thể dùng theme và formatter chung rồi chọn bảng màu theo câu hỏi. Cấu hình hiện phù hợp để tái sử dụng cho BACI, WDI, mạng thương mại và khảo sát, với mức tích hợp khác nhau được ghi ở mục 8. Bằng chứng hiện tập trung vào biểu đồ đối tác, HS Section, cán cân và điểm nhấn.
 
 Phong cách **Modern Editorial** kết hợp chữ sans-serif cho dữ liệu với chữ serif cho phần diễn giải và nền trắng. Tính nhất quán được duy trì nhờ ánh xạ theo mã, tiêu chuẩn đơn vị và cấu hình Matplotlib dùng chung. Các nhận định về sự hài hòa, khả năng đọc và cấp bậc thị giác dưới đây là phân tích từ mã và ảnh mẫu. Giá trị HEX và thông số được đối chiếu trực tiếp với source.
 
@@ -230,26 +232,16 @@ House Style áp dụng kiểu dữ liệu và đơn vị do T09 mô tả. Khâu 
 ## 9. Triển khai kỹ thuật và cách sử dụng
 
 ```text
-notebooks/p03_style/
-├── __init__.py
-├── partner_palette.py, hs_palette.py, trade_flow.py
-├── sequential.py, diverging.py, colour_rules.py, highlight.py
-├── typography.py, theme.py, formatters.py, accessibility.py
-├── fonts/
-│   ├── BricolageGrotesque-Regular.ttf, -Medium.ttf, -Bold.ttf
-│   ├── Platypi.ttf
-│   └── BricolageGrotesque-OFL.txt, Platypi-OFL.txt
-├── tests/
-│   ├── test_partner.py, test_hs_section.py, test_sequential.py
-│   ├── test_diverging.py, test_highlight.py, test_formatters.py
-│   └── test_accessibility.py, test_typography.py
-├── evidence/
-│   ├── generate.py
-│   └── original/, protanopia/, deuteranopia/, tritanopia/, greyscale/
-└── README.md
+notebooks/house_style.py        # Toàn bộ code style trong một file
+assets/fonts/                   # Font và giấy phép
+tests/house_style/              # Các kiểm thử style
+evidence/house_style/           # generate.py và ảnh minh chứng
+docs/house_style.md             # Hướng dẫn sử dụng
 ```
 
-### Vai trò từng file khi sử dụng hoặc bảo trì
+### Các phần code đã gộp và vai trò khi bảo trì
+
+Tên file bên dưới là tên module ban đầu; phần triển khai tương ứng hiện nằm trong `notebooks/house_style.py`, trừ script tạo ảnh ở `evidence/house_style/generate.py`.
 
 | File | Nội dung và tác động |
 |---|---|
@@ -282,11 +274,11 @@ Ví dụ dùng dữ liệu minh họa với các hàm thực tế trong package:
 import matplotlib.pyplot as plt
 from matplotlib.ticker import FuncFormatter
 
-from p03_style import PARTNER_COLORS, PARTNER_ORDER, apply_style, format_usd
-from p03_style.colour_rules import ordered_present
-from p03_style.partner_palette import PARTNER_LABELS
-from p03_style.theme import declutter
-from p03_style.typography import SUBTITLE
+from house_style import PARTNER_COLORS, PARTNER_ORDER, apply_style, format_usd
+from house_style import ordered_present
+from house_style import PARTNER_LABELS
+from house_style import declutter
+from house_style import SUBTITLE
 
 trade_usd = {"CHN": 94e9, "USA": 140.5e9}
 with apply_style():
@@ -303,7 +295,7 @@ with apply_style():
     plt.show()
 ```
 
-Từ thư mục `notebooks/`, lệnh `python -m unittest discover -s p03_style/tests -v` kiểm tra quy tắc. Lệnh `python -m p03_style.evidence.generate` tái tạo ảnh. Lần rà soát này chỉ chạy kiểm thử và đọc các ảnh đã có. [README kỹ thuật][readme]
+Từ gốc repository, lệnh `python -m unittest discover -s tests/house_style -v` kiểm tra quy tắc. Lệnh `python -m evidence.house_style.generate` tái tạo ảnh. Lần rà soát này chỉ chạy kiểm thử và đọc các ảnh đã có. [README kỹ thuật][readme]
 
 ## 10. Kiểm thử khả năng tiếp cận và xác nhận kết quả
 
@@ -332,43 +324,43 @@ Mô phỏng CVD nhận RGB chuẩn hóa, dùng Colorspacious với mô hình Mac
 
 Ảnh màu gốc là chuẩn so sánh. Mã HEX in cạnh từng ô ở bản mô phỏng vẫn là **mã gốc**, giúp truy về bảng đặc tả. Bộ ảnh hiện kiêm minh chứng Visual Identity, Typography, Partner Palette, HS Palette và hai thang màu. Chưa có ảnh Typography Specimen độc lập, KPI, mạng thương mại, WDI hay khảo sát.
 
-![Hình 1. Bảng màu gốc P03](../../notebooks/p03_style/evidence/original/palette_original.png)
+![Hình 1. Bảng màu gốc P03](../../evidence/house_style/original/palette_original.png)
 
 **Hình 1. Bảng màu gốc P03.** Đủ màu đối tác, 21 HS Section, Trade Flow, Missing và hai dải màu. Đây là mẫu màu chính xác cho các bảng ở mục 3 và 5.
 
-![Hình 2. Biểu đồ mẫu màu gốc](../../notebooks/p03_style/evidence/original/charts_original.png)
+![Hình 2. Biểu đồ mẫu màu gốc](../../evidence/house_style/original/charts_original.png)
 
 **Hình 2. Biểu đồ mẫu màu gốc.** Tiêu đề, trục, nhãn và nguồn dùng Bricolage Grotesque. Phụ đề dùng Platypi. Hai ô HS minh họa hai ý nghĩa khác nhau của màu.
 
-![Hình 3. Bảng màu mô phỏng protanopia](../../notebooks/p03_style/evidence/protanopia/palette_protanopia.png)
+![Hình 3. Bảng màu mô phỏng protanopia](../../evidence/house_style/protanopia/palette_protanopia.png)
 
 **Hình 3. Bảng màu mô phỏng protanopia.** Hàn Quốc chuyển sang sắc xám pha lục và Nhật Bản sang xám pha xanh. Hai nhóm bớt tách biệt theo sắc so với bản gốc.
 
-![Hình 4. Biểu đồ mẫu mô phỏng protanopia](../../notebooks/p03_style/evidence/protanopia/charts_protanopia.png)
+![Hình 4. Biểu đồ mẫu mô phỏng protanopia](../../evidence/house_style/protanopia/charts_protanopia.png)
 
 **Hình 4. Biểu đồ mẫu mô phỏng protanopia.** Tên nhóm và hatch vẫn phân biệt Hàn Quốc với Nhật Bản. Tương phản của màu thay đổi, trong khi chiều dài thanh và nhãn số giữ nguyên.
 
-![Hình 5. Bảng màu mô phỏng deuteranopia](../../notebooks/p03_style/evidence/deuteranopia/palette_deuteranopia.png)
+![Hình 5. Bảng màu mô phỏng deuteranopia](../../evidence/house_style/deuteranopia/palette_deuteranopia.png)
 
 **Hình 5. Bảng màu mô phỏng deuteranopia.** Hoa Kỳ và Thái Lan cùng tiến về nhóm vàng–ô liu. Sự khác nhau về sắc giảm rõ so với bản gốc.
 
-![Hình 6. Biểu đồ mẫu mô phỏng deuteranopia](../../notebooks/p03_style/evidence/deuteranopia/charts_deuteranopia.png)
+![Hình 6. Biểu đồ mẫu mô phỏng deuteranopia](../../evidence/house_style/deuteranopia/charts_deuteranopia.png)
 
 **Hình 6. Biểu đồ mẫu mô phỏng deuteranopia.** Hoa Kỳ dùng sọc chéo ngược, Thái Lan dùng dấu cộng. Tên đối tác và giá trị đọc được trực tiếp khi hai màu gần nhau.
 
-![Hình 7. Bảng màu mô phỏng tritanopia](../../notebooks/p03_style/evidence/tritanopia/palette_tritanopia.png)
+![Hình 7. Bảng màu mô phỏng tritanopia](../../evidence/house_style/tritanopia/palette_tritanopia.png)
 
 **Hình 7. Bảng màu mô phỏng tritanopia.** Xanh của Trung Quốc và lục của Hàn Quốc chuyển gần về sắc xanh ngọc. Một số màu HS cũng hội tụ về các sắc xanh tương tự.
 
-![Hình 8. Biểu đồ mẫu mô phỏng tritanopia](../../notebooks/p03_style/evidence/tritanopia/charts_tritanopia.png)
+![Hình 8. Biểu đồ mẫu mô phỏng tritanopia](../../evidence/house_style/tritanopia/charts_tritanopia.png)
 
 **Hình 8. Biểu đồ mẫu mô phỏng tritanopia.** Tên nhóm và hatch tách Trung Quốc khỏi Hàn Quốc. Trong bảng HS, mã và tên được ghi trực tiếp thay cho việc chỉ dò màu.
 
-![Hình 9. Bảng màu chuyển sang thang xám](../../notebooks/p03_style/evidence/greyscale/palette_greyscale.png)
+![Hình 9. Bảng màu chuyển sang thang xám](../../evidence/house_style/greyscale/palette_greyscale.png)
 
 **Hình 9. Bảng màu chuyển sang thang xám.** Các sắc HS có thể rơi về cùng vùng xám. Blues giữ hướng sáng–đậm, còn RdBu có tâm sáng và hai đầu tối nên cần dấu hoặc vị trí để xác định phía.
 
-![Hình 10. Biểu đồ mẫu chuyển sang thang xám](../../notebooks/p03_style/evidence/greyscale/charts_greyscale.png)
+![Hình 10. Biểu đồ mẫu chuyển sang thang xám](../../evidence/house_style/greyscale/charts_greyscale.png)
 
 **Hình 10. Biểu đồ mẫu chuyển sang thang xám.** Vạch 0 và nhãn dấu giữ được chiều cán cân. Tên và số in đậm giữ điểm nhấn. Nhãn N/A ở ô HS khác nhãn 0.0 trong ô cán cân.
 
@@ -386,7 +378,7 @@ Mô phỏng CVD nhận RGB chuẩn hóa, dùng Colorspacious với mô hình Mac
 | Colour Consistency | Màu cố định theo mã trong từng palette, có nhãn bổ sung | Các palette | T01/T03, Hình 1–2 | Đã triển khai. Chưa kiểm chứng xuyên suốt toàn bộ báo cáo. |
 | Colour-blind Simulation | Protan, deutan, tritan, mức 100 | `accessibility.py` | Hình 3–8, T09 | Đã triển khai và có minh chứng trên mẫu |
 | Greyscale Simulation | Chuyển độ chói, rà nhãn, vạch 0, dấu và điểm nhấn | `accessibility.py`, `generate.py` | Hình 9–10 | Đã triển khai và có minh chứng trên mẫu |
-| Reusability và dạng bàn giao | Có package `notebooks/p03_style/`, API import chung và script tạo ảnh | `__init__.py`, `theme.py`, README | Ví dụ mục 9, Hình 2 | Khả năng tái sử dụng đã minh họa. Slide 56 và Tutorial chương 7 gọi đích danh `house_style.py`, vì vậy hình thức package cần đối chiếu khi nộp. |
+| Reusability và dạng bàn giao | Có một file `notebooks/house_style.py`, API import chung và script tạo ảnh | `__init__.py`, `theme.py`, README | Ví dụ mục 9, Hình 2 | Khả năng tái sử dụng đã minh họa. Slide 56 và Tutorial chương 7 gọi đích danh `house_style.py`, hiện code đã được gộp thành file đúng hình thức này. |
 | Makeover biểu đồ đã công bố | Hạng mục riêng của Module M3 | — | Bộ bằng chứng hiện là các hình kiểm thử style | Ngoài phạm vi báo cáo House Style này |
 
 ## 13. Đánh giá tổng thể và đề xuất
@@ -413,12 +405,12 @@ Mô phỏng CVD nhận RGB chuẩn hóa, dùng Colorspacious với mô hình Mac
 2. Tài liệu học phần *Vision, Perception and Design Principles*, Lecture 3, slide 7–49 và 56–57. [Lecture 3][lec3]
 3. *Tutorial 3 · Design for the eye*, chương 3, 6 và 7. [Tutorial 3][tut3]
 4. Nhóm P03. T09 · Trừu tượng hóa dữ liệu, từ điển dữ liệu và nguồn thứ hạng nút mạng. [T09][t09] · [Từ điển dữ liệu][dict] · [BACI network nodes][nodes]
-5. Nhóm P03. House Style, nguồn trực tiếp của các palette phân loại và mã HEX đặc thù dự án. [README][readme] · [Partner Palette](../../notebooks/p03_style/partner_palette.py) · [HS Palette](../../notebooks/p03_style/hs_palette.py) · [Trade Flow](../../notebooks/p03_style/trade_flow.py)
+5. Nhóm P03. House Style, nguồn trực tiếp của các palette phân loại và mã HEX đặc thù dự án. [README][readme] · [Partner Palette](../../notebooks/house_style.py) · [HS Palette](../../notebooks/house_style.py) · [Trade Flow](../../notebooks/house_style.py)
 6. Google Fonts và các tác giả font. [Bricolage Grotesque][bricolage] · [Platypi][platypi] · [Giấy phép đi kèm][oflb] · [Giấy phép Platypi][oflp]
 7. Matplotlib. [Choosing Colormaps][mplcolors] · [Colormap normalization][mplnorm] · [Font Manager API][mplfont]
 8. Colorspacious. Tài liệu không gian màu và mô phỏng CVD theo Machado, Oliveira và Fernandes. [Colorspacious Reference][cvd]
 
-Ba PDF bài giảng được tham chiếu theo bản cung cấp ở thư mục cha của repo. Khi gửi riêng báo cáo, các ảnh minh chứng cần đi cùng đường dẫn tương đối trong `notebooks/p03_style/evidence/`.
+Ba PDF bài giảng được tham chiếu theo bản cung cấp ở thư mục cha của repo. Khi gửi riêng báo cáo, các ảnh minh chứng cần đi cùng đường dẫn tương đối trong `evidence/house_style/`.
 
 [lec2]: ../../../02Lecture-2.pdf
 [lec3]: ../../../Lecture-3.pdf
@@ -426,11 +418,11 @@ Ba PDF bài giảng được tham chiếu theo bản cung cấp ở thư mục c
 [t09]: ../t09_data_abstraction.md
 [dict]: ../data_dictionary.csv
 [nodes]: ../../data/baci/data_clean/network_nodes.csv
-[readme]: ../../notebooks/p03_style/README.md
+[readme]: ../house_style.md
 [bricolage]: https://github.com/google/fonts/tree/main/ofl/bricolagegrotesque
 [platypi]: https://github.com/google/fonts/tree/main/ofl/platypi
-[oflb]: ../../notebooks/p03_style/fonts/BricolageGrotesque-OFL.txt
-[oflp]: ../../notebooks/p03_style/fonts/Platypi-OFL.txt
+[oflb]: ../../assets/fonts/BricolageGrotesque-OFL.txt
+[oflp]: ../../assets/fonts/Platypi-OFL.txt
 [mplcolors]: https://matplotlib.org/stable/users/explain/colors/colormaps.html
 [mplnorm]: https://matplotlib.org/stable/users/explain/colors/colormapnorms.html
 [mplfont]: https://matplotlib.org/stable/api/font_manager_api.html

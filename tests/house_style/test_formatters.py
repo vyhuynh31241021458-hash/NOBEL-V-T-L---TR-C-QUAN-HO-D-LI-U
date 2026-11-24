@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from p03_style import (
+from notebooks.house_style import (
     format_balance, format_growth, format_number, format_percent,
     format_percentage_points, format_usd, format_vnd, format_year,
 )

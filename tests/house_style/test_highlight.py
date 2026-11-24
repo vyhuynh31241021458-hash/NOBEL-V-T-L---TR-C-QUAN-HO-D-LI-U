@@ -1,8 +1,8 @@
 from unittest import TestCase
 
-from p03_style.highlight import highlight_colors
-from p03_style.partner_palette import PARTNER_COLORS
-from p03_style.trade_flow import TRADE_FLOW_COLORS, TRADE_FLOW_LINESTYLES, TRADE_FLOW_ORDER
+from notebooks.house_style import highlight_colors
+from notebooks.house_style import PARTNER_COLORS
+from notebooks.house_style import TRADE_FLOW_COLORS, TRADE_FLOW_LINESTYLES, TRADE_FLOW_ORDER
 
 class HighlightTests(TestCase):
     def test_preserve_fixed_color(self):

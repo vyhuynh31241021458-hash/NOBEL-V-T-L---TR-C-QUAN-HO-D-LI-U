@@ -1,7 +1,7 @@
 from unittest import TestCase
 
-from p03_style.hs_palette import HS_COLORS, HS_LABELS, HS_ORDER
-from p03_style.colour_rules import ordered_present
+from notebooks.house_style import HS_COLORS, HS_LABELS, HS_ORDER
+from notebooks.house_style import ordered_present
 
 class HsTests(TestCase):
     def test_fixed_mapping(self):

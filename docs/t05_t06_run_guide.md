@@ -5,12 +5,12 @@
 1. Chạy `python data/survey/scripts/t05_merge.py` để tạo lại ba bảng T05.
 2. Mở `notebooks/01_data.ipynb`, chọn Restart and Run All. Notebook chạy T05, kiểm tra và xuất 11 bảng vào `data/clean/`; nhật ký tại `docs/cleaning_log.csv`, ảnh tại `outputs/t06_quality.png`.
 3. Code biểu đồ đọc CSV từ `data/clean/`. Khi đầu ra nguồn thay đổi, chạy lại notebook để cập nhật các bản sao; không chỉnh trực tiếp CSV trong `data/clean/`.
-4. Kiểm tra màu: từ `notebooks/` chạy `python -m p03_style.evidence.generate`. Từ gốc chạy `python -m docs.appendix.t12_honest_vs_misleading` để tạo T12.
+4. Kiểm tra màu: từ gốc repository chạy `python -m evidence.house_style.generate`. Từ gốc chạy `python -m docs.appendix.t12_honest_vs_misleading` để tạo T12.
 
 ## Tái tạo khảo sát T01 → T04 → T05
 
 ```powershell
-python -c "import runpy; m=runpy.run_path('data/survey/scripts/t01_clean.py'); m['clean_survey']('data/survey/data_raw/survey_398.csv', 'data/survey/data_clean', 'data/survey/notes')"
+python -c "import runpy; m=runpy.run_path('data/survey/scripts/t01_clean.py'); m['clean_survey'](%27data/survey/data_raw/survey_398.csv%27%2C%20%27data/survey/data_clean%27%2C%20%27data/survey/notes%27)"
 python data/survey/scripts/t04_category_price.py data/survey/data_clean/t01_survey_clean.csv data/survey/data_clean/t04_survey_segment_all.csv
 python data/survey/scripts/t05_merge.py
 ```
