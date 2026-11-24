@@ -24,7 +24,7 @@ class AccessibilityTests(TestCase):
     def test_theme_and_text_contrast(self):
         with apply_style():
             self.assertEqual(matplotlib.rcParams["savefig.dpi"], 300)
-            for key in ("text.color", "axes.labelcolor", "xtick.color"):
+            for key in ("text.color", "axes.labelcolor", "xtick.labelcolor", "ytick.labelcolor"):
                 luminance = float(to_rgb(matplotlib.rcParams[key])[0])
                 linear = ((luminance + 0.055) / 1.055) ** 2.4
                 self.assertGreaterEqual(1.05 / (linear + 0.05), 4.5)

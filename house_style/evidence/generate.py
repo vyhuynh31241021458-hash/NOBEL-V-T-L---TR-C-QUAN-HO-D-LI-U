@@ -62,7 +62,7 @@ def strip(ax, palette, labels, mode):
 def save_palette(folder, name, mode):
     fig, axes = plt.subplots(5, figsize=(13, 9), layout="constrained",
                              gridspec_kw={"height_ratios": [1.2, 4, 1, 0.5, 0.5]})
-    fig.suptitle("Bảng màu P03", x=0.02, ha="left")
+    fig.suptitle("Bảng màu P03")
     for ax, title in zip(axes, ("Đối tác", "HS Section · HS2002", "Chiều thương mại và dữ liệu thiếu",
                                 "Tuần tự · Blues", "Phân kỳ · RdBu")):
         ax.set_title(title, fontsize=12)
@@ -110,9 +110,9 @@ def draw_bars(ax, title, order, values, labels, colors, mode, *, hatches=None, e
 def save_charts(folder, name, mode):
     fig, axes = plt.subplots(2, 3, figsize=(15, 8))
     fig.subplots_adjust(left=0.16, right=0.96, bottom=0.11, top=0.85, hspace=0.48, wspace=1.15)
-    fig.suptitle("Áp dụng house style P03", x=0.04, ha="left", y=0.98)
-    fig.text(0.04, 0.90, "Xuất khẩu và cán cân thương mại · Tỷ USD", **SUBTITLE)
-    fig.text(0.04, 0.03, "Nguồn dữ liệu minh họa. N/A là giá trị thiếu.", **SOURCE)
+    fig.suptitle("Áp dụng house style P03", y=0.98)
+    fig.text(0.5, 0.90, "Xuất khẩu và cán cân thương mại · Tỷ USD", **SUBTITLE)
+    fig.text(0.5, 0.03, "Nguồn dữ liệu minh họa. N/A là giá trị thiếu.", **SOURCE)
     partner_ax, category_ax, sequential_ax, balance_ax, highlight_ax, empty_ax = axes.flat
     draw_bars(partner_ax, "Xuất khẩu theo đối tác", PARTNER_ORDER, EXPORTS, PARTNER_LABELS,
               PARTNER_COLORS, mode, hatches=PARTNER_HATCHES)

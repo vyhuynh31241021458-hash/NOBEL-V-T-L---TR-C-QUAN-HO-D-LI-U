@@ -6,6 +6,7 @@ from .typography import TYPOGRAPHY, register_fonts
 
 SLIDE_SIZE = (12, 6.75)
 BAR_WIDTH = 0.7
+AXIS_LABEL_GAP = 5
 ZERO_LINE = {"color": "#777777", "linewidth": 1}
 THEME = {
     "figure.figsize": (10, 6),
@@ -18,8 +19,16 @@ THEME = {
     "axes.spines.right": False,
     "axes.edgecolor": "#AAAAAA",
     "axes.axisbelow": True,
-    "grid.color": "#E5E5E5",
-    "grid.linewidth": 0.7,
+    "axes.grid": False,
+    "axes.labelpad": AXIS_LABEL_GAP,
+    "xtick.major.pad": AXIS_LABEL_GAP,
+    "ytick.major.pad": AXIS_LABEL_GAP,
+    "xtick.minor.pad": AXIS_LABEL_GAP,
+    "ytick.minor.pad": AXIS_LABEL_GAP,
+    "xtick.major.size": 0,
+    "ytick.major.size": 0,
+    "xtick.minor.size": 0,
+    "ytick.minor.size": 0,
     "legend.frameon": False,
     "lines.linewidth": 2,
     "lines.markersize": 5,
@@ -36,7 +45,6 @@ def declutter(ax, quantitative_axis="y"):
     for side in ("top", "right"):
         ax.spines[side].set_visible(False)
     ax.set_axisbelow(True)
-    ax.grid(axis=quantitative_axis)
+    ax.grid(False, which="both", axis="both")
     axis = ax.xaxis if quantitative_axis == "x" else ax.yaxis
     axis.set_major_locator(MaxNLocator(nbins=6))
-    ax.tick_params(length=0)

@@ -1,6 +1,6 @@
 # House Style P03 · Đặc tả thiết kế và báo cáo kiểm chứng
 
-**Phạm vi:** phiên bản House Style hiện có trong repository, gồm Typography Modern Editorial và bộ ảnh minh chứng. **Kết quả rà soát:** 13/13 kiểm thử tự động đạt trong lần chạy phục vụ báo cáo. Các hình dùng số liệu minh họa để kiểm chứng cách trình bày. Mọi đề xuất trong báo cáo được ghi riêng với quy chuẩn đã triển khai.
+**Phạm vi:** phiên bản House Style hiện có trong repository, gồm Typography Modern Editorial và bộ ảnh minh chứng. **Kết quả rà soát:** 14/14 kiểm thử tự động đạt trong lần chạy phục vụ báo cáo. Các hình dùng số liệu minh họa để kiểm chứng cách trình bày. Mọi đề xuất trong báo cáo được ghi riêng với quy chuẩn đã triển khai.
 
 ## 1. Tổng quan
 
@@ -8,7 +8,7 @@ House Style thống nhất cách trình bày biểu đồ P03 về màu, thứ t
 
 Package `house_style/` tách quy chuẩn khỏi phần vẽ biểu đồ. Một notebook có thể dùng theme và formatter chung rồi chọn bảng màu theo câu hỏi. Cấu hình hiện phù hợp để tái sử dụng cho BACI, WDI, mạng thương mại và khảo sát, với mức tích hợp khác nhau được ghi ở mục 8. Bằng chứng hiện tập trung vào biểu đồ đối tác, HS Section, cán cân và điểm nhấn.
 
-Phong cách **Modern Editorial** kết hợp chữ sans-serif cho dữ liệu với chữ serif cho phần diễn giải, nền trắng và lưới nhẹ. Tính nhất quán được duy trì nhờ ánh xạ theo mã, tiêu chuẩn đơn vị và cấu hình Matplotlib dùng chung. Các nhận định về sự hài hòa, khả năng đọc và cấp bậc thị giác dưới đây là phân tích từ mã và ảnh mẫu. Giá trị HEX và thông số được đối chiếu trực tiếp với source.
+Phong cách **Modern Editorial** kết hợp chữ sans-serif cho dữ liệu với chữ serif cho phần diễn giải và nền trắng. Tính nhất quán được duy trì nhờ ánh xạ theo mã, tiêu chuẩn đơn vị và cấu hình Matplotlib dùng chung. Các nhận định về sự hài hòa, khả năng đọc và cấp bậc thị giác dưới đây là phân tích từ mã và ảnh mẫu. Giá trị HEX và thông số được đối chiếu trực tiếp với source.
 
 ## 2. Cơ sở lý thuyết
 
@@ -21,7 +21,7 @@ Phong cách **Modern Editorial** kết hợp chữ sans-serif cho dữ liệu v�
 | **Gestalt** | Lecture 3, slide 15–19 | **Proximity:** nhãn số cạnh thanh. **Similarity:** một mã giữ màu qua các hình. Thanh trong cùng ô có vị trí và trục chung để dễ đối chiếu. | Bảng màu, `draw_bars()` |
 | **Visual Hierarchy** | Lecture 3, slide 13, 38 | Tiêu đề đậm, phụ đề và nguồn có cấp chữ riêng. Hình kiểm thử dùng tiêu đề mô tả. Slide 38 minh họa tiêu đề nêu phát hiện cho hình báo cáo. | `typography.py`, Hình 2 |
 | **Colour Theory** | Lecture 3, slide 39–42, 46, 48 | Màu phân loại cho danh tính, `Blues` cho độ lớn, `RdBu` cho chênh lệch quanh mốc có ý nghĩa. | Bảng màu và hai module thang màu |
-| **Decluttering** | Lecture 3, slide 32–36, Tutorial 3 chương 3 | Ẩn viền trên và phải, tinh giản trục, dùng nhãn trực tiếp. Ví dụ bài giảng bỏ lưới ở một bước. P03 giữ lưới định lượng nhẹ để hỗ trợ đọc thanh. | `theme.py`, Hình 2 |
+| **Decluttering** | Lecture 3, slide 32–36, Tutorial 3 chương 3 | Ẩn viền trên và phải, tắt lưới nền và dùng nhãn trực tiếp. Biểu đồ cán cân giữ vạch 0 để phân biệt hai phía. | `theme.py`, Hình 2 |
 | **Accessibility** | Lecture 3, slide 43–44, 47, 49, Tutorial 3 §6.5–6.6 | Đối chiếu màu gốc với thang xám và mô phỏng CVD. Tên, họa tiết, nét, dấu số và vị trí hỗ trợ khi màu khó phân biệt. | `accessibility.py`, Hình 3–10 |
 
 Lecture 3, slide 56 yêu cầu bộ màu phân loại cố định, một thang tuần tự, một thang phân kỳ, font, định dạng số và bằng chứng khả năng đọc. **Bricolage Grotesque, Platypi, các mã HEX, bố cục, số nhóm đối tác và PNG 300 DPI** là các lựa chọn của P03. Tutorial chương 7 minh họa PNG 200 DPI và PDF tùy mục đích. Yêu cầu vẽ lại một biểu đồ đã công bố thuộc phần bàn giao M3 rộng hơn. [Lecture 2][lec2] · [Lecture 3][lec3] · [Tutorial 3][tut3]
@@ -37,16 +37,15 @@ Lecture 3, slide 56 yêu cầu bộ màu phân loại cố định, một thang 
 | Cam chiều thương mại | `#B86E24` | <span style="color:#B86E24;background-color:#B86E24">■</span> | Màu nhập khẩu | Tách hai chiều thương mại trong hình so sánh trực tiếp. | `trade_flow.py` |
 | Trắng | `#FFFFFF` | <span style="color:#FFFFFF;background-color:#FFFFFF">■</span> | Nền figure, vùng vẽ và ảnh xuất | Giữ độ tương phản với chữ tối và khoảng trắng giữa các ô. | `theme.py` |
 | Chữ chính | `#222222` | <span style="color:#222222;background-color:#222222">■</span> | Màu chữ mặc định | Phân cấp ưu tiên đọc tiêu đề và nhãn trên nền trắng. | `typography.py` |
-| Chữ nhãn trục | `#333333` | <span style="color:#333333;background-color:#333333">■</span> | Tên biến và đơn vị | Giữ độ tương phản cao khi đọc trục. | `typography.py` |
+| Chữ nhãn trục | `#444444` | <span style="color:#444444;background-color:#444444">■</span> | Tên biến và đơn vị | Cùng màu với số chia trục. | `typography.py` |
 | Chữ vạch chia | `#444444` | <span style="color:#444444;background-color:#444444">■</span> | Tick labels | Giữ mốc đo dễ đọc, giảm độ nổi so với tiêu đề. | `typography.py` |
 | Chữ bổ trợ | `#555555` | <span style="color:#555555;background-color:#555555">■</span> | Phụ đề và nguồn | Phân biệt thông tin giải thích với tiêu đề và số liệu. | `typography.py` |
-| Lưới | `#E5E5E5` | <span style="color:#E5E5E5;background-color:#E5E5E5">■</span> | Đường dẫn định lượng | Hỗ trợ dò mốc mà ít cạnh tranh với thanh dữ liệu. | `theme.py` |
 | Viền | `#AAAAAA` | <span style="color:#AAAAAA;background-color:#AAAAAA">■</span> | Màu viền vùng vẽ | Giữ ranh giới trục còn lại ở mức nhẹ. | `theme.py` |
 | Đường 0 | `#777777` | <span style="color:#777777;background-color:#777777">■</span> | Mốc tham chiếu của cán cân | Cho thấy ranh giới giữa âm và dương kể cả khi in xám. | `theme.py` |
 | Other và Context | `#BDBDBD` | <span style="color:#BDBDBD;background-color:#BDBDBD">■</span> | Nhóm gộp và nhóm làm nền | Cùng sắc xám nhưng ý nghĩa do chế độ biểu đồ và nhãn xác định. | `colour_rules.py, highlight.py` |
 | Missing | `#EEEEEE` | <span style="color:#EEEEEE;background-color:#EEEEEE">■</span> | Dữ liệu thiếu, kèm N/A | Giá trị thiếu được nhận diện bằng chữ hoặc ký hiệu, vì màu gần nền trắng. | `colour_rules.py` |
 
-Các ô mẫu màu được hiển thị chính xác trong **Hình 1** khi trình đọc Markdown giới hạn HTML. Chữ chính, nhãn trục và chữ vạch chia trên nền trắng có tỷ lệ tương phản tính theo công thức trong bài kiểm thử lần lượt khoảng **15,91:1**, **12,63:1** và **9,74:1**. Chữ phụ `#555555` trên nền trắng có tỷ lệ khoảng **7,46:1** theo cùng phép tính. Các tỷ lệ này áp dụng cho cặp màu xác định, còn khả năng đọc ở khoảng cách trình chiếu phụ thuộc vào kích thước chữ thực tế.
+Các ô mẫu màu được hiển thị chính xác trong **Hình 1** khi trình đọc Markdown giới hạn HTML. Chữ chính, nhãn trục và chữ vạch chia trên nền trắng có tỷ lệ tương phản tính theo công thức trong bài kiểm thử lần lượt khoảng **15,91:1**, **9,74:1** và **9,74:1**. Chữ phụ `#555555` trên nền trắng có tỷ lệ khoảng **7,46:1** theo cùng phép tính. Các tỷ lệ này áp dụng cho cặp màu xác định, còn khả năng đọc ở khoảng cách trình chiếu phụ thuộc vào kích thước chữ thực tế.
 
 Bảng màu đối tác dùng các sắc khác nhau để nhận diện, trong khi thang tuần tự chủ yếu thay đổi độ sáng. Để hình bớt cạnh tranh về màu, mẫu nhấn chuyển bối cảnh về xám, còn hình so sánh độ lớn có thể dùng một màu hoặc một thang tuần tự. Hai chế độ sau có vai trò khác nhau: một màu để vị trí và chiều dài làm việc chính, còn thang tuần tự dùng độ đậm để mã hóa thêm giá trị.
 
@@ -66,18 +65,18 @@ Hai họ chính có giấy phép **SIL Open Font License 1.1** đi kèm trong `f
 
 | Thành phần | Họ font | Weight | Cỡ | Màu | Căn lề | Vai trò |
 |---|---|---|---|---|---|---|
-| Tiêu đề figure | Bricolage Grotesque | Bold | 18 pt | `#222222` mặc định | Hình mẫu đặt trái | Điểm bắt đầu đọc hình |
-| Tiêu đề ô | Bricolage Grotesque | Bold | 18 pt mặc định, mẫu biểu đồ 13 pt, mẫu bảng màu 12 pt | `#222222` mặc định | Trái theo rcParams | Nêu nội dung từng ô |
-| Phụ đề | Platypi | Regular kế thừa | 12 pt | `#555555` | Trái | Nêu chỉ tiêu, phạm vi và đơn vị |
-| Nhãn trục | Bricolage Grotesque | Medium | 11 pt | `#333333` | Theo vị trí trục | Xác định biến đo |
+| Tiêu đề figure | Bricolage Grotesque | Bold | 18 pt | `#222222` mặc định | Căn giữa | Điểm bắt đầu đọc hình |
+| Tiêu đề ô | Bricolage Grotesque | Bold | 18 pt mặc định, mẫu biểu đồ 13 pt, mẫu bảng màu 12 pt | `#222222` mặc định | Căn giữa theo rcParams | Nêu nội dung từng ô |
+| Phụ đề | Platypi | Regular kế thừa | 12 pt | `#555555` | Căn giữa | Nêu chỉ tiêu, phạm vi và đơn vị |
+| Nhãn trục | Bricolage Grotesque | Regular | 11 pt | `#444444` | Theo vị trí trục | Xác định biến đo |
 | Tick labels | Bricolage Grotesque | Regular mặc định, tên nhóm nhấn được in đậm trong mẫu | 10 pt | `#444444` | Theo trục | Tra nhóm và mốc |
 | Chú giải | Bricolage Grotesque | Regular kế thừa | 10 pt | Kế thừa | Theo bố cục hình | Giải mã kênh thị giác khi cần |
 | Nhãn giá trị | Bricolage Grotesque | Medium, Bold cho thanh được nhấn | 10 pt | `#222222` mặc định | Do `bar_label()` đặt cạnh thanh | Đọc số trực tiếp |
-| Chú thích diễn giải | Platypi | Kế thừa | Kế thừa 10 pt nếu không ghi đè | Kế thừa | Do biểu đồ đặt | Giải thích một điểm hoặc phát hiện |
+| Chú thích diễn giải | Platypi | Kế thừa | Kế thừa 10 pt nếu không ghi đè | Kế thừa | Căn giữa theo điểm neo | Giải thích một điểm hoặc phát hiện |
 | KPI | Bricolage Grotesque | Bold | Kế thừa hoặc do biểu đồ đặt | Kế thừa | Do biểu đồ đặt | Nhấn số chủ chốt |
-| Dòng nguồn và ghi chú mẫu | Bricolage Grotesque | Regular kế thừa | 9 pt | `#555555` | Trái | Nêu nguồn và giải thích N/A |
+| Dòng nguồn và ghi chú mẫu | Bricolage Grotesque | Regular kế thừa | 9 pt | `#555555` | Căn giữa toàn hình khi neo tại `x=0.5` | Nêu nguồn và giải thích N/A |
 
-Các trị số kế thừa đến từ cấu hình Matplotlib trong khối style. `KPI` chỉ khai báo họ font và độ đậm, còn `ANNOTATION` chỉ khai báo họ font. Trong ảnh minh chứng, nhãn **N/A** được đặt bằng `annotate()` nhưng áp dụng `DIRECT_LABEL` vì nó là nhãn dữ liệu. Hình 2 có minh chứng cho tiêu đề, phụ đề, nhãn và nguồn. Mẫu Typography độc lập và ảnh KPI hiện chưa có. Kiểm thử bao phủ chữ tiếng Việt hoa/thường và nhóm ký hiệu gồm chữ số, `%`, `−`, `+`, `×`, `₫`, dấu phân cách và dấu gạch. Khả năng đọc ở cuối lớp chưa được đo trên thiết bị trình chiếu.
+Các trị số kế thừa đến từ cấu hình Matplotlib trong khối style. `KPI` khai báo họ font và độ đậm. `ANNOTATION` khai báo họ font và căn giữa theo điểm neo. Trong ảnh minh chứng, nhãn **N/A** được đặt bằng `annotate()` và áp dụng `DIRECT_LABEL` vì nó là nhãn dữ liệu. Hình 2 có minh chứng cho tiêu đề, phụ đề, nhãn và nguồn. Mẫu Typography độc lập và ảnh KPI hiện chưa có. Kiểm thử bao phủ chữ tiếng Việt hoa/thường và nhóm ký hiệu gồm chữ số, `%`, `−`, `+`, `×`, `₫`, dấu phân cách và dấu gạch. Khả năng đọc ở cuối lớp chưa được đo trên thiết bị trình chiếu.
 
 ## 5. Hệ thống màu
 
@@ -177,13 +176,14 @@ Dải màu trực quan nằm ở Hình 1, bản xám ở Hình 9. Code lấy `Bl
 | Thành phần | Thông số hiện tại | Vai trò và lý do | Triển khai |
 |---|---|---|---|
 | Figure, axes và ảnh xuất | Nền trắng `#FFFFFF` | Tăng khác biệt giữa nền, chữ và dữ liệu | `theme.py` |
-| Lưới | `#E5E5E5`, 0.7 pt, sau dữ liệu, theo trục định lượng | Giúp dò mốc trong khi thanh vẫn nổi bật | `THEME`, `declutter()` |
-| Viền và vạch chia | Ẩn viền trên/phải, viền còn lại màu `#AAAAAA`, độ dài vạch bằng 0 khi gọi `declutter()` | Giữ vị trí đọc số và giảm đường trang trí | `theme.py` |
+| Lưới nền | Tắt trên cả hai trục | Giảm đường nền. Người đọc tra giá trị bằng nhãn số và vạch chia. | `THEME`, `declutter()` |
+| Viền và vạch chia | Ẩn viền trên/phải, viền còn lại màu `#AAAAAA`, vạch chia dạng nét được ẩn mặc định | Giữ vị trí đọc số và giảm đường trang trí | `theme.py` |
+| Khoảng hở trục | 5 pt từ đường trục đến số và 5 pt từ số đến nhãn trục, khi dùng bố cục trục mặc định | Cân bằng cụm nhãn và số trên cả X lẫn Y. | `AXIS_LABEL_GAP`, `apply_style()` |
 | Mật độ vạch | `MaxNLocator(nbins=6)` trên trục định lượng | Hạn chế nhãn dày. Số vạch thực tế phụ thuộc khoảng dữ liệu. | `declutter()` |
 | Nét và marker | Đường mặc định 2 pt, marker 5 pt. Hằng số đường nhấn 3 pt. | Thiết lập thứ bậc cho đường và điểm. Mẫu nhấn hiện là thanh và chữ đậm. | `theme.py`, `highlight.py` |
 | Thanh | Bề dày 0.7 đơn vị danh mục. Viền 0.6 pt trong mẫu khi có hatch hoặc nhấn. | Khoảng hở giúp tách hàng. Hatch bổ sung nhận diện. | `BAR_WIDTH`, `draw_bars()` |
 | Chú giải | Khung tắt, vị trí do hình đặt | Các thanh mẫu đã có nhãn trực tiếp. Hình khác có thể dùng chú giải khi cần. | `THEME`, `typography.py` |
-| Tiêu đề và phụ đề | Tiêu đề ô căn trái. Figure mẫu đặt tiêu đề và phụ đề trái bằng tọa độ. | Tạo điểm đọc đầu hình và phân cấp thông tin. | `typography.py`, `save_charts()` |
+| Tiêu đề và phụ đề | Tiêu đề figure căn giữa toàn hình, tiêu đề ô căn giữa từng ô. Phụ đề chung trong figure mẫu căn giữa dưới tiêu đề. | Tạo điểm đọc đầu hình và phân cấp thông tin. | `typography.py`, `save_charts()` |
 | Nhãn trực tiếp, chú thích | Nhãn thanh cách 4 pt. Nhãn N/A dịch 8 pt theo phương ngang tính từ điểm đánh dấu. | Gắn giá trị với thanh gần nhất theo nguyên tắc proximity. | `draw_bars()` |
 | Tham chiếu 0 | `#777777`, 1 pt | Phân biệt dấu khi màu khó đọc. | `ZERO_LINE` |
 | Khoảng trắng | Lưới 2 × 3 với một ô trống trong ảnh mẫu. Lề trái/phải 0.16/0.96, dưới/trên 0.11/0.85, `hspace=0.48`, `wspace=1.15`. | Tạo chỗ cho tên HS dài và tách nhóm biểu đồ. Đây là bố cục của ảnh bằng chứng. | `save_charts()` |
@@ -262,7 +262,7 @@ house_style/
 | `colour_rules.py` | Tập trung ý nghĩa của Other, Missing và thứ tự sau lọc để các palette và script dùng cùng quy ước. |
 | `highlight.py` | Xác định màu nhóm cần nhấn và màu bối cảnh. Đây là quy tắc dùng trong một hình có thông điệp cụ thể. |
 | `typography.py` | Chọn font theo vai trò, lưu thang cỡ chữ và đăng ký các tệp font có sẵn trong repo. |
-| `theme.py` | Áp dụng Typography cùng thiết lập khung vẽ, lưới và xuất ảnh. Đây là điểm gọi khi bắt đầu một figure. |
+| `theme.py` | Áp dụng Typography cùng thiết lập khung vẽ và xuất ảnh. Đây là điểm gọi khi bắt đầu một figure. |
 | `formatters.py` | Chuyển số gốc thành nhãn, giữ đơn vị và dấu theo loại chỉ tiêu. |
 | `accessibility.py` | Chuyển RGB để kiểm tra CVD và thang xám. |
 | `evidence/generate.py` | Ghép các quy tắc vào hình minh họa, sau đó tạo các cặp ảnh bảng màu và biểu đồ theo từng chế độ. |
@@ -298,7 +298,7 @@ with apply_style():
     ax.invert_yaxis()
     ax.set_title("Xuất khẩu theo đối tác")
     ax.xaxis.set_major_formatter(FuncFormatter(lambda value, _: format_usd(value)))
-    fig.text(0.12, 0.02, "Giá trị minh họa", **SUBTITLE)
+    fig.text(0.5, 0.02, "Giá trị minh họa", **SUBTITLE)
     declutter(ax, quantitative_axis="x")
     plt.show()
 ```
@@ -307,7 +307,7 @@ Lệnh `python -m unittest discover -s house_style/tests -v` kiểm tra quy tắ
 
 ## 10. Kiểm thử khả năng tiếp cận và xác nhận kết quả
 
-**Môi trường chạy lại:** Python 3.12.10, Matplotlib 3.10.8, NumPy 2.5.5 và Colorspacious 1.1.2. **Kết quả: 13/13 test đạt.** README dùng NumPy 2.3.5 trong lệnh cài tái lập, còn con số 2.5.5 là phiên bản được dùng trong lần rà soát này.
+**Môi trường chạy lại:** Python 3.12.10, Matplotlib 3.10.8, NumPy 2.5.5 và Colorspacious 1.1.2. **Kết quả: 14/14 test đạt.** README dùng NumPy 2.3.5 trong lệnh cài tái lập, còn con số 2.5.5 là phiên bản được dùng trong lần rà soát này.
 
 Mô phỏng CVD nhận RGB chuẩn hóa, dùng Colorspacious với mô hình Machado, ba chế độ `protanomaly`, `deuteranomaly`, `tritanomaly` ở mức 100, sau đó đưa kết quả về khoảng 0–1. Tên thư mục ảnh lần lượt là protanopia, deuteranopia và tritanopia. Thang xám lấy độ chói tương đối trong RGB tuyến tính với hệ số 0.2126, 0.7152 và 0.0722 rồi chuyển về sRGB. Script áp dụng biến đổi cho màu dữ liệu và swatch. Bố cục, nhãn, giá trị, nền trắng và màu chữ trung tính dùng cùng quy tắc ở các chế độ. Đây là rà soát theo mô hình màu và mẫu đồ họa. Chưa có đo lường với người dùng hoặc kiểm tra khả năng đọc mọi cặp màu. [Colorspacious][cvd]
 
@@ -326,6 +326,7 @@ Mô phỏng CVD nhận RGB chuẩn hóa, dùng Colorspacious với mô hình Mac
 | T11 | `test_font_roles_and_context` | Từng vai trò gán đúng họ font và phục hồi rcParams | Đạt | KPI là cấu hình vai trò, chưa có ảnh mẫu riêng | 2 |
 | T12 | `test_bundled_faces_and_glyph_coverage` | Ba mức Bricolage và Platypi chọn đúng tệp, có glyph tiếng Việt và ký hiệu đã kê | Đạt | Bộ ký tự theo phạm vi test | 2 |
 | T13 | `test_render_axes_and_editorial_text_without_missing_glyphs` | Render trục, legend, phụ đề, annotation và nguồn không báo thiếu glyph | Đạt | Chưa đo cỡ chữ ở khoảng cách trình chiếu | 2 |
+| T14 | `test_axis_labels_and_ticks_share_style_and_equal_gaps` | Cùng họ font, weight, màu và khoảng hở 5 pt trên cả hai trục sau khi render | Đạt | Đo với trục phẳng, nhãn mặc định | 2 |
 
 ## 11. Hình ảnh minh chứng
 

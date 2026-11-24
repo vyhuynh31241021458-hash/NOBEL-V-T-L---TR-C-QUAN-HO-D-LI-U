@@ -12,8 +12,8 @@ Bộ quy chuẩn Matplotlib dùng chung cho báo cáo BACI và khảo sát. Ph�
 | HS Section | Nhãn rút gọn theo HS2002 của BACI, thứ tự I–XXI. Giữ màu theo mã khi lọc. Ưu tiên tối đa 7 Section + Khác khi phân biệt bằng màu. Với cả 21 nhóm, ưu tiên nhãn trực tiếp, màu đơn hoặc thang tuần tự nếu màu mã hóa giá trị. Nhãn bảng khảo sát HS2022 cần đối chiếu riêng theo nguồn. |
 | Thang tuần tự | `Blues` với `Normalize`, nhạt → đậm cho độ lớn. Ưu tiên gốc 0 với dữ liệu không âm. Dùng chung giới hạn khi so sánh các hình cùng chỉ tiêu, đơn vị và phạm vi. |
 | Thang phân kỳ | `RdBu` với `TwoSlopeNorm`, âm đỏ, 0 trung tính, dương xanh, giới hạn đối xứng. Vạch 0 và dấu trên nhãn làm rõ chiều chênh lệch trong bản xám. |
-| Font | Modern Editorial. Bricolage Grotesque cho tiêu đề chính, nhãn trục, vạch chia, chú giải, nhãn số, KPI và nguồn. Platypi cho phụ đề và chú thích diễn giải. DejaVu Sans là font dự phòng. Tiêu đề 18 pt đậm, phụ đề 12 pt, nhãn trục 11 pt, vạch chia, chú giải và nhãn trực tiếp 10 pt, nguồn 9 pt. |
-| Bố cục | Nền trắng, lưới định lượng `#E5E5E5` phía sau dữ liệu, ẩn viền trên/phải. Chú giải không viền, đặt phía trên hoặc bên phải khi cần. Hình mặc định 10 × 6 inch, bản slide ngang 12 × 6.75 inch. Xuất PNG 300 DPI theo mặc định. |
+| Font | Modern Editorial. Bricolage Grotesque cho tiêu đề chính, nhãn trục, vạch chia, chú giải, nhãn số, KPI và nguồn. Platypi cho phụ đề và chú thích diễn giải. DejaVu Sans là font dự phòng. Tiêu đề mặc định 18 pt, đậm và căn giữa. Phụ đề 12 pt, nhãn trục 11 pt, vạch chia, chú giải và nhãn trực tiếp 10 pt, nguồn 9 pt. Nhãn trục và số chia trục cùng dùng Bricolage Grotesque Regular, màu `#444444`. |
+| Bố cục | Nền trắng, tắt lưới nền, ẩn viền trên/phải. Trên cả X và Y, khoảng hở từ đường trục đến số và từ số đến nhãn đơn vị đều mặc định 5 pt. Biểu đồ cán cân giữ đường tham chiếu tại 0. Chú giải không viền, đặt phía trên hoặc bên phải khi cần. Hình mặc định 10 × 6 inch, bản slide ngang 12 × 6.75 inch. Xuất PNG 300 DPI theo mặc định. |
 | Điểm nhấn | Giữ màu riêng của nhóm được chọn nếu đã có bảng màu nhận diện. Màu nhấn dự phòng `#0072B2`, nhóm bối cảnh `#BDBDBD`. Thêm nhãn đậm, marker hoặc đường 3 pt để giữ điểm nhấn khi mất màu. |
 | Thể hiện số | Dấu phẩy phân cách hàng nghìn, dấu chấm thập phân, dấu trừ `−`. Kim ngạch mặc định 1 chữ số thập phân theo tỷ USD, có thể chuyển sang triệu USD. Cán cân và tăng trưởng ghi dấu + cho số dương. Chênh lệch tỷ lệ dùng pp. |
 
@@ -29,14 +29,16 @@ Bricolage Grotesque tạo hệ chữ thống nhất cho phần tiêu đề và s
 
 Trong khối `with apply_style()`, chữ mặc định dùng Bricolage Grotesque. Khi thêm phụ đề, lời diễn giải, KPI hoặc nguồn, truyền bộ thuộc tính theo vai trò.
 
+`SUBTITLE`, `ANNOTATION` và `SOURCE` căn giữa chữ theo điểm neo. Dùng `x=0.5` trong `fig.text()` để căn giữa toàn hình. Với chú thích riêng từng ô, đặt điểm neo ở giữa ô đó.
+
 ```python
 from house_style.typography import ANNOTATION, KPI, SOURCE, SUBTITLE
 
 # Đặt các lệnh trong khối with apply_style() của biểu đồ.
-fig.text(0.1, 0.91, "Kim ngạch xuất khẩu · Tỷ USD", **SUBTITLE)
+fig.text(0.5, 0.91, "Kim ngạch xuất khẩu · Tỷ USD", **SUBTITLE)
 ax.annotate("Điểm cần diễn giải", xy=(0, 1), **ANNOTATION)
 ax.text(0.8, 0.9, "125.6", transform=ax.transAxes, **KPI)
-fig.text(0.1, 0.02, "Nguồn: Dữ liệu minh họa", **SOURCE)
+fig.text(0.5, 0.02, "Nguồn: Dữ liệu minh họa", **SOURCE)
 ```
 
 ## B. Mẫu áp dụng
@@ -46,14 +48,12 @@ fig.text(0.1, 0.02, "Nguồn: Dữ liệu minh họa", **SOURCE)
 ```python
 import matplotlib.pyplot as plt
 from house_style import PARTNER_COLORS, apply_style
-from house_style.theme import declutter
 
 with apply_style():
     fig, ax = plt.subplots()
     ax.bar(["Trung Quốc", "Hoa Kỳ"], [94.0, 140.5],
            color=[PARTNER_COLORS["CHN"], PARTNER_COLORS["USA"]])
     ax.set_ylabel("Kim ngạch (tỷ USD)")
-    declutter(ax)
 ```
 
 ## C. Kiểm thử và ảnh bằng chứng
