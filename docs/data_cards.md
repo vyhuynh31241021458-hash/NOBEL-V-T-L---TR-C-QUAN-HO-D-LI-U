@@ -1,31 +1,40 @@
-# P03 · Nguồn và mô tả dữ liệu T06
+# P03 · Data cards
 
-## Quy trình tái lập
+## BACI · CEPII
 
-1. Dùng kết quả T01 làm bảng khảo sát gốc. T01 chuẩn hóa giá, xuất xứ và giờ, đồng thời giữ các trường gốc và cờ xác minh để đối chiếu.
-2. Ghép mã HS2022 từ T02 và kết quả phân nhóm giá từ T04 bằng record_id. Giữ tất cả mẫu của T01. Chuẩn hóa Chapter thành chuỗi hai ký tự.
-3. Chạy task5_merge.py để tạo ba CSV cuối. So sánh khảo sát và BACI ở cấp Chapter. Giữ kim ngạch trong bảng tổng hợp riêng.
-4. Chạy 01_data.ipynb để kiểm tra khóa, dữ liệu thiếu, phạm vi năm, mã và tổng kim ngạch. Notebook xuất cleaning_log.csv và task6_quality.png vào docs/.
+| Mục | Mô tả |
+|---|---|
+| Nguồn | [CEPII BACI](https://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=37) · [Trang CEPII thay thế và thông tin phát hành](https://www.international-economics.eu/CEPII/en/bdd_modele/bdd_modele_item.asp?id=37) |
+| Phiên bản và ngày tải | HS02 (HS2002), V202601. CEPII ghi cập nhật phiên bản ngày 30/01/2026. Ngày tải của nhóm: 23/10/2026 (23:59). |
+| Giấy phép | [Licence Ouverte / Etalab 2.0](https://github.com/etalab/licence-ouverte/blob/master/LO.md). Ghi nguồn CEPII, BACI và phiên bản khi sử dụng. |
+| Phạm vi | Bản HS02 của CEPII bao phủ 2002–2024. P03 dùng 2005–2024, lấy các luồng Việt Nam để tổng hợp theo năm, đối tác và chương HS. Mạng gồm các luồng có hướng giữa tập nút ASEAN-10 lịch sử và 30 đối tác thương mại lớn của Việt Nam, lấy hợp của hai tập. |
+| Đơn vị quan sát | Bản gốc gồm năm × nước xuất khẩu × nước nhập khẩu × sản phẩm HS6. Khóa tương ứng là `t, i, j, k`. |
+| Đơn vị đo | `v` gốc là nghìn USD hiện hành, nhân 1.000 để lưu `trade_usd` bằng USD danh nghĩa. `q` gốc là tấn khi có báo cáo. Các bảng tổng hợp P03 dùng kim ngạch. |
+| Cách biên soạn | CEPII hài hòa hai phía khai báo thương mại từ UN Comtrade, điều chỉnh chênh lệch định giá CIF/FOB và cân nhắc độ tin cậy của bên báo cáo. P03 lọc năm, xác định chiều thương mại theo vai trò của Việt Nam và tổng hợp HS6 lên chương. |
+| Vấn đề đã biết | Mã BACI `490` / `S19` biểu thị nhóm **Other Asia, nes**, được giữ trong đối chiếu tổng. Chỉ so sánh khảo sát HS2022 với BACI HS2002 ở chương hai ký tự và lưu ý thay đổi phạm vi chương giữa hai phiên bản. Kim ngạch USD danh nghĩa có thể thay đổi do giá và tỷ giá. |
 
-## Nguồn và cột chính
+## World Development Indicators · World Bank
 
-| Bảng | Đơn vị quan sát | Cột và đơn vị |
-|---|---|---|
-| survey_final.csv | Một mẫu khảo sát | record_id là mã mẫu, store là điểm khảo sát, origin_country là xuất xứ ghi nhận, price_vnd là giá VND, price_normalized là giá theo price_comparison_unit, price_tier là mức giá T04, hs2 là Chapter HS2022, task4_note ghi lý do hoặc ghi chú T04, collector là mã người thu |
-| survey_hs_summary.csv | Một nhóm Chapter, siêu thị, xuất xứ, ngành hàng, mức giá | product_count là số mẫu trong nhóm |
-| product_year.csv và baci_hs_summary.csv | Năm × Chapter × chiều thương mại | year là năm, hs2 là Chapter HS2002, trade_flow là Export/Import, trade_usd là USD |
-| partner_year.csv | Năm × đối tác × chiều thương mại | partner_code là mã đối tác BACI, partner_iso3 là mã đối tác hoặc mã nhóm, partner_name là tên đối tác, trade_usd là USD |
-| trade_year.csv | Một năm của Việt Nam | export_usd và import_usd là kim ngạch xuất và nhập khẩu bằng USD |
-| cleaning_log.csv | Một ghi nhận chất lượng | record_id/mã đối tác, field, issue và action |
+| Mục | Mô tả |
+|---|---|
+| Nguồn | [World Development Indicators – DataBank](https://databank.worldbank.org/source/world-development-indicators) · [Metadata chỉ số](https://databank.worldbank.org/metadataglossary/world-development-indicators/series) |
+| Phiên bản và ngày tải | WDI là bộ dữ liệu cập nhật định kỳ. Ngày xuất DataBank và phiên bản snapshot chính thức của tệp gốc chưa có trong hồ sơ kiểm tra. Snapshot dùng cho P03 được lưu ở `wdi_vietnam_clean.csv`. |
+| Giấy phép | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) theo điều khoản dữ liệu World Bank, có ngoại lệ theo nguồn/chỉ số. Ghi nguồn World Bank, World Development Indicators và tham chiếu [điều khoản sử dụng dữ liệu](https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets). |
+| Phạm vi và đơn vị quan sát | Việt Nam (`VNM`), 2005–2024, 20 dòng nước × năm. Dùng GDP, tăng trưởng GDP, FDI ròng vào, tỷ trọng thương mại hàng hóa/GDP và kim ngạch xuất khẩu hàng hóa. |
+| Cách biên soạn và xử lý | World Bank tổng hợp chỉ số từ các cơ quan thống kê và nguồn quốc tế theo metadata từng chỉ số. P03 đọc bản xuất DataBank, chuyển năm từ cột sang dòng, đổi ký hiệu `..` thành giá trị thiếu, rồi ghép BACI theo nước và năm. |
+| Đơn vị đo | GDP, FDI và xuất khẩu hàng hóa là USD hiện hành. Tăng trưởng GDP và thương mại hàng hóa/GDP là %. |
+| Vấn đề đã biết | Chênh lệch xuất khẩu được tính bằng `100 × (BACI − WDI) / WDI`. Trong snapshot P03, chênh lệch dương **7,67–24,80%** trong 2005–2024 và **24,80% năm 2024**. Khoảng 15–25% nêu trong đề tóm lược nhiều năm. Khác biệt về biên soạn và phạm vi thống kê cần được xem xét khi diễn giải. P03 giữ hai chuỗi và ghi nhận chênh lệch. |
 
-## Kết quả và hạn chế
+## Khảo sát điểm bán · Nhóm P03
 
-- 398 mẫu khảo sát giữ đủ mã, 26 Chapter, 0 mẫu thiếu HS Chapter. Có 306 mẫu có mức giá và 92 mẫu chưa xếp mức giá, đều có lý do T04. Có 14 mẫu mang cờ cần xác minh từ T01.
-- BACI có 3.840 dòng sản phẩm và 6.776 dòng đối tác. Cả hai khớp trade_year.csv ở 40 cặp năm × chiều, chênh lệch tối đa 0 USD.
-- 490/S19 là nhóm Other Asia, nes. Giữ nhóm này trong tổng kim ngạch.
-- Khảo sát thu tại bốn điểm năm 2026. Dữ liệu BACI bao phủ 2005–2024. Số mẫu mô tả danh mục ghi nhận tại kệ. Kim ngạch mô tả giá trị thương mại.
-- Việc đối chiếu HS2022 với HS2002 giả định cùng mã Chapter có thể so sánh ở cấp nhóm rộng. Phạm vi hàng hóa trong mỗi chương có thể khác giữa các phiên bản.
+| Mục | Mô tả |
+|---|---|
+| Nguồn | Dữ liệu sơ cấp của nhóm. [Bảng tổng khảo sát gốc (398 mẫu)](../P03%20Survey/data_raw/survey_398.csv) · [Bảng khảo sát đã làm sạch](../P03%20Survey/data_clean/survey_clean.csv) · [Bảng ghép T05](../P03%20Survey/data_clean/survey_final.csv). |
+| Ngày và phiên bản | Đợt thu 12/11/2026 và 22/11/2026 theo trường ngày khảo sát. Phiên bản bàn giao T05/T06 gồm 398 mã mẫu. |
+| Giấy phép | Chưa có giấy phép mở được công bố cho dữ liệu nhóm. |
+| Phạm vi | AEON Bình Tân và GO! An Lạc, mỗi nơi 175 mẫu. AEON Tạ Quang Bửu 13 mẫu, GO! Tô Hiến Thành 35 mẫu. Mỗi dòng là một lần ghi nhận sản phẩm tại một điểm khảo sát. |
+| Cách thu thập | Khảo sát trực tiếp tại điểm bán, ghi thông tin sản phẩm, nhãn xuất xứ, giá và quy cách quan sát. T01 chuẩn hóa dữ liệu. T02 gán chương HS2022. T04 phân nhóm hàng/mức giá. T05 ghép theo `record_id`. |
+| Đơn vị đo | `price_vnd` là VND theo quy cách ghi nhận. `price_normalized` sử dụng đơn vị tại `price_comparison_unit`. Số mẫu là số lượt ghi nhận. |
+| Vấn đề đã biết | Phạm vi giới hạn ở bốn điểm và hai đợt ghi nhận, nên tỷ lệ mẫu mô tả mẫu khảo sát. Giá và danh mục có thể thay đổi theo điểm/thời gian. Có 14 mẫu mang cờ cần xác minh từ T01. Có 306 mẫu đã xếp mức giá và 92 mẫu giữ trống mức giá kèm lý do T04. `collector` lưu mã C01–C05. |
 
-## Người thu mẫu
-
-Bảng `collector_by_record.csv` ánh xạ 398 mã mẫu sang năm mã người thu. Notebook tính tỷ lệ đóng góp trên tổng số mẫu và đánh dấu các tỷ lệ dưới 20%.
+Ngày rà soát tài liệu nguồn cho T09 là 24/11/2026. Xem [bảng trừu tượng hóa](t09_data_abstraction.md), [từ điển dữ liệu](data_dictionary.csv) và [nhật ký](cleaning_log.csv).

@@ -1,0 +1,167 @@
+﻿dataset,column,attribute_type,direction,role,unit,definition
+BACI HS02 gốc,t,Thời gian,Tuần tự,Key,năm,Năm của giao dịch trong BACI gốc.
+BACI HS02 gốc,i,Định danh,Không thứ tự,Key,mã,Mã nước xuất khẩu BACI.
+BACI HS02 gốc,j,Định danh,Không thứ tự,Key,mã,Mã nước nhập khẩu BACI.
+BACI HS02 gốc,k,Định danh,Không thứ tự,Key,mã,Mã sản phẩm HS2002 ở cấp 6 ký tự. Giữ số 0 đầu.
+BACI HS02 gốc,v,Định lượng,Tuần tự,Value,nghìn USD danh nghĩa,Kim ngạch BACI gốc. Nhân 1.000 để đổi sang USD.
+BACI HS02 gốc,q,Định lượng,Tuần tự,Value,tấn,Khối lượng BACI gốc khi nguồn có báo cáo.
+partner_year.csv,year,Thời gian,Tuần tự,Key,năm,"Năm quan sát, từ 2005 đến 2024 trong các bảng BACI/WDI P03."
+partner_year.csv,trade_flow,Phân loại danh nghĩa,Không thứ tự,Key,—,Chiều thương mại nhìn từ Việt Nam. Export hoặc Import.
+partner_year.csv,partner_code,Định danh,Không thứ tự,Key,mã,"Mã đối tác BACI dùng làm khóa. 490 là nhóm Other Asia, nes."
+partner_year.csv,partner_iso3,Định danh,Không thứ tự,Value,mã,Mã hiển thị ISO3 hoặc mã nhóm BACI như S19.
+partner_year.csv,partner_name,Văn bản,Không thứ tự,Value,—,Tên đối tác theo danh mục BACI.
+partner_year.csv,trade_usd,Định lượng,Tuần tự,Value,USD danh nghĩa,Tổng kim ngạch của nhóm theo khóa bảng.
+product_year.csv,year,Thời gian,Tuần tự,Key,năm,"Năm quan sát, từ 2005 đến 2024 trong các bảng BACI/WDI P03."
+product_year.csv,trade_flow,Phân loại danh nghĩa,Không thứ tự,Key,—,Chiều thương mại nhìn từ Việt Nam. Export hoặc Import.
+product_year.csv,hs2,Định danh,Không thứ tự,Key,mã,"Mã chương HS gồm hai ký tự. Survey dùng HS2022, BACI dùng HS2002."
+product_year.csv,trade_usd,Định lượng,Tuần tự,Value,USD danh nghĩa,Tổng kim ngạch của nhóm theo khóa bảng.
+product_year_enriched.csv,year,Thời gian,Tuần tự,Key,năm,"Năm quan sát, từ 2005 đến 2024 trong các bảng BACI/WDI P03."
+product_year_enriched.csv,trade_flow,Phân loại danh nghĩa,Không thứ tự,Key,—,Chiều thương mại nhìn từ Việt Nam. Export hoặc Import.
+product_year_enriched.csv,hs2,Định danh,Không thứ tự,Key,mã,"Mã chương HS gồm hai ký tự. Survey dùng HS2022, BACI dùng HS2002."
+product_year_enriched.csv,trade_usd,Định lượng,Tuần tự,Value,USD danh nghĩa,Tổng kim ngạch của nhóm theo khóa bảng.
+product_year_enriched.csv,chapter_name,Văn bản,Không thứ tự,Value,—,Tên chương HS2002.
+product_year_enriched.csv,section_code,Định danh,Không thứ tự,Value,mã,"Mã phần HS2002 bằng số La Mã, giữ dạng chuỗi."
+product_year_enriched.csv,section_name,Văn bản,Không thứ tự,Value,—,Tên phần HS2002.
+partner_product_year.csv,year,Thời gian,Tuần tự,Key,năm,"Năm quan sát, từ 2005 đến 2024 trong các bảng BACI/WDI P03."
+partner_product_year.csv,trade_flow,Phân loại danh nghĩa,Không thứ tự,Key,—,Chiều thương mại nhìn từ Việt Nam. Export hoặc Import.
+partner_product_year.csv,partner_code,Định danh,Không thứ tự,Key,mã,"Mã đối tác BACI dùng làm khóa. 490 là nhóm Other Asia, nes."
+partner_product_year.csv,hs2,Định danh,Không thứ tự,Key,mã,"Mã chương HS gồm hai ký tự. Survey dùng HS2022, BACI dùng HS2002."
+partner_product_year.csv,trade_usd,Định lượng,Tuần tự,Value,USD danh nghĩa,Tổng kim ngạch của nhóm theo khóa bảng.
+partner_product_year_enriched.csv,year,Thời gian,Tuần tự,Key,năm,"Năm quan sát, từ 2005 đến 2024 trong các bảng BACI/WDI P03."
+partner_product_year_enriched.csv,trade_flow,Phân loại danh nghĩa,Không thứ tự,Key,—,Chiều thương mại nhìn từ Việt Nam. Export hoặc Import.
+partner_product_year_enriched.csv,partner_code,Định danh,Không thứ tự,Key,mã,"Mã đối tác BACI dùng làm khóa. 490 là nhóm Other Asia, nes."
+partner_product_year_enriched.csv,hs2,Định danh,Không thứ tự,Key,mã,"Mã chương HS gồm hai ký tự. Survey dùng HS2022, BACI dùng HS2002."
+partner_product_year_enriched.csv,trade_usd,Định lượng,Tuần tự,Value,USD danh nghĩa,Tổng kim ngạch của nhóm theo khóa bảng.
+partner_product_year_enriched.csv,chapter_name,Văn bản,Không thứ tự,Value,—,Tên chương HS2002.
+partner_product_year_enriched.csv,section_code,Định danh,Không thứ tự,Value,mã,"Mã phần HS2002 bằng số La Mã, giữ dạng chuỗi."
+partner_product_year_enriched.csv,section_name,Văn bản,Không thứ tự,Value,—,Tên phần HS2002.
+partner_section_year.csv,year,Thời gian,Tuần tự,Key,năm,"Năm quan sát, từ 2005 đến 2024 trong các bảng BACI/WDI P03."
+partner_section_year.csv,trade_flow,Phân loại danh nghĩa,Không thứ tự,Key,—,Chiều thương mại nhìn từ Việt Nam. Export hoặc Import.
+partner_section_year.csv,partner_code,Định danh,Không thứ tự,Key,mã,"Mã đối tác BACI dùng làm khóa. 490 là nhóm Other Asia, nes."
+partner_section_year.csv,section_code,Định danh,Không thứ tự,Key,mã,"Mã phần HS2002 bằng số La Mã, giữ dạng chuỗi."
+partner_section_year.csv,section_name,Văn bản,Không thứ tự,Value,—,Tên phần HS2002.
+partner_section_year.csv,trade_usd,Định lượng,Tuần tự,Value,USD danh nghĩa,Tổng kim ngạch của nhóm theo khóa bảng.
+section_year.csv,year,Thời gian,Tuần tự,Key,năm,"Năm quan sát, từ 2005 đến 2024 trong các bảng BACI/WDI P03."
+section_year.csv,trade_flow,Phân loại danh nghĩa,Không thứ tự,Key,—,Chiều thương mại nhìn từ Việt Nam. Export hoặc Import.
+section_year.csv,section_code,Định danh,Không thứ tự,Key,mã,"Mã phần HS2002 bằng số La Mã, giữ dạng chuỗi."
+section_year.csv,section_name,Văn bản,Không thứ tự,Value,—,Tên phần HS2002.
+section_year.csv,trade_usd,Định lượng,Tuần tự,Value,USD danh nghĩa,Tổng kim ngạch của nhóm theo khóa bảng.
+trade_year.csv,year,Thời gian,Tuần tự,Key,năm,"Năm quan sát, từ 2005 đến 2024 trong các bảng BACI/WDI P03."
+trade_year.csv,export_usd,Định lượng,Tuần tự,Value,USD danh nghĩa,Tổng xuất khẩu hàng hóa của Việt Nam từ BACI.
+trade_year.csv,import_usd,Định lượng,Tuần tự,Value,USD danh nghĩa,Tổng nhập khẩu hàng hóa của Việt Nam từ BACI.
+trade_year.csv,trade_balance_usd,Định lượng,Phân kỳ quanh 0,Value,USD danh nghĩa,Cán cân bằng xuất khẩu trừ nhập khẩu.
+trade_year.csv,total_trade_usd,Định lượng,Tuần tự,Value,USD danh nghĩa,Tổng export_usd và import_usd.
+trade_year.csv,country_iso3,Định danh,Không thứ tự,Key,mã,Mã ISO3 quốc gia. VNM trong bảng Việt Nam.
+wdi_vietnam_clean.csv,country_iso3,Định danh,Không thứ tự,Key,mã,Mã ISO3 quốc gia. VNM trong bảng Việt Nam.
+wdi_vietnam_clean.csv,year,Thời gian,Tuần tự,Key,năm,"Năm quan sát, từ 2005 đến 2024 trong các bảng BACI/WDI P03."
+wdi_vietnam_clean.csv,fdi_inflows_usd,Định lượng,Tuần tự,Value,USD danh nghĩa,FDI ròng vào theo WDI BX.KLT.DINV.CD.WD. Có thể âm.
+wdi_vietnam_clean.csv,gdp_growth_pct,Định lượng,Phân kỳ quanh 0,Value,%,"Tăng trưởng GDP hằng năm theo giá cố định, WDI NY.GDP.MKTP.KD.ZG."
+wdi_vietnam_clean.csv,gdp_usd,Định lượng,Tuần tự,Value,USD danh nghĩa,GDP theo WDI NY.GDP.MKTP.CD.
+wdi_vietnam_clean.csv,merchandise_trade_gdp_pct,Định lượng,Tuần tự,Value,%,Thương mại hàng hóa/GDP theo WDI TG.VAL.TOTL.GD.ZS.
+wdi_vietnam_clean.csv,wdi_merchandise_exports_usd,Định lượng,Tuần tự,Value,USD danh nghĩa,Xuất khẩu hàng hóa theo WDI TX.VAL.MRCH.CD.WT.
+baci_wdi_vietnam_2005_2024.csv,year,Thời gian,Tuần tự,Key,năm,"Năm quan sát, từ 2005 đến 2024 trong các bảng BACI/WDI P03."
+baci_wdi_vietnam_2005_2024.csv,export_usd,Định lượng,Tuần tự,Value,USD danh nghĩa,Tổng xuất khẩu hàng hóa của Việt Nam từ BACI.
+baci_wdi_vietnam_2005_2024.csv,import_usd,Định lượng,Tuần tự,Value,USD danh nghĩa,Tổng nhập khẩu hàng hóa của Việt Nam từ BACI.
+baci_wdi_vietnam_2005_2024.csv,trade_balance_usd,Định lượng,Phân kỳ quanh 0,Value,USD danh nghĩa,Cán cân bằng xuất khẩu trừ nhập khẩu.
+baci_wdi_vietnam_2005_2024.csv,total_trade_usd,Định lượng,Tuần tự,Value,USD danh nghĩa,Tổng export_usd và import_usd.
+baci_wdi_vietnam_2005_2024.csv,country_iso3,Định danh,Không thứ tự,Key,mã,Mã ISO3 quốc gia. VNM trong bảng Việt Nam.
+baci_wdi_vietnam_2005_2024.csv,fdi_inflows_usd,Định lượng,Tuần tự,Value,USD danh nghĩa,FDI ròng vào theo WDI BX.KLT.DINV.CD.WD. Có thể âm.
+baci_wdi_vietnam_2005_2024.csv,gdp_growth_pct,Định lượng,Phân kỳ quanh 0,Value,%,"Tăng trưởng GDP hằng năm theo giá cố định, WDI NY.GDP.MKTP.KD.ZG."
+baci_wdi_vietnam_2005_2024.csv,gdp_usd,Định lượng,Tuần tự,Value,USD danh nghĩa,GDP theo WDI NY.GDP.MKTP.CD.
+baci_wdi_vietnam_2005_2024.csv,merchandise_trade_gdp_pct,Định lượng,Tuần tự,Value,%,Thương mại hàng hóa/GDP theo WDI TG.VAL.TOTL.GD.ZS.
+baci_wdi_vietnam_2005_2024.csv,wdi_merchandise_exports_usd,Định lượng,Tuần tự,Value,USD danh nghĩa,Xuất khẩu hàng hóa theo WDI TX.VAL.MRCH.CD.WT.
+baci_wdi_vietnam_2005_2024.csv,baci_exports_to_gdp_pct,Định lượng,Tuần tự,Value,%,100 × xuất khẩu BACI / GDP WDI.
+baci_wdi_vietnam_2005_2024.csv,baci_total_trade_to_gdp_pct,Định lượng,Tuần tự,Value,%,100 × tổng thương mại BACI / GDP WDI.
+baci_wdi_vietnam_2005_2024.csv,baci_vs_wdi_exports_pct_diff,Định lượng,Phân kỳ quanh 0,Value,%,100 × (xuất khẩu BACI − xuất khẩu WDI) / xuất khẩu WDI.
+network_year.csv,year,Thời gian,Tuần tự,Key,năm,"Năm quan sát, từ 2005 đến 2024 trong các bảng BACI/WDI P03."
+network_year.csv,exporter_code,Định danh,Không thứ tự,Key,mã,Mã nút đi. Tham chiếu network_nodes.country_code.
+network_year.csv,importer_code,Định danh,Không thứ tự,Key,mã,Mã nút đến. Tham chiếu network_nodes.country_code.
+network_year.csv,trade_usd,Định lượng,Tuần tự,Value,USD danh nghĩa,Tổng kim ngạch của nhóm theo khóa bảng.
+network_nodes.csv,country_code,Định danh,Không thứ tự,Key,mã,Mã nút theo danh mục nước BACI.
+network_nodes.csv,country_iso3,Định danh,Không thứ tự,Value,mã,Mã ISO3 quốc gia. VNM trong bảng Việt Nam.
+network_nodes.csv,country_name,Văn bản,Không thứ tự,Value,—,Tên quốc gia hoặc thực thể trong danh mục BACI.
+network_nodes.csv,is_asean_2005_2024,Boolean,Không thứ tự,Value,—,Cờ thuộc tập ASEAN-10 lịch sử mà P03 sử dụng.
+network_nodes.csv,top30_rank,Thứ bậc,Tuần tự,Value,—,Hạng đối tác theo tổng kim ngạch với Việt Nam 2005–2024. Trống ngoài top 30.
+network_nodes.csv,vietnam_total_trade_2005_2024_usd,Định lượng,Tuần tự,Value,USD danh nghĩa,Tổng kim ngạch hai chiều của nút với Việt Nam trong giai đoạn phân tích.
+hs_classification.csv,hs2,Định danh,Không thứ tự,Key,mã,"Mã chương HS gồm hai ký tự. Survey dùng HS2022, BACI dùng HS2002."
+hs_classification.csv,chapter_name,Văn bản,Không thứ tự,Value,—,Tên chương HS2002.
+hs_classification.csv,section_code,Định danh,Không thứ tự,Value,mã,"Mã phần HS2002 bằng số La Mã, giữ dạng chuỗi."
+hs_classification.csv,section_name,Văn bản,Không thứ tự,Value,—,Tên phần HS2002.
+hs_classification.csv,hs_revision,Phân loại danh nghĩa,Không thứ tự,Value,—,Phiên bản danh mục của cây HS. HS2002 trong tệp phân loại.
+hs_classification.csv,source_url,Văn bản,Không thứ tự,Value,—,URL nguồn của danh mục HS.
+survey_clean.csv,record_id,Định danh,Không thứ tự,Key,mã,"Mã duy nhất của mẫu khảo sát, dùng để ghép các bảng khảo sát."
+survey_clean.csv,stt_goc,Định danh,Không thứ tự,Value,mã,"Số thứ tự theo bảng nhập, dùng để truy vết."
+survey_clean.csv,store,Phân loại danh nghĩa,Không thứ tự,Value,—,Điểm bán khảo sát.
+survey_clean.csv,survey_date,Thời gian,Tuần tự,Value,ngày,Ngày khảo sát chuẩn hóa YYYY-MM-DD.
+survey_clean.csv,survey_time,Thời gian,Chu kỳ trong ngày,Value,giờ,Giờ khảo sát chuẩn hóa HH:MM nếu có.
+survey_clean.csv,product_name,Văn bản,Không thứ tự,Value,—,Tên sản phẩm quan sát.
+survey_clean.csv,brand,Phân loại danh nghĩa,Không thứ tự,Value,—,Thương hiệu sau chuẩn hóa. Ô trống khi thiếu.
+survey_clean.csv,spec_text,Văn bản,Không thứ tự,Value,—,Mô tả quy cách dùng sau khi đọc tệp.
+survey_clean.csv,spec_std,Văn bản,Không thứ tự,Value,—,Biểu diễn quy cách đã chuẩn hóa.
+survey_clean.csv,spec_value,Định lượng,Tuần tự,Value,theo spec_unit,Giá trị số của quy cách đã chuẩn hóa.
+survey_clean.csv,spec_unit,Phân loại danh nghĩa,Không thứ tự,Value,—,Đơn vị quy cách chuẩn hóa của spec_value.
+survey_clean.csv,spec_type,Phân loại danh nghĩa,Không thứ tự,Value,—,Loại quy cách dùng để diễn giải số lượng hoặc đơn vị.
+survey_clean.csv,price_vnd,Định lượng,Tuần tự,Value,VND,Giá quan sát theo quy cách ghi nhận.
+survey_clean.csv,origin_country,Phân loại danh nghĩa,Không thứ tự,Value,—,"Nơi sản xuất hoặc xuất xứ theo thông tin ghi nhận, đã chuẩn hóa."
+survey_clean.csv,brand_origin,Phân loại danh nghĩa,Không thứ tự,Value,—,Nước gắn với thương hiệu khi có bằng chứng trong dữ liệu.
+survey_clean.csv,made_in_vietnam,Boolean,Không thứ tự,Value,—,Cờ xuất xứ Việt Nam từ kết quả chuẩn hóa.
+survey_clean.csv,origin_note,Văn bản,Không thứ tự,Value,—,"Ghi chú về xuất xứ, nếu có."
+survey_clean.csv,verify_status,Phân loại danh nghĩa,Không thứ tự,Value,—,Trạng thái xác minh đã ghi ở T01.
+survey_clean.csv,verify_fields,Văn bản,Không thứ tự,Value,—,Danh sách trường cần xác minh từ T01.
+survey_clean.csv,brand_raw,Văn bản,Không thứ tự,Value,—,Giá trị thương hiệu trước chuẩn hóa.
+survey_clean.csv,price_raw,Văn bản,Không thứ tự,Value,—,Giá hoặc nội dung giá trước khi phân tích thành VND.
+survey_clean.csv,spec_raw,Văn bản,Không thứ tự,Value,—,Quy cách trước chuẩn hóa.
+survey_clean.csv,origin_raw,Văn bản,Không thứ tự,Value,—,Ghi nhận xuất xứ trước chuẩn hóa.
+survey_clean.csv,date_raw,Văn bản,Không thứ tự,Value,—,Chuỗi ngày trước chuẩn hóa.
+survey_clean.csv,time_raw,Văn bản,Không thứ tự,Value,—,Chuỗi giờ trước chuẩn hóa.
+survey_clean.csv,source_row,Định danh,Không thứ tự,Value,mã,Số dòng trong nguồn nhập. Dùng để truy vết.
+survey_final.csv,record_id,Định danh,Không thứ tự,Key,mã,"Mã duy nhất của mẫu khảo sát, dùng để ghép các bảng khảo sát."
+survey_final.csv,stt_goc,Định danh,Không thứ tự,Value,mã,"Số thứ tự theo bảng nhập, dùng để truy vết."
+survey_final.csv,store,Phân loại danh nghĩa,Không thứ tự,Value,—,Điểm bán khảo sát.
+survey_final.csv,survey_date,Thời gian,Tuần tự,Value,ngày,Ngày khảo sát chuẩn hóa YYYY-MM-DD.
+survey_final.csv,survey_time,Thời gian,Chu kỳ trong ngày,Value,giờ,Giờ khảo sát chuẩn hóa HH:MM nếu có.
+survey_final.csv,product_name,Văn bản,Không thứ tự,Value,—,Tên sản phẩm quan sát.
+survey_final.csv,brand,Phân loại danh nghĩa,Không thứ tự,Value,—,Thương hiệu sau chuẩn hóa. Ô trống khi thiếu.
+survey_final.csv,spec_text,Văn bản,Không thứ tự,Value,—,Mô tả quy cách dùng sau khi đọc tệp.
+survey_final.csv,spec_std,Văn bản,Không thứ tự,Value,—,Biểu diễn quy cách đã chuẩn hóa.
+survey_final.csv,spec_value,Định lượng,Tuần tự,Value,theo spec_unit,Giá trị số của quy cách đã chuẩn hóa.
+survey_final.csv,spec_unit,Phân loại danh nghĩa,Không thứ tự,Value,—,Đơn vị quy cách chuẩn hóa của spec_value.
+survey_final.csv,spec_type,Phân loại danh nghĩa,Không thứ tự,Value,—,Loại quy cách dùng để diễn giải số lượng hoặc đơn vị.
+survey_final.csv,price_vnd,Định lượng,Tuần tự,Value,VND,Giá quan sát theo quy cách ghi nhận.
+survey_final.csv,origin_country,Phân loại danh nghĩa,Không thứ tự,Value,—,"Nơi sản xuất hoặc xuất xứ theo thông tin ghi nhận, đã chuẩn hóa."
+survey_final.csv,brand_origin,Phân loại danh nghĩa,Không thứ tự,Value,—,Nước gắn với thương hiệu khi có bằng chứng trong dữ liệu.
+survey_final.csv,made_in_vietnam,Boolean,Không thứ tự,Value,—,Cờ xuất xứ Việt Nam từ kết quả chuẩn hóa.
+survey_final.csv,origin_note,Văn bản,Không thứ tự,Value,—,"Ghi chú về xuất xứ, nếu có."
+survey_final.csv,verify_status,Phân loại danh nghĩa,Không thứ tự,Value,—,Trạng thái xác minh đã ghi ở T01.
+survey_final.csv,verify_fields,Văn bản,Không thứ tự,Value,—,Danh sách trường cần xác minh từ T01.
+survey_final.csv,brand_raw,Văn bản,Không thứ tự,Value,—,Giá trị thương hiệu trước chuẩn hóa.
+survey_final.csv,price_raw,Văn bản,Không thứ tự,Value,—,Giá hoặc nội dung giá trước khi phân tích thành VND.
+survey_final.csv,spec_raw,Văn bản,Không thứ tự,Value,—,Quy cách trước chuẩn hóa.
+survey_final.csv,origin_raw,Văn bản,Không thứ tự,Value,—,Ghi nhận xuất xứ trước chuẩn hóa.
+survey_final.csv,date_raw,Văn bản,Không thứ tự,Value,—,Chuỗi ngày trước chuẩn hóa.
+survey_final.csv,time_raw,Văn bản,Không thứ tự,Value,—,Chuỗi giờ trước chuẩn hóa.
+survey_final.csv,source_row,Định danh,Không thứ tự,Value,mã,Số dòng trong nguồn nhập. Dùng để truy vết.
+survey_final.csv,category_clean,Phân loại danh nghĩa,Không thứ tự,Value,—,Nhóm hàng chuẩn hóa từ T04.
+survey_final.csv,price_tier,Thứ bậc,Tuần tự,Value,—,Thấp < Trung bình < Cao. Ô trống là chưa xếp mức.
+survey_final.csv,price_normalized,Định lượng,Tuần tự,Value,VND theo đơn vị T04,Giá quy về đơn vị tại price_comparison_unit.
+survey_final.csv,task4_note,Văn bản,Không thứ tự,Value,—,Ghi chú phân nhóm hoặc lý do để trống mức giá.
+survey_final.csv,price_comparison_unit,Phân loại danh nghĩa,Không thứ tự,Value,—,Đơn vị so sánh của price_normalized.
+survey_final.csv,hs2022_section,Định danh,Không thứ tự,Value,mã,Mã phần HS2022 bằng số La Mã.
+survey_final.csv,hs2,Định danh,Không thứ tự,Value,mã,"Mã chương HS gồm hai ký tự. Survey dùng HS2022, BACI dùng HS2002."
+survey_final.csv,collector,Định danh,Không thứ tự,Value,mã,Mã người thu C01–C05.
+survey_hs_summary.csv,hs2,Định danh,Không thứ tự,Key,mã,"Mã chương HS gồm hai ký tự. Survey dùng HS2022, BACI dùng HS2002."
+survey_hs_summary.csv,store,Phân loại danh nghĩa,Không thứ tự,Key,—,Điểm bán khảo sát.
+survey_hs_summary.csv,origin_country,Phân loại danh nghĩa,Không thứ tự,Key,—,"Nơi sản xuất hoặc xuất xứ theo thông tin ghi nhận, đã chuẩn hóa."
+survey_hs_summary.csv,category_clean,Phân loại danh nghĩa,Không thứ tự,Key,—,Nhóm hàng chuẩn hóa từ T04.
+survey_hs_summary.csv,price_tier,Thứ bậc,Tuần tự,Key,—,Thấp < Trung bình < Cao. Ô trống là chưa xếp mức.
+survey_hs_summary.csv,product_count,Định lượng,Tuần tự,Value,mẫu,Số lượt ghi nhận sản phẩm trong nhóm.
+baci_hs_summary.csv,year,Thời gian,Tuần tự,Key,năm,"Năm quan sát, từ 2005 đến 2024 trong các bảng BACI/WDI P03."
+baci_hs_summary.csv,hs2,Định danh,Không thứ tự,Key,mã,"Mã chương HS gồm hai ký tự. Survey dùng HS2022, BACI dùng HS2002."
+baci_hs_summary.csv,trade_flow,Phân loại danh nghĩa,Không thứ tự,Key,—,Chiều thương mại nhìn từ Việt Nam. Export hoặc Import.
+baci_hs_summary.csv,trade_usd,Định lượng,Tuần tự,Value,USD danh nghĩa,Tổng kim ngạch của nhóm theo khóa bảng.
+collector_by_record.csv,record_id,Định danh,Không thứ tự,Key,mã,"Mã duy nhất của mẫu khảo sát, dùng để ghép các bảng khảo sát."
+collector_by_record.csv,collector,Định danh,Không thứ tự,Value,mã,Mã người thu C01–C05.
+cleaning_log.csv,record_id,Định danh,Không thứ tự,Value,mã,"Mã mẫu, mã đối tác hoặc mã ghi nhận cấp tập dữ liệu. Có thể lặp hoặc để trống."
+cleaning_log.csv,field,Phân loại danh nghĩa,Không thứ tự,Value,—,Trường liên quan đến ghi nhận chất lượng.
+cleaning_log.csv,issue,Phân loại danh nghĩa,Không thứ tự,Value,—,Loại sự cố hoặc lưu ý chất lượng.
+cleaning_log.csv,action,Văn bản,Không thứ tự,Value,—,Cách xử lý hoặc giới hạn cần ghi nhận.

@@ -130,3 +130,10 @@ GO_181,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
 GO_192,price_tier,Chưa xếp mức giá,Giá thiếu hoặc cần xác minh theo Task 1
 GO_203,price_tier,Chưa xếp mức giá,Quy cách cần xác minh theo Task 1
 ,hs2,Chuẩn hóa mã,"Dùng mã dạng hai ký tự, giữ số 0 đầu"
+T09-BACI,v,Đơn vị nguồn,Tổng hợp BACI bằng USD danh nghĩa sau khi quy đổi v từ nghìn USD.
+T09-BACI,source_download_date,Đã xác nhận ngày tải,"Ngày tải của nhóm: 23/10/2026, theo xác nhận của nhóm và ảnh tệp BACI_HS02_V202601 (23:59). CEPII cập nhật phiên bản ngày 30/01/2026."
+T09-WDI,source_download_date,Thiếu metadata nguồn,Lưu snapshot WDI đã làm sạch. Ghi ngày tải và phiên bản xuất là chưa ghi nhận.
+T09-WDI,baci_vs_wdi_exports_pct_diff,Chênh lệch nguồn,"Giữ cả hai chuỗi. Chênh lệch xuất khẩu 7,67–24,80% trong 2005–2024 và 24,80% năm 2024."
+T09-HS,hs2,Khác phiên bản phân loại,Đối chiếu HS2002 và HS2022 ở cấp chương hai ký tự. Ghi rõ giới hạn so sánh.
+T09-SURVEY,collector,Mã hóa người thu,Bản bàn giao sử dụng mã C01–C05. Có 398 mẫu được gán mã.
+T09-SURVEY,license,Thiếu metadata quyền sử dụng,Ghi nhận chưa có giấy phép mở công bố cho dữ liệu khảo sát.
