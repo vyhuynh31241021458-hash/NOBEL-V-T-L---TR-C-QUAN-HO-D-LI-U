@@ -1,2 +1,11 @@
-P03 Baci/data_raw/
-P03 Baci/data_filtered/vietnam_trade_2005_2024.csv
+# Large original BACI data and combined filtered master
+/data/baci/data_raw/
+/data/baci/data_filtered/vietnam_trade_2005_2024.csv
+
+# Local Python/Jupyter environment
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db

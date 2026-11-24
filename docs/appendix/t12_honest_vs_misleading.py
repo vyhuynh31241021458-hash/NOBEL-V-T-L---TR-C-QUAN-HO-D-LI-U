@@ -10,13 +10,13 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.ticker import FuncFormatter
 
-from house_style import apply_style, format_number
-from house_style.highlight import ACCENT_COLOR
-from house_style.theme import BAR_WIDTH, SLIDE_SIZE
-from house_style.typography import DIRECT_LABEL, SOURCE, SUBTITLE
+from notebooks.p03_style import apply_style, format_number
+from notebooks.p03_style.highlight import ACCENT_COLOR
+from notebooks.p03_style.theme import BAR_WIDTH, SLIDE_SIZE
+from notebooks.p03_style.typography import DIRECT_LABEL, SOURCE, SUBTITLE
 
 APPENDIX = Path(__file__).resolve().parent
-SOURCE_CSV = APPENDIX.parents[1] / "P03 Baci" / "data_clean" / "trade_year.csv"
+SOURCE_CSV = APPENDIX.parents[1] / "data" / "clean" / "trade_year.csv"
 YEARS = (2023, 2024)
 UPPER_LIMIT = 140
 CROPPED_BASELINE = 110

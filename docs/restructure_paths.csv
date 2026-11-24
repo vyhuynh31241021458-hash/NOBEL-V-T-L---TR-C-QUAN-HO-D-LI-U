@@ -1,0 +1,119 @@
+old_path,new_path
+P03 Baci/audit_results/01_structure_audit.csv,data/baci/audit_results/01_structure_audit.csv
+P03 Baci/audit_results/02_aggregation_audit.csv,data/baci/audit_results/02_aggregation_audit.csv
+P03 Baci/audit_results/03_baci_wdi_comparison.csv,data/baci/audit_results/03_baci_wdi_comparison.csv
+P03 Baci/audit_results/04_raw_vs_clean_2024.csv,data/baci/audit_results/04_raw_vs_clean_2024.csv
+P03 Baci/audit_results/05_duplicate_iso3.csv,data/baci/audit_results/05_duplicate_iso3.csv
+P03 Baci/audit_results/06_export_partners_2024.csv,data/baci/audit_results/06_export_partners_2024.csv
+P03 Baci/audit_results/07_export_gap_partner_evidence_2024.csv,data/baci/audit_results/07_export_gap_partner_evidence_2024.csv
+P03 Baci/audit_results/08_baci_export_products_china_usa_2024.csv,data/baci/audit_results/08_baci_export_products_china_usa_2024.csv
+P03 Baci/audit_results/comtrade_chn_imports_vnm_2024_total.json,data/baci/audit_results/comtrade_chn_imports_vnm_2024_total.json
+P03 Baci/audit_results/comtrade_usa_imports_vnm_2024_total.json,data/baci/audit_results/comtrade_usa_imports_vnm_2024_total.json
+P03 Baci/audit_results/comtrade_vnm_2024_availability.json,data/baci/audit_results/comtrade_vnm_2024_availability.json
+P03 Baci/audit_results/comtrade_vnm_exports_2023_total.json,data/baci/audit_results/comtrade_vnm_exports_2023_total.json
+P03 Baci/audit_results/comtrade_vnm_exports_2024_H2.json,data/baci/audit_results/comtrade_vnm_exports_2024_H2.json
+P03 Baci/audit_results/comtrade_vnm_exports_2024_H6.json,data/baci/audit_results/comtrade_vnm_exports_2024_H6.json
+P03 Baci/audit_results/comtrade_vnm_exports_2024_total.json,data/baci/audit_results/comtrade_vnm_exports_2024_total.json
+P03 Baci/audit_results/hs_network_validation.json,data/baci/audit_results/hs_network_validation.json
+P03 Baci/data_clean/baci_wdi_vietnam_2005_2024.csv,data/baci/data_clean/baci_wdi_vietnam_2005_2024.csv
+P03 Baci/data_clean/hs_classification.csv,data/baci/data_clean/hs_classification.csv
+P03 Baci/data_clean/network_nodes.csv,data/baci/data_clean/network_nodes.csv
+P03 Baci/data_clean/network_year.csv,data/baci/data_clean/network_year.csv
+P03 Baci/data_clean/partner_product_year.csv,data/baci/data_clean/partner_product_year.csv
+P03 Baci/data_clean/partner_product_year_enriched.csv,data/baci/data_clean/partner_product_year_enriched.csv
+P03 Baci/data_clean/partner_section_year.csv,data/baci/data_clean/partner_section_year.csv
+P03 Baci/data_clean/partner_year.csv,data/baci/data_clean/partner_year.csv
+P03 Baci/data_clean/product_year.csv,data/baci/data_clean/product_year.csv
+P03 Baci/data_clean/product_year_enriched.csv,data/baci/data_clean/product_year_enriched.csv
+P03 Baci/data_clean/quality_report.csv,data/baci/data_clean/quality_report.csv
+P03 Baci/data_clean/section_year.csv,data/baci/data_clean/section_year.csv
+P03 Baci/data_clean/trade_year.csv,data/baci/data_clean/trade_year.csv
+P03 Baci/data_clean/wdi_vietnam_clean.csv,data/baci/data_clean/wdi_vietnam_clean.csv
+P03 Baci/data_filtered/filter_summary.csv,data/baci/data_filtered/filter_summary.csv
+P03 Baci/data_filtered/vietnam_trade_2005.csv,data/baci/data_filtered/vietnam_trade_2005.csv
+P03 Baci/data_filtered/vietnam_trade_2006.csv,data/baci/data_filtered/vietnam_trade_2006.csv
+P03 Baci/data_filtered/vietnam_trade_2007.csv,data/baci/data_filtered/vietnam_trade_2007.csv
+P03 Baci/data_filtered/vietnam_trade_2008.csv,data/baci/data_filtered/vietnam_trade_2008.csv
+P03 Baci/data_filtered/vietnam_trade_2009.csv,data/baci/data_filtered/vietnam_trade_2009.csv
+P03 Baci/data_filtered/vietnam_trade_2010.csv,data/baci/data_filtered/vietnam_trade_2010.csv
+P03 Baci/data_filtered/vietnam_trade_2011.csv,data/baci/data_filtered/vietnam_trade_2011.csv
+P03 Baci/data_filtered/vietnam_trade_2012.csv,data/baci/data_filtered/vietnam_trade_2012.csv
+P03 Baci/data_filtered/vietnam_trade_2013.csv,data/baci/data_filtered/vietnam_trade_2013.csv
+P03 Baci/data_filtered/vietnam_trade_2014.csv,data/baci/data_filtered/vietnam_trade_2014.csv
+P03 Baci/data_filtered/vietnam_trade_2015.csv,data/baci/data_filtered/vietnam_trade_2015.csv
+P03 Baci/data_filtered/vietnam_trade_2016.csv,data/baci/data_filtered/vietnam_trade_2016.csv
+P03 Baci/data_filtered/vietnam_trade_2017.csv,data/baci/data_filtered/vietnam_trade_2017.csv
+P03 Baci/data_filtered/vietnam_trade_2018.csv,data/baci/data_filtered/vietnam_trade_2018.csv
+P03 Baci/data_filtered/vietnam_trade_2019.csv,data/baci/data_filtered/vietnam_trade_2019.csv
+P03 Baci/data_filtered/vietnam_trade_2020.csv,data/baci/data_filtered/vietnam_trade_2020.csv
+P03 Baci/data_filtered/vietnam_trade_2021.csv,data/baci/data_filtered/vietnam_trade_2021.csv
+P03 Baci/data_filtered/vietnam_trade_2022.csv,data/baci/data_filtered/vietnam_trade_2022.csv
+P03 Baci/data_filtered/vietnam_trade_2023.csv,data/baci/data_filtered/vietnam_trade_2023.csv
+P03 Baci/data_filtered/vietnam_trade_2024.csv,data/baci/data_filtered/vietnam_trade_2024.csv
+P03 Baci/scripts/analyze_export_gap.ps1,data/baci/scripts/analyze_export_gap.ps1
+P03 Baci/scripts/audit_baci_data.py,data/baci/scripts/audit_baci_data.py
+P03 Baci/scripts/complete_hs_network.mjs,data/baci/scripts/complete_hs_network.mjs
+P03 Baci/scripts/filter_baci_vietnam.py,data/baci/scripts/filter_baci_vietnam.py
+P03 Baci/scripts/merge_baci_wdi.py,data/baci/scripts/merge_baci_wdi.py
+P03 Baci/scripts/prepare_baci.py,data/baci/scripts/prepare_baci.py
+P03 Baci/scripts/validate_hs_network.mjs,data/baci/scripts/validate_hs_network.mjs
+P03 Baci/scripts/verify_baci_2024.py,data/baci/scripts/verify_baci_2024.py
+P03 Survey/data_clean/baci_hs_summary.csv,data/survey/data_clean/t05_baci_hs_summary.csv
+P03 Survey/data_clean/survey_clean.csv,data/survey/data_clean/t01_survey_clean.csv
+P03 Survey/data_clean/survey_final.csv,data/survey/data_clean/t05_survey_final.csv
+P03 Survey/data_clean/survey_hs_summary.csv,data/survey/data_clean/t05_survey_hs_summary.csv
+P03 Survey/data_clean/survey_segment_All.csv,data/survey/data_clean/t04_survey_segment_all.csv
+P03 Survey/data_clean/survey_segment_final.csv,data/survey/data_clean/survey_segment_final.csv
+P03 Survey/data_clean/survey_segment_unclassified.csv,data/survey/data_clean/survey_segment_unclassified.csv
+P03 Survey/data_raw/hs/hs2022_final.csv,data/survey/data_raw/hs/t02_hs2022_final.csv
+P03 Survey/data_raw/survey_398.csv,data/survey/data_raw/survey_398.csv
+P03 Survey/notes/t01_issues_log.csv,data/survey/notes/t01_issues_log.csv
+P03 Survey/notes/t01_notes.md,data/survey/notes/t01_notes.md
+P03 Survey/notes/t04_notes.md,data/survey/notes/t04_notes.md
+P03 Survey/scripts/t01_clean.py,data/survey/scripts/t01_clean.py
+P03 Survey/scripts/t04_category_price.py,data/survey/scripts/t04_category_price.py
+P03 Survey/scripts/t05_merge.py,data/survey/scripts/t05_merge.py
+docs/collector_by_record.csv,data/survey/data_clean/t17_collector_by_record.csv
+docs/t06_quality.png,outputs/t06_quality.png
+docs/t09_cleaning_log_additions.csv,data/survey/notes/t09_cleaning_log_additions.csv
+docs/task56_update.md,docs/t05_t06_run_guide.md
+house_style/README.md,notebooks/p03_style/README.md
+house_style/__init__.py,notebooks/p03_style/__init__.py
+house_style/accessibility.py,notebooks/p03_style/accessibility.py
+house_style/colour_rules.py,notebooks/p03_style/colour_rules.py
+house_style/diverging.py,notebooks/p03_style/diverging.py
+house_style/evidence/deuteranopia/charts_deuteranopia.png,notebooks/p03_style/evidence/deuteranopia/charts_deuteranopia.png
+house_style/evidence/deuteranopia/palette_deuteranopia.png,notebooks/p03_style/evidence/deuteranopia/palette_deuteranopia.png
+house_style/evidence/generate.py,notebooks/p03_style/evidence/generate.py
+house_style/evidence/greyscale/charts_greyscale.png,notebooks/p03_style/evidence/greyscale/charts_greyscale.png
+house_style/evidence/greyscale/palette_greyscale.png,notebooks/p03_style/evidence/greyscale/palette_greyscale.png
+house_style/evidence/original/charts_original.png,notebooks/p03_style/evidence/original/charts_original.png
+house_style/evidence/original/palette_original.png,notebooks/p03_style/evidence/original/palette_original.png
+house_style/evidence/protanopia/charts_protanopia.png,notebooks/p03_style/evidence/protanopia/charts_protanopia.png
+house_style/evidence/protanopia/palette_protanopia.png,notebooks/p03_style/evidence/protanopia/palette_protanopia.png
+house_style/evidence/tritanopia/charts_tritanopia.png,notebooks/p03_style/evidence/tritanopia/charts_tritanopia.png
+house_style/evidence/tritanopia/palette_tritanopia.png,notebooks/p03_style/evidence/tritanopia/palette_tritanopia.png
+house_style/fonts/BricolageGrotesque-Bold.ttf,notebooks/p03_style/fonts/BricolageGrotesque-Bold.ttf
+house_style/fonts/BricolageGrotesque-Medium.ttf,notebooks/p03_style/fonts/BricolageGrotesque-Medium.ttf
+house_style/fonts/BricolageGrotesque-OFL.txt,notebooks/p03_style/fonts/BricolageGrotesque-OFL.txt
+house_style/fonts/BricolageGrotesque-Regular.ttf,notebooks/p03_style/fonts/BricolageGrotesque-Regular.ttf
+house_style/fonts/Platypi-OFL.txt,notebooks/p03_style/fonts/Platypi-OFL.txt
+house_style/fonts/Platypi.ttf,notebooks/p03_style/fonts/Platypi.ttf
+house_style/formatters.py,notebooks/p03_style/formatters.py
+house_style/highlight.py,notebooks/p03_style/highlight.py
+house_style/hs_palette.py,notebooks/p03_style/hs_palette.py
+house_style/partner_palette.py,notebooks/p03_style/partner_palette.py
+house_style/sequential.py,notebooks/p03_style/sequential.py
+house_style/tests/test_accessibility.py,notebooks/p03_style/tests/test_accessibility.py
+house_style/tests/test_diverging.py,notebooks/p03_style/tests/test_diverging.py
+house_style/tests/test_formatters.py,notebooks/p03_style/tests/test_formatters.py
+house_style/tests/test_highlight.py,notebooks/p03_style/tests/test_highlight.py
+house_style/tests/test_hs_section.py,notebooks/p03_style/tests/test_hs_section.py
+house_style/tests/test_partner.py,notebooks/p03_style/tests/test_partner.py
+house_style/tests/test_sequential.py,notebooks/p03_style/tests/test_sequential.py
+house_style/tests/test_typography.py,notebooks/p03_style/tests/test_typography.py
+house_style/theme.py,notebooks/p03_style/theme.py
+house_style/trade_flow.py,notebooks/p03_style/trade_flow.py
+house_style/typography.py,notebooks/p03_style/typography.py
+house_style_report.md,docs/appendix/t10_house_style_report.md
+requirements-t05-t06.txt,requirements.txt

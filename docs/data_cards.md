@@ -29,7 +29,7 @@
 
 | Mục | Mô tả |
 |---|---|
-| Nguồn | Dữ liệu sơ cấp do nhóm P03 thu thập. [Bảng tổng khảo sát gốc (398 mẫu)](../P03%20Survey/data_raw/survey_398.csv) · [Bảng khảo sát đã làm sạch](../P03%20Survey/data_clean/survey_clean.csv) · [Bảng ghép T05](../P03%20Survey/data_clean/survey_final.csv) |
+| Nguồn | Dữ liệu sơ cấp do nhóm P03 thu thập. [Bảng tổng khảo sát gốc (398 mẫu)](../data/survey/data_raw/survey_398.csv) · [Bảng khảo sát đã làm sạch](../data/survey/data_clean/t01_survey_clean.csv) · [Bảng ghép T05](../data/survey/data_clean/t05_survey_final.csv) |
 | Ngày và phiên bản | Hai đợt khảo sát diễn ra ngày **12/11/2026** và **22/11/2026** theo trường ngày khảo sát. Bản bàn giao T05/T06 gồm **398 mã mẫu**. |
 | Giấy phép | Dữ liệu do nhóm thu thập. Nhóm chưa công bố giấy phép mở. |
 | Phạm vi và đơn vị quan sát | AEON Bình Tân và GO! An Lạc có **175 mẫu mỗi nơi**. AEON Tạ Quang Bửu có **13 mẫu**, GO! Tô Hiến Thành có **35 mẫu**. Mỗi dòng là một lượt ghi nhận sản phẩm tại một điểm bán, định danh bằng `record_id`. |

@@ -89,78 +89,78 @@ hs_classification.csv,section_code,Định danh,Không thứ tự,Value,mã,"Mã
 hs_classification.csv,section_name,Văn bản,Không thứ tự,Value,—,Tên phần HS2002.
 hs_classification.csv,hs_revision,Phân loại danh nghĩa,Không thứ tự,Value,—,Phiên bản danh mục của cây HS. HS2002 trong tệp phân loại.
 hs_classification.csv,source_url,Văn bản,Không thứ tự,Value,—,URL nguồn của danh mục HS.
-survey_clean.csv,record_id,Định danh,Không thứ tự,Key,mã,"Mã duy nhất của mẫu khảo sát, dùng để ghép các bảng khảo sát."
-survey_clean.csv,stt_goc,Định danh,Không thứ tự,Value,mã,"Số thứ tự theo bảng nhập, dùng để truy vết."
-survey_clean.csv,store,Phân loại danh nghĩa,Không thứ tự,Value,—,Điểm bán khảo sát.
-survey_clean.csv,survey_date,Thời gian,Tuần tự,Value,ngày,Ngày khảo sát chuẩn hóa YYYY-MM-DD.
-survey_clean.csv,survey_time,Thời gian,Chu kỳ trong ngày,Value,giờ,Giờ khảo sát chuẩn hóa HH:MM nếu có.
-survey_clean.csv,product_name,Văn bản,Không thứ tự,Value,—,Tên sản phẩm quan sát.
-survey_clean.csv,brand,Phân loại danh nghĩa,Không thứ tự,Value,—,Thương hiệu sau chuẩn hóa. Ô trống khi thiếu.
-survey_clean.csv,spec_text,Văn bản,Không thứ tự,Value,—,Mô tả quy cách dùng sau khi đọc tệp.
-survey_clean.csv,spec_std,Văn bản,Không thứ tự,Value,—,Biểu diễn quy cách đã chuẩn hóa.
-survey_clean.csv,spec_value,Định lượng,Tuần tự,Value,theo spec_unit,Giá trị số của quy cách đã chuẩn hóa.
-survey_clean.csv,spec_unit,Phân loại danh nghĩa,Không thứ tự,Value,—,Đơn vị quy cách chuẩn hóa của spec_value.
-survey_clean.csv,spec_type,Phân loại danh nghĩa,Không thứ tự,Value,—,Loại quy cách dùng để diễn giải số lượng hoặc đơn vị.
-survey_clean.csv,price_vnd,Định lượng,Tuần tự,Value,VND,Giá quan sát theo quy cách ghi nhận.
-survey_clean.csv,origin_country,Phân loại danh nghĩa,Không thứ tự,Value,—,"Nơi sản xuất hoặc xuất xứ theo thông tin ghi nhận, đã chuẩn hóa."
-survey_clean.csv,brand_origin,Phân loại danh nghĩa,Không thứ tự,Value,—,Nước gắn với thương hiệu khi có bằng chứng trong dữ liệu.
-survey_clean.csv,made_in_vietnam,Boolean,Không thứ tự,Value,—,Cờ xuất xứ Việt Nam từ kết quả chuẩn hóa.
-survey_clean.csv,origin_note,Văn bản,Không thứ tự,Value,—,"Ghi chú về xuất xứ, nếu có."
-survey_clean.csv,verify_status,Phân loại danh nghĩa,Không thứ tự,Value,—,Trạng thái xác minh đã ghi ở T01.
-survey_clean.csv,verify_fields,Văn bản,Không thứ tự,Value,—,Danh sách trường cần xác minh từ T01.
-survey_clean.csv,brand_raw,Văn bản,Không thứ tự,Value,—,Giá trị thương hiệu trước chuẩn hóa.
-survey_clean.csv,price_raw,Văn bản,Không thứ tự,Value,—,Giá hoặc nội dung giá trước khi phân tích thành VND.
-survey_clean.csv,spec_raw,Văn bản,Không thứ tự,Value,—,Quy cách trước chuẩn hóa.
-survey_clean.csv,origin_raw,Văn bản,Không thứ tự,Value,—,Ghi nhận xuất xứ trước chuẩn hóa.
-survey_clean.csv,date_raw,Văn bản,Không thứ tự,Value,—,Chuỗi ngày trước chuẩn hóa.
-survey_clean.csv,time_raw,Văn bản,Không thứ tự,Value,—,Chuỗi giờ trước chuẩn hóa.
-survey_clean.csv,source_row,Định danh,Không thứ tự,Value,mã,Số dòng trong nguồn nhập. Dùng để truy vết.
-survey_final.csv,record_id,Định danh,Không thứ tự,Key,mã,"Mã duy nhất của mẫu khảo sát, dùng để ghép các bảng khảo sát."
-survey_final.csv,stt_goc,Định danh,Không thứ tự,Value,mã,"Số thứ tự theo bảng nhập, dùng để truy vết."
-survey_final.csv,store,Phân loại danh nghĩa,Không thứ tự,Value,—,Điểm bán khảo sát.
-survey_final.csv,survey_date,Thời gian,Tuần tự,Value,ngày,Ngày khảo sát chuẩn hóa YYYY-MM-DD.
-survey_final.csv,survey_time,Thời gian,Chu kỳ trong ngày,Value,giờ,Giờ khảo sát chuẩn hóa HH:MM nếu có.
-survey_final.csv,product_name,Văn bản,Không thứ tự,Value,—,Tên sản phẩm quan sát.
-survey_final.csv,brand,Phân loại danh nghĩa,Không thứ tự,Value,—,Thương hiệu sau chuẩn hóa. Ô trống khi thiếu.
-survey_final.csv,spec_text,Văn bản,Không thứ tự,Value,—,Mô tả quy cách dùng sau khi đọc tệp.
-survey_final.csv,spec_std,Văn bản,Không thứ tự,Value,—,Biểu diễn quy cách đã chuẩn hóa.
-survey_final.csv,spec_value,Định lượng,Tuần tự,Value,theo spec_unit,Giá trị số của quy cách đã chuẩn hóa.
-survey_final.csv,spec_unit,Phân loại danh nghĩa,Không thứ tự,Value,—,Đơn vị quy cách chuẩn hóa của spec_value.
-survey_final.csv,spec_type,Phân loại danh nghĩa,Không thứ tự,Value,—,Loại quy cách dùng để diễn giải số lượng hoặc đơn vị.
-survey_final.csv,price_vnd,Định lượng,Tuần tự,Value,VND,Giá quan sát theo quy cách ghi nhận.
-survey_final.csv,origin_country,Phân loại danh nghĩa,Không thứ tự,Value,—,"Nơi sản xuất hoặc xuất xứ theo thông tin ghi nhận, đã chuẩn hóa."
-survey_final.csv,brand_origin,Phân loại danh nghĩa,Không thứ tự,Value,—,Nước gắn với thương hiệu khi có bằng chứng trong dữ liệu.
-survey_final.csv,made_in_vietnam,Boolean,Không thứ tự,Value,—,Cờ xuất xứ Việt Nam từ kết quả chuẩn hóa.
-survey_final.csv,origin_note,Văn bản,Không thứ tự,Value,—,"Ghi chú về xuất xứ, nếu có."
-survey_final.csv,verify_status,Phân loại danh nghĩa,Không thứ tự,Value,—,Trạng thái xác minh đã ghi ở T01.
-survey_final.csv,verify_fields,Văn bản,Không thứ tự,Value,—,Danh sách trường cần xác minh từ T01.
-survey_final.csv,brand_raw,Văn bản,Không thứ tự,Value,—,Giá trị thương hiệu trước chuẩn hóa.
-survey_final.csv,price_raw,Văn bản,Không thứ tự,Value,—,Giá hoặc nội dung giá trước khi phân tích thành VND.
-survey_final.csv,spec_raw,Văn bản,Không thứ tự,Value,—,Quy cách trước chuẩn hóa.
-survey_final.csv,origin_raw,Văn bản,Không thứ tự,Value,—,Ghi nhận xuất xứ trước chuẩn hóa.
-survey_final.csv,date_raw,Văn bản,Không thứ tự,Value,—,Chuỗi ngày trước chuẩn hóa.
-survey_final.csv,time_raw,Văn bản,Không thứ tự,Value,—,Chuỗi giờ trước chuẩn hóa.
-survey_final.csv,source_row,Định danh,Không thứ tự,Value,mã,Số dòng trong nguồn nhập. Dùng để truy vết.
-survey_final.csv,category_clean,Phân loại danh nghĩa,Không thứ tự,Value,—,Nhóm hàng chuẩn hóa từ T04.
-survey_final.csv,price_tier,Thứ bậc,Tuần tự,Value,—,Thấp < Trung bình < Cao. Ô trống là chưa xếp mức.
-survey_final.csv,price_normalized,Định lượng,Tuần tự,Value,VND theo đơn vị T04,Giá quy về đơn vị tại price_comparison_unit.
-survey_final.csv,task4_note,Văn bản,Không thứ tự,Value,—,Ghi chú phân nhóm hoặc lý do để trống mức giá.
-survey_final.csv,price_comparison_unit,Phân loại danh nghĩa,Không thứ tự,Value,—,Đơn vị so sánh của price_normalized.
-survey_final.csv,hs2022_section,Định danh,Không thứ tự,Value,mã,Mã phần HS2022 bằng số La Mã.
-survey_final.csv,hs2,Định danh,Không thứ tự,Value,mã,"Mã chương HS gồm hai ký tự. Survey dùng HS2022, BACI dùng HS2002."
-survey_final.csv,collector,Định danh,Không thứ tự,Value,mã,Mã người thu C01–C05.
-survey_hs_summary.csv,hs2,Định danh,Không thứ tự,Key,mã,"Mã chương HS gồm hai ký tự. Survey dùng HS2022, BACI dùng HS2002."
-survey_hs_summary.csv,store,Phân loại danh nghĩa,Không thứ tự,Key,—,Điểm bán khảo sát.
-survey_hs_summary.csv,origin_country,Phân loại danh nghĩa,Không thứ tự,Key,—,"Nơi sản xuất hoặc xuất xứ theo thông tin ghi nhận, đã chuẩn hóa."
-survey_hs_summary.csv,category_clean,Phân loại danh nghĩa,Không thứ tự,Key,—,Nhóm hàng chuẩn hóa từ T04.
-survey_hs_summary.csv,price_tier,Thứ bậc,Tuần tự,Key,—,Thấp < Trung bình < Cao. Ô trống là chưa xếp mức.
-survey_hs_summary.csv,product_count,Định lượng,Tuần tự,Value,mẫu,Số lượt ghi nhận sản phẩm trong nhóm.
-baci_hs_summary.csv,year,Thời gian,Tuần tự,Key,năm,"Năm quan sát, từ 2005 đến 2024 trong các bảng BACI/WDI P03."
-baci_hs_summary.csv,hs2,Định danh,Không thứ tự,Key,mã,"Mã chương HS gồm hai ký tự. Survey dùng HS2022, BACI dùng HS2002."
-baci_hs_summary.csv,trade_flow,Phân loại danh nghĩa,Không thứ tự,Key,—,Chiều thương mại nhìn từ Việt Nam. Export hoặc Import.
-baci_hs_summary.csv,trade_usd,Định lượng,Tuần tự,Value,USD danh nghĩa,Tổng kim ngạch của nhóm theo khóa bảng.
-collector_by_record.csv,record_id,Định danh,Không thứ tự,Key,mã,"Mã duy nhất của mẫu khảo sát, dùng để ghép các bảng khảo sát."
-collector_by_record.csv,collector,Định danh,Không thứ tự,Value,mã,Mã người thu C01–C05.
+t01_survey_clean.csv,record_id,Định danh,Không thứ tự,Key,mã,"Mã duy nhất của mẫu khảo sát, dùng để ghép các bảng khảo sát."
+t01_survey_clean.csv,stt_goc,Định danh,Không thứ tự,Value,mã,"Số thứ tự theo bảng nhập, dùng để truy vết."
+t01_survey_clean.csv,store,Phân loại danh nghĩa,Không thứ tự,Value,—,Điểm bán khảo sát.
+t01_survey_clean.csv,survey_date,Thời gian,Tuần tự,Value,ngày,Ngày khảo sát chuẩn hóa YYYY-MM-DD.
+t01_survey_clean.csv,survey_time,Thời gian,Chu kỳ trong ngày,Value,giờ,Giờ khảo sát chuẩn hóa HH:MM nếu có.
+t01_survey_clean.csv,product_name,Văn bản,Không thứ tự,Value,—,Tên sản phẩm quan sát.
+t01_survey_clean.csv,brand,Phân loại danh nghĩa,Không thứ tự,Value,—,Thương hiệu sau chuẩn hóa. Ô trống khi thiếu.
+t01_survey_clean.csv,spec_text,Văn bản,Không thứ tự,Value,—,Mô tả quy cách dùng sau khi đọc tệp.
+t01_survey_clean.csv,spec_std,Văn bản,Không thứ tự,Value,—,Biểu diễn quy cách đã chuẩn hóa.
+t01_survey_clean.csv,spec_value,Định lượng,Tuần tự,Value,theo spec_unit,Giá trị số của quy cách đã chuẩn hóa.
+t01_survey_clean.csv,spec_unit,Phân loại danh nghĩa,Không thứ tự,Value,—,Đơn vị quy cách chuẩn hóa của spec_value.
+t01_survey_clean.csv,spec_type,Phân loại danh nghĩa,Không thứ tự,Value,—,Loại quy cách dùng để diễn giải số lượng hoặc đơn vị.
+t01_survey_clean.csv,price_vnd,Định lượng,Tuần tự,Value,VND,Giá quan sát theo quy cách ghi nhận.
+t01_survey_clean.csv,origin_country,Phân loại danh nghĩa,Không thứ tự,Value,—,"Nơi sản xuất hoặc xuất xứ theo thông tin ghi nhận, đã chuẩn hóa."
+t01_survey_clean.csv,brand_origin,Phân loại danh nghĩa,Không thứ tự,Value,—,Nước gắn với thương hiệu khi có bằng chứng trong dữ liệu.
+t01_survey_clean.csv,made_in_vietnam,Boolean,Không thứ tự,Value,—,Cờ xuất xứ Việt Nam từ kết quả chuẩn hóa.
+t01_survey_clean.csv,origin_note,Văn bản,Không thứ tự,Value,—,"Ghi chú về xuất xứ, nếu có."
+t01_survey_clean.csv,verify_status,Phân loại danh nghĩa,Không thứ tự,Value,—,Trạng thái xác minh đã ghi ở T01.
+t01_survey_clean.csv,verify_fields,Văn bản,Không thứ tự,Value,—,Danh sách trường cần xác minh từ T01.
+t01_survey_clean.csv,brand_raw,Văn bản,Không thứ tự,Value,—,Giá trị thương hiệu trước chuẩn hóa.
+t01_survey_clean.csv,price_raw,Văn bản,Không thứ tự,Value,—,Giá hoặc nội dung giá trước khi phân tích thành VND.
+t01_survey_clean.csv,spec_raw,Văn bản,Không thứ tự,Value,—,Quy cách trước chuẩn hóa.
+t01_survey_clean.csv,origin_raw,Văn bản,Không thứ tự,Value,—,Ghi nhận xuất xứ trước chuẩn hóa.
+t01_survey_clean.csv,date_raw,Văn bản,Không thứ tự,Value,—,Chuỗi ngày trước chuẩn hóa.
+t01_survey_clean.csv,time_raw,Văn bản,Không thứ tự,Value,—,Chuỗi giờ trước chuẩn hóa.
+t01_survey_clean.csv,source_row,Định danh,Không thứ tự,Value,mã,Số dòng trong nguồn nhập. Dùng để truy vết.
+t05_survey_final.csv,record_id,Định danh,Không thứ tự,Key,mã,"Mã duy nhất của mẫu khảo sát, dùng để ghép các bảng khảo sát."
+t05_survey_final.csv,stt_goc,Định danh,Không thứ tự,Value,mã,"Số thứ tự theo bảng nhập, dùng để truy vết."
+t05_survey_final.csv,store,Phân loại danh nghĩa,Không thứ tự,Value,—,Điểm bán khảo sát.
+t05_survey_final.csv,survey_date,Thời gian,Tuần tự,Value,ngày,Ngày khảo sát chuẩn hóa YYYY-MM-DD.
+t05_survey_final.csv,survey_time,Thời gian,Chu kỳ trong ngày,Value,giờ,Giờ khảo sát chuẩn hóa HH:MM nếu có.
+t05_survey_final.csv,product_name,Văn bản,Không thứ tự,Value,—,Tên sản phẩm quan sát.
+t05_survey_final.csv,brand,Phân loại danh nghĩa,Không thứ tự,Value,—,Thương hiệu sau chuẩn hóa. Ô trống khi thiếu.
+t05_survey_final.csv,spec_text,Văn bản,Không thứ tự,Value,—,Mô tả quy cách dùng sau khi đọc tệp.
+t05_survey_final.csv,spec_std,Văn bản,Không thứ tự,Value,—,Biểu diễn quy cách đã chuẩn hóa.
+t05_survey_final.csv,spec_value,Định lượng,Tuần tự,Value,theo spec_unit,Giá trị số của quy cách đã chuẩn hóa.
+t05_survey_final.csv,spec_unit,Phân loại danh nghĩa,Không thứ tự,Value,—,Đơn vị quy cách chuẩn hóa của spec_value.
+t05_survey_final.csv,spec_type,Phân loại danh nghĩa,Không thứ tự,Value,—,Loại quy cách dùng để diễn giải số lượng hoặc đơn vị.
+t05_survey_final.csv,price_vnd,Định lượng,Tuần tự,Value,VND,Giá quan sát theo quy cách ghi nhận.
+t05_survey_final.csv,origin_country,Phân loại danh nghĩa,Không thứ tự,Value,—,"Nơi sản xuất hoặc xuất xứ theo thông tin ghi nhận, đã chuẩn hóa."
+t05_survey_final.csv,brand_origin,Phân loại danh nghĩa,Không thứ tự,Value,—,Nước gắn với thương hiệu khi có bằng chứng trong dữ liệu.
+t05_survey_final.csv,made_in_vietnam,Boolean,Không thứ tự,Value,—,Cờ xuất xứ Việt Nam từ kết quả chuẩn hóa.
+t05_survey_final.csv,origin_note,Văn bản,Không thứ tự,Value,—,"Ghi chú về xuất xứ, nếu có."
+t05_survey_final.csv,verify_status,Phân loại danh nghĩa,Không thứ tự,Value,—,Trạng thái xác minh đã ghi ở T01.
+t05_survey_final.csv,verify_fields,Văn bản,Không thứ tự,Value,—,Danh sách trường cần xác minh từ T01.
+t05_survey_final.csv,brand_raw,Văn bản,Không thứ tự,Value,—,Giá trị thương hiệu trước chuẩn hóa.
+t05_survey_final.csv,price_raw,Văn bản,Không thứ tự,Value,—,Giá hoặc nội dung giá trước khi phân tích thành VND.
+t05_survey_final.csv,spec_raw,Văn bản,Không thứ tự,Value,—,Quy cách trước chuẩn hóa.
+t05_survey_final.csv,origin_raw,Văn bản,Không thứ tự,Value,—,Ghi nhận xuất xứ trước chuẩn hóa.
+t05_survey_final.csv,date_raw,Văn bản,Không thứ tự,Value,—,Chuỗi ngày trước chuẩn hóa.
+t05_survey_final.csv,time_raw,Văn bản,Không thứ tự,Value,—,Chuỗi giờ trước chuẩn hóa.
+t05_survey_final.csv,source_row,Định danh,Không thứ tự,Value,mã,Số dòng trong nguồn nhập. Dùng để truy vết.
+t05_survey_final.csv,category_clean,Phân loại danh nghĩa,Không thứ tự,Value,—,Nhóm hàng chuẩn hóa từ T04.
+t05_survey_final.csv,price_tier,Thứ bậc,Tuần tự,Value,—,Thấp < Trung bình < Cao. Ô trống là chưa xếp mức.
+t05_survey_final.csv,price_normalized,Định lượng,Tuần tự,Value,VND theo đơn vị T04,Giá quy về đơn vị tại price_comparison_unit.
+t05_survey_final.csv,task4_note,Văn bản,Không thứ tự,Value,—,Ghi chú phân nhóm hoặc lý do để trống mức giá.
+t05_survey_final.csv,price_comparison_unit,Phân loại danh nghĩa,Không thứ tự,Value,—,Đơn vị so sánh của price_normalized.
+t05_survey_final.csv,hs2022_section,Định danh,Không thứ tự,Value,mã,Mã phần HS2022 bằng số La Mã.
+t05_survey_final.csv,hs2,Định danh,Không thứ tự,Value,mã,"Mã chương HS gồm hai ký tự. Survey dùng HS2022, BACI dùng HS2002."
+t05_survey_final.csv,collector,Định danh,Không thứ tự,Value,mã,Mã người thu C01–C05.
+t05_survey_hs_summary.csv,hs2,Định danh,Không thứ tự,Key,mã,"Mã chương HS gồm hai ký tự. Survey dùng HS2022, BACI dùng HS2002."
+t05_survey_hs_summary.csv,store,Phân loại danh nghĩa,Không thứ tự,Key,—,Điểm bán khảo sát.
+t05_survey_hs_summary.csv,origin_country,Phân loại danh nghĩa,Không thứ tự,Key,—,"Nơi sản xuất hoặc xuất xứ theo thông tin ghi nhận, đã chuẩn hóa."
+t05_survey_hs_summary.csv,category_clean,Phân loại danh nghĩa,Không thứ tự,Key,—,Nhóm hàng chuẩn hóa từ T04.
+t05_survey_hs_summary.csv,price_tier,Thứ bậc,Tuần tự,Key,—,Thấp < Trung bình < Cao. Ô trống là chưa xếp mức.
+t05_survey_hs_summary.csv,product_count,Định lượng,Tuần tự,Value,mẫu,Số lượt ghi nhận sản phẩm trong nhóm.
+t05_baci_hs_summary.csv,year,Thời gian,Tuần tự,Key,năm,"Năm quan sát, từ 2005 đến 2024 trong các bảng BACI/WDI P03."
+t05_baci_hs_summary.csv,hs2,Định danh,Không thứ tự,Key,mã,"Mã chương HS gồm hai ký tự. Survey dùng HS2022, BACI dùng HS2002."
+t05_baci_hs_summary.csv,trade_flow,Phân loại danh nghĩa,Không thứ tự,Key,—,Chiều thương mại nhìn từ Việt Nam. Export hoặc Import.
+t05_baci_hs_summary.csv,trade_usd,Định lượng,Tuần tự,Value,USD danh nghĩa,Tổng kim ngạch của nhóm theo khóa bảng.
+t17_collector_by_record.csv,record_id,Định danh,Không thứ tự,Key,mã,"Mã duy nhất của mẫu khảo sát, dùng để ghép các bảng khảo sát."
+t17_collector_by_record.csv,collector,Định danh,Không thứ tự,Value,mã,Mã người thu C01–C05.
 cleaning_log.csv,record_id,Định danh,Không thứ tự,Value,mã,"Mã mẫu, mã đối tác hoặc mã ghi nhận cấp tập dữ liệu. Có thể lặp hoặc để trống."
 cleaning_log.csv,field,Phân loại danh nghĩa,Không thứ tự,Value,—,Trường liên quan đến ghi nhận chất lượng.
 cleaning_log.csv,issue,Phân loại danh nghĩa,Không thứ tự,Value,—,Loại sự cố hoặc lưu ý chất lượng.

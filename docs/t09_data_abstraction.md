@@ -16,11 +16,11 @@
 | network_year.csv | Mạng có hướng, có trọng số, theo năm | Cạnh xuất khẩu → nhập khẩu × năm | `year`, `exporter_code`, `importer_code` |
 | network_nodes.csv | Bảng nút của mạng | Một quốc gia hoặc thực thể BACI | `country_code` |
 | hs_classification.csv | Cây phân cấp | Gốc → phần HS → chương HS | `hs2` |
-| survey_clean.csv | Bảng phẳng | Một mẫu khảo sát | `record_id` |
-| survey_final.csv | Bảng phẳng | Một mẫu khảo sát đã ghép | `record_id` |
-| survey_hs_summary.csv | Bảng đa chiều | Chương × điểm bán × xuất xứ × nhóm × mức giá | `hs2`, `store`, `origin_country`, `category_clean`, `price_tier` |
-| baci_hs_summary.csv | Bảng đa chiều | Chương × năm × chiều | `year`, `trade_flow`, `hs2` |
-| collector_by_record.csv | Bảng ánh xạ | Một mẫu khảo sát | `record_id` |
+| t01_survey_clean.csv | Bảng phẳng | Một mẫu khảo sát | `record_id` |
+| t05_survey_final.csv | Bảng phẳng | Một mẫu khảo sát đã ghép | `record_id` |
+| t05_survey_hs_summary.csv | Bảng đa chiều | Chương × điểm bán × xuất xứ × nhóm × mức giá | `hs2`, `store`, `origin_country`, `category_clean`, `price_tier` |
+| t05_baci_hs_summary.csv | Bảng đa chiều | Chương × năm × chiều | `year`, `trade_flow`, `hs2` |
+| t17_collector_by_record.csv | Bảng ánh xạ | Một mẫu khảo sát | `record_id` |
 | cleaning_log.csv | Bảng nhật ký | Một ghi nhận chất lượng | Theo dòng ghi nhận |
 
 Key biểu thị khóa tại cấp quan sát. Trong cây HS, section_code là mã nút cha, hs2 là mã nút con trong bảng chương. Ở bảng tổng hợp khảo sát, mức giá trống được giữ như một nhóm chưa xếp mức. Xem [data dictionary](data_dictionary.csv) để lọc theo cột, đơn vị và vai trò.
@@ -185,7 +185,7 @@ Key biểu thị khóa tại cấp quan sát. Trong cây HS, section_code là m�
 | `hs_revision` | Phân loại danh nghĩa (không thứ tự) | Value | Phiên bản danh mục của cây HS. HS2002 trong tệp phân loại. |
 | `source_url` | Văn bản (không thứ tự) | Value | URL nguồn của danh mục HS. |
 
-## survey_clean.csv
+## t01_survey_clean.csv
 
 | Column | Type (direction) | Role | Note |
 |---|---|---|---|
@@ -216,7 +216,7 @@ Key biểu thị khóa tại cấp quan sát. Trong cây HS, section_code là m�
 | `time_raw` | Văn bản (không thứ tự) | Value | Chuỗi giờ trước chuẩn hóa. |
 | `source_row` | Định danh (không thứ tự) | Value | Số dòng trong nguồn nhập. Dùng để truy vết. |
 
-## survey_final.csv
+## t05_survey_final.csv
 
 | Column | Type (direction) | Role | Note |
 |---|---|---|---|
@@ -255,7 +255,7 @@ Key biểu thị khóa tại cấp quan sát. Trong cây HS, section_code là m�
 | `hs2` | Định danh (không thứ tự) | Value | Mã chương HS gồm hai ký tự. Survey dùng HS2022, BACI dùng HS2002. |
 | `collector` | Định danh (không thứ tự) | Value | Mã người thu C01–C05. |
 
-## survey_hs_summary.csv
+## t05_survey_hs_summary.csv
 
 | Column | Type (direction) | Role | Note |
 |---|---|---|---|
@@ -266,7 +266,7 @@ Key biểu thị khóa tại cấp quan sát. Trong cây HS, section_code là m�
 | `price_tier` | Thứ bậc (tuần tự) | Key | Thấp < Trung bình < Cao. Ô trống là chưa xếp mức. |
 | `product_count` | Định lượng (tuần tự) | Value | Số lượt ghi nhận sản phẩm trong nhóm. |
 
-## baci_hs_summary.csv
+## t05_baci_hs_summary.csv
 
 | Column | Type (direction) | Role | Note |
 |---|---|---|---|
@@ -275,7 +275,7 @@ Key biểu thị khóa tại cấp quan sát. Trong cây HS, section_code là m�
 | `trade_flow` | Phân loại danh nghĩa (không thứ tự) | Key | Chiều thương mại nhìn từ Việt Nam. Export hoặc Import. |
 | `trade_usd` | Định lượng (tuần tự) | Value | Tổng kim ngạch của nhóm theo khóa bảng. |
 
-## collector_by_record.csv
+## t17_collector_by_record.csv
 
 | Column | Type (direction) | Role | Note |
 |---|---|---|---|
