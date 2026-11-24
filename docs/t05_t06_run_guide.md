@@ -3,7 +3,7 @@
 ## Chạy từ các bảng đã xử lý
 
 1. Chạy `python data/survey/scripts/t05_merge.py` để tạo lại ba bảng T05.
-2. Mở `notebooks/01_data.ipynb`, chọn Restart and Run All. Notebook chạy T05, kiểm tra và xuất 11 bảng vào `data/clean/`; nhật ký tại `docs/cleaning_log.csv`, ảnh tại `outputs/t06_quality.png`.
+2. Mở `notebooks/01_data.ipynb`, chọn Restart and Run All. Notebook chạy T05, kiểm tra và xuất 11 bảng vào `data/clean/`; nhật ký tại `data/cleaning_log.csv`, ảnh tại `outputs/t06_quality.png`.
 3. Code biểu đồ đọc CSV từ `data/clean/`. Khi đầu ra nguồn thay đổi, chạy lại notebook để cập nhật các bản sao; không chỉnh trực tiếp CSV trong `data/clean/`.
 4. Kiểm tra màu: từ gốc repository chạy `python -m notebooks.house_style.evidence.generate`. Từ gốc chạy `python -m docs.appendix.t12_honest_vs_misleading` để tạo T12.
 

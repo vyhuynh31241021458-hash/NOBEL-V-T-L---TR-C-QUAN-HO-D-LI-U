@@ -29,7 +29,7 @@
 
 | Mục | Mô tả |
 |---|---|
-| Nguồn | Dữ liệu sơ cấp do nhóm P03 thu thập. [Bảng tổng khảo sát gốc (398 mẫu)](../data/survey/data_raw/survey_398.csv) · [Bảng khảo sát đã làm sạch](../data/survey/data_clean/t01_survey_clean.csv) · [Bảng ghép T05](../data/survey/data_clean/t05_survey_final.csv) |
+| Nguồn | Dữ liệu sơ cấp do nhóm P03 thu thập. [Bảng tổng khảo sát gốc (398 mẫu)](survey/data_raw/survey_398.csv) · [Bảng khảo sát đã làm sạch](survey/data_clean/t01_survey_clean.csv) · [Bảng ghép T05](survey/data_clean/t05_survey_final.csv) |
 | Ngày và phiên bản | Hai đợt khảo sát diễn ra ngày **12/11/2026** và **22/11/2026** theo trường ngày khảo sát. Bản bàn giao T05/T06 gồm **398 mã mẫu**. |
 | Giấy phép | Dữ liệu do nhóm thu thập. Nhóm chưa công bố giấy phép mở. |
 | Phạm vi và đơn vị quan sát | AEON Bình Tân và GO! An Lạc có **175 mẫu mỗi nơi**. AEON Tạ Quang Bửu có **13 mẫu**, GO! Tô Hiến Thành có **35 mẫu**. Mỗi dòng là một lượt ghi nhận sản phẩm tại một điểm bán, định danh bằng `record_id`. |
@@ -37,4 +37,4 @@
 | Đơn vị đo | `price_vnd` là giá bằng VND theo quy cách ghi nhận. `price_normalized` là giá được quy đổi theo đơn vị ghi trong `price_comparison_unit`. Số mẫu được tính theo lượt ghi nhận. |
 | Vấn đề đã biết | Các tỷ lệ phản ánh **398 lượt ghi nhận tại bốn điểm bán trong hai đợt khảo sát**. Giá và danh mục sản phẩm có thể thay đổi theo điểm bán và thời điểm. Có **14 mẫu** mang cờ cần xác minh từ T01. T04 xếp mức giá cho **306 mẫu** và ghi lý do để trống mức giá cho **92 mẫu**. Trường `collector` sử dụng mã `C01`–`C05`. |
 
-Ngày rà soát tài liệu nguồn cho T09 là **24/11/2026**. Xem thêm [bảng trừu tượng hóa](t09_data_abstraction.md), [từ điển dữ liệu](data_dictionary.csv) và [nhật ký làm sạch](cleaning_log.csv).
+Ngày rà soát tài liệu nguồn cho T09 là **24/11/2026**. Xem thêm [bảng trừu tượng hóa](../docs/t09_data_abstraction.md), [từ điển dữ liệu](data_dictionary.csv) và [nhật ký làm sạch](cleaning_log.csv).

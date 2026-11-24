@@ -1,6 +1,6 @@
 # Phụ lục T12 Biểu đồ trung thực và biểu đồ gây hiểu lầm
 
-Cán cân thương mại hàng hóa của Việt Nam theo BACI tăng từ **113.08 tỷ USD năm 2023** lên **128.38 tỷ USD năm 2024**, tương đương **15.30 tỷ USD** hay **13.53%** so với năm 2023. Hai biểu đồ dưới đây dùng cùng hai quan sát, đơn vị, màu và nhãn số. Điểm thay đổi là miền hiển thị trên trục Y. [BACI HS2002 · Bảng thương mại theo năm](../../data/baci/data_clean/trade_year.csv)
+Cán cân thương mại hàng hóa của Việt Nam theo BACI tăng từ **113.08 tỷ USD năm 2023** lên **128.38 tỷ USD năm 2024**, tương đương **15.30 tỷ USD** hay **13.53%** so với năm 2023. Hai biểu đồ dưới đây dùng cùng hai quan sát, đơn vị, màu và nhãn số. Điểm thay đổi là miền hiển thị trên trục Y. [BACI HS2002 · Bảng thương mại theo năm](../../data/clean/trade_year.csv)
 
 ![Bên trái, biểu đồ cột có trục từ 0 đến 140 tỷ USD. Bên phải, cùng hai giá trị trên trục từ 110 đến 140 tỷ USD, khiến cột năm 2024 trông cao hơn nhiều.](t12_honest_vs_misleading.png)
 

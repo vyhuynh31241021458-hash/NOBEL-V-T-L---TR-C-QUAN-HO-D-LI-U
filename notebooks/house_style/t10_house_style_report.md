@@ -324,43 +324,43 @@ Mô phỏng CVD nhận RGB chuẩn hóa, dùng Colorspacious với mô hình Mac
 
 Ảnh màu gốc là chuẩn so sánh. Mã HEX in cạnh từng ô ở bản mô phỏng vẫn là **mã gốc**, giúp truy về bảng đặc tả. Bộ ảnh hiện kiêm minh chứng Visual Identity, Typography, Partner Palette, HS Palette và hai thang màu. Chưa có ảnh Typography Specimen độc lập, KPI, mạng thương mại, WDI hay khảo sát.
 
-![Hình 1. Bảng màu gốc P03](../../notebooks/house_style/evidence/original/palette_original.png)
+![Hình 1. Bảng màu gốc P03](evidence/original/palette_original.png)
 
 **Hình 1. Bảng màu gốc P03.** Đủ màu đối tác, 21 HS Section, Trade Flow, Missing và hai dải màu. Đây là mẫu màu chính xác cho các bảng ở mục 3 và 5.
 
-![Hình 2. Biểu đồ mẫu màu gốc](../../notebooks/house_style/evidence/original/charts_original.png)
+![Hình 2. Biểu đồ mẫu màu gốc](evidence/original/charts_original.png)
 
 **Hình 2. Biểu đồ mẫu màu gốc.** Tiêu đề, trục, nhãn và nguồn dùng Bricolage Grotesque. Phụ đề dùng Platypi. Hai ô HS minh họa hai ý nghĩa khác nhau của màu.
 
-![Hình 3. Bảng màu mô phỏng protanopia](../../notebooks/house_style/evidence/protanopia/palette_protanopia.png)
+![Hình 3. Bảng màu mô phỏng protanopia](evidence/protanopia/palette_protanopia.png)
 
 **Hình 3. Bảng màu mô phỏng protanopia.** Hàn Quốc chuyển sang sắc xám pha lục và Nhật Bản sang xám pha xanh. Hai nhóm bớt tách biệt theo sắc so với bản gốc.
 
-![Hình 4. Biểu đồ mẫu mô phỏng protanopia](../../notebooks/house_style/evidence/protanopia/charts_protanopia.png)
+![Hình 4. Biểu đồ mẫu mô phỏng protanopia](evidence/protanopia/charts_protanopia.png)
 
 **Hình 4. Biểu đồ mẫu mô phỏng protanopia.** Tên nhóm và hatch vẫn phân biệt Hàn Quốc với Nhật Bản. Tương phản của màu thay đổi, trong khi chiều dài thanh và nhãn số giữ nguyên.
 
-![Hình 5. Bảng màu mô phỏng deuteranopia](../../notebooks/house_style/evidence/deuteranopia/palette_deuteranopia.png)
+![Hình 5. Bảng màu mô phỏng deuteranopia](evidence/deuteranopia/palette_deuteranopia.png)
 
 **Hình 5. Bảng màu mô phỏng deuteranopia.** Hoa Kỳ và Thái Lan cùng tiến về nhóm vàng–ô liu. Sự khác nhau về sắc giảm rõ so với bản gốc.
 
-![Hình 6. Biểu đồ mẫu mô phỏng deuteranopia](../../notebooks/house_style/evidence/deuteranopia/charts_deuteranopia.png)
+![Hình 6. Biểu đồ mẫu mô phỏng deuteranopia](evidence/deuteranopia/charts_deuteranopia.png)
 
 **Hình 6. Biểu đồ mẫu mô phỏng deuteranopia.** Hoa Kỳ dùng sọc chéo ngược, Thái Lan dùng dấu cộng. Tên đối tác và giá trị đọc được trực tiếp khi hai màu gần nhau.
 
-![Hình 7. Bảng màu mô phỏng tritanopia](../../notebooks/house_style/evidence/tritanopia/palette_tritanopia.png)
+![Hình 7. Bảng màu mô phỏng tritanopia](evidence/tritanopia/palette_tritanopia.png)
 
 **Hình 7. Bảng màu mô phỏng tritanopia.** Xanh của Trung Quốc và lục của Hàn Quốc chuyển gần về sắc xanh ngọc. Một số màu HS cũng hội tụ về các sắc xanh tương tự.
 
-![Hình 8. Biểu đồ mẫu mô phỏng tritanopia](../../notebooks/house_style/evidence/tritanopia/charts_tritanopia.png)
+![Hình 8. Biểu đồ mẫu mô phỏng tritanopia](evidence/tritanopia/charts_tritanopia.png)
 
 **Hình 8. Biểu đồ mẫu mô phỏng tritanopia.** Tên nhóm và hatch tách Trung Quốc khỏi Hàn Quốc. Trong bảng HS, mã và tên được ghi trực tiếp thay cho việc chỉ dò màu.
 
-![Hình 9. Bảng màu chuyển sang thang xám](../../notebooks/house_style/evidence/greyscale/palette_greyscale.png)
+![Hình 9. Bảng màu chuyển sang thang xám](evidence/greyscale/palette_greyscale.png)
 
 **Hình 9. Bảng màu chuyển sang thang xám.** Các sắc HS có thể rơi về cùng vùng xám. Blues giữ hướng sáng–đậm, còn RdBu có tâm sáng và hai đầu tối nên cần dấu hoặc vị trí để xác định phía.
 
-![Hình 10. Biểu đồ mẫu chuyển sang thang xám](../../notebooks/house_style/evidence/greyscale/charts_greyscale.png)
+![Hình 10. Biểu đồ mẫu chuyển sang thang xám](evidence/greyscale/charts_greyscale.png)
 
 **Hình 10. Biểu đồ mẫu chuyển sang thang xám.** Vạch 0 và nhãn dấu giữ được chiều cán cân. Tên và số in đậm giữ điểm nhấn. Nhãn N/A ở ô HS khác nhãn 0.0 trong ô cán cân.
 
@@ -405,7 +405,7 @@ Mô phỏng CVD nhận RGB chuẩn hóa, dùng Colorspacious với mô hình Mac
 2. Tài liệu học phần *Vision, Perception and Design Principles*, Lecture 3, slide 7–49 và 56–57. [Lecture 3][lec3]
 3. *Tutorial 3 · Design for the eye*, chương 3, 6 và 7. [Tutorial 3][tut3]
 4. Nhóm P03. T09 · Trừu tượng hóa dữ liệu, từ điển dữ liệu và nguồn thứ hạng nút mạng. [T09][t09] · [Từ điển dữ liệu][dict] · [BACI network nodes][nodes]
-5. Nhóm P03. House Style, nguồn trực tiếp của các palette phân loại và mã HEX đặc thù dự án. [README][readme] · [Partner Palette](../../notebooks/house_style/house_style.py) · [HS Palette](../../notebooks/house_style/house_style.py) · [Trade Flow](../../notebooks/house_style/house_style.py)
+5. Nhóm P03. House Style, nguồn trực tiếp của các palette phân loại và mã HEX đặc thù dự án. [README][readme] · [Partner Palette](house_style.py) · [HS Palette](house_style.py) · [Trade Flow](house_style.py)
 6. Google Fonts và các tác giả font. [Bricolage Grotesque][bricolage] · [Platypi][platypi] · [Giấy phép đi kèm][oflb] · [Giấy phép Platypi][oflp]
 7. Matplotlib. [Choosing Colormaps][mplcolors] · [Colormap normalization][mplnorm] · [Font Manager API][mplfont]
 8. Colorspacious. Tài liệu không gian màu và mô phỏng CVD theo Machado, Oliveira và Fernandes. [Colorspacious Reference][cvd]
@@ -418,11 +418,11 @@ Ba PDF bài giảng được tham chiếu theo bản cung cấp ở thư mục c
 [t09]: ../t09_data_abstraction.md
 [dict]: ../data_dictionary.csv
 [nodes]: ../../data/baci/data_clean/network_nodes.csv
-[readme]: ../../notebooks/house_style/README.md
+[readme]: README.md
 [bricolage]: https://github.com/google/fonts/tree/main/ofl/bricolagegrotesque
 [platypi]: https://github.com/google/fonts/tree/main/ofl/platypi
-[oflb]: ../../notebooks/house_style/fonts/BricolageGrotesque-OFL.txt
-[oflp]: ../../notebooks/house_style/fonts/Platypi-OFL.txt
+[oflb]: fonts/BricolageGrotesque-OFL.txt
+[oflp]: fonts/Platypi-OFL.txt
 [mplcolors]: https://matplotlib.org/stable/users/explain/colors/colormaps.html
 [mplnorm]: https://matplotlib.org/stable/users/explain/colors/colormapnorms.html
 [mplfont]: https://matplotlib.org/stable/api/font_manager_api.html
