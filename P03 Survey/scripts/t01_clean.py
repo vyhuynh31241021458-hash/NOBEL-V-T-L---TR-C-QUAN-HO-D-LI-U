@@ -1,4 +1,4 @@
-"""Task 1. Run: python task1_clean.py INPUT.csv --output-dir data_clean"""
+"""Task 1. Làm sạch dữ liệu khảo sát P03."""
 import re
 from datetime import datetime
 from html import unescape
@@ -75,7 +75,7 @@ def parse_spec(value):
         return f"{total:g} {unit.lower()}", total, unit.lower(), "dung tích/khối lượng"
     return value, None, "", "mô tả" if value else ""
 
-def clean_survey(input_csv, output_dir="data_clean"):
+def clean_survey(input_csv, output_dir="data_clean", notes_dir=None):
     raw = pd.read_csv(input_csv, dtype=str, keep_default_na=False, encoding="utf-8-sig")
     raw.columns = raw.columns.str.strip()
     stt = "STT" if "STT" in raw.columns else "0"
@@ -141,7 +141,9 @@ def clean_survey(input_csv, output_dir="data_clean"):
     output = Path(output_dir)
     output.mkdir(parents=True, exist_ok=True)
     clean.to_csv(output / "survey_clean.csv", index=False, encoding="utf-8-sig")
-    audit_table.to_csv(output / "task1_issues_log.csv", index=False, encoding="utf-8-sig")
+    notes = Path(notes_dir) if notes_dir is not None else output.parent / "notes"
+    notes.mkdir(parents=True, exist_ok=True)
+    audit_table.to_csv(notes / "t01_issues_log.csv", index=False, encoding="utf-8-sig")
     pending = clean.verify_status.eq("Cần xác minh").sum()
     print(f"Đầu vào: {len(raw)} | Đầu ra: {len(clean)} | Cần xác minh: {pending}")
     print(clean.groupby("store").size().to_string())

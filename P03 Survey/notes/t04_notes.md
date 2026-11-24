@@ -1,4 +1,4 @@
-# P03 category price — Hoàn thành Task 4
+# P03 Survey — Hoàn thành Task 4
 
 Task 4 phân loại 398 bản ghi khảo sát theo danh mục sản phẩm và xếp mức giá tương đối trong từng nhóm so sánh.
 
@@ -9,13 +9,13 @@ Task 4 phân loại 398 bản ghi khảo sát theo danh mục sản phẩm và x
 | `data_clean/survey_segment_All.csv` | Kết quả Task 4. Giữ các cột và thứ tự bản ghi từ Task 1, thêm 10 cột phân tích. |
 | `data_clean/survey_segment_final.csv` | 306 dòng đã được xếp Thấp, Trung bình hoặc Cao. |
 | `data_clean/survey_segment_unclassified.csv` | 92 dòng chưa xếp được mức giá, kèm lý do từng dòng. |
-| `scripts/task4_category_price.py` | Code Python 3 dùng thư viện chuẩn. |
-| `task4_notes.md` | Quy tắc xử lý, kết quả và ví dụ tính giá. |
+| `scripts/t04_category_price.py` | Code Python 3 dùng thư viện chuẩn. |
+| `notes/t04_notes.md` | Quy tắc xử lý, kết quả và ví dụ tính giá. |
 
 Chạy tại thư mục đã giải nén. Thay đường dẫn đầu vào bằng vị trí thực tế của file Task 1.
 
 ```bash
-python scripts/task4_category_price.py "/duong-dan/survey_clean.csv" data_clean/survey_segment_All.csv
+python scripts/t04_category_price.py data_clean/survey_clean.csv data_clean/survey_segment_All.csv
 ```
 
 ## Phân loại sản phẩm và chuẩn hóa giá
@@ -24,7 +24,7 @@ python scripts/task4_category_price.py "/duong-dan/survey_clean.csv" data_clean/
 - Tôm được tách riêng. Mực, bào ngư và sò điệp của bộ này thuộc Hải sản. Cá đông lạnh chưa chế biến có danh mục riêng với cá một nắng và cá chế biến.
 - Quy giá về VNĐ/100 g hoặc VNĐ/100 ml với hàng có khối lượng hoặc dung tích. Công thức là giá quan sát × 100 ÷ tổng số g hoặc ml trong quy cách bán. Quy đổi kg và lít sang g và ml trước khi tính. Code cũng nhận dạng mô tả lít rõ ràng như `1 lit`.
 - Với bút đóng gói, tất và viên giặt, chia theo số đơn vị đếm được. Với quần áo, đồ chơi và thiết bị, dùng giá trên một đơn vị bán theo quy cách ghi nhận. Một bộ đồ chơi được tính là một đơn vị bán.
-- Đối chiếu `task1_notes.md` và `task1_issues_log.csv` với cột `verify_fields`. Giá hoặc quy cách cần xác minh được loại khỏi tập tính ngưỡng. Cờ xuất xứ được giữ trong các cột gốc và dòng vẫn có thể xếp giá nếu giá và quy cách hợp lệ. Hai dòng GO_017 và GO_071 có tổng khối lượng bán chưa rõ, nên để trống giá quy đổi.
+- Đối chiếu `t01_notes.md` và `t01_issues_log.csv` với cột `verify_fields`. Giá hoặc quy cách cần xác minh được loại khỏi tập tính ngưỡng. Cờ xuất xứ được giữ trong các cột gốc và dòng vẫn có thể xếp giá nếu giá và quy cách hợp lệ. Hai dòng GO_017 và GO_071 có tổng khối lượng bán chưa rõ, nên để trống giá quy đổi.
 
 ## Tính mức giá
 

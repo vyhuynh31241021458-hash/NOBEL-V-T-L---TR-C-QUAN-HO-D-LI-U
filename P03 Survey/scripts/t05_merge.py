@@ -145,8 +145,8 @@ def main():
     baci_dir = root / "P03 Baci" / "data_clean"
     defaults = {
         "survey": survey_dir / "survey_clean.csv",
-        "segment": root / "P03 category price" / "data_clean" / "survey_segment_All.csv",
-        "hs": survey_dir / "HS2022_FINAL.csv",
+        "segment": survey_dir / "survey_segment_All.csv",
+        "hs": survey_dir.parent / "data_raw" / "hs" / "hs2022_final.csv",
         "product-year": baci_dir / "product_year.csv",
         "partner-year": baci_dir / "partner_year.csv",
         "collectors": root / "docs" / "collector_by_record.csv",
