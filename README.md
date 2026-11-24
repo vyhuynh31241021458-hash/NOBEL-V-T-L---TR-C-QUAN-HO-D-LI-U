@@ -5,12 +5,13 @@
 | Thư mục | Nội dung |
 | --- | --- |
 | `notebooks/` | `01_data.ipynb` và thư mục `house_style/` chứa code, fonts, evidence, tests và README của style. |
+| `data/data_cards.md`, `data/cleaning_log.csv`, `data/data_dictionary.csv` | Thẻ dữ liệu, nhật ký làm sạch và từ điển dữ liệu. |
 | `data/clean/` | 11 bảng CSV dùng vẽ biểu đồ; bản sao nguyên nội dung từ các đầu ra bên dưới. |
 | `data/baci/` | Toàn bộ `P03 Baci/` cũ được chuyển nguyên khối; giữ nguyên script và cấu trúc bên trong. |
 | `data/survey/scripts/` | Code T01, T04, T05; chỉ cập nhật vị trí đọc/ghi và tên tệp. |
 | `data/survey/data_raw/` | Khảo sát gốc 398 bản ghi và bản phân loại HS hiện có, giữ nguyên dữ liệu. |
 | `data/survey/data_clean/` | Đầu ra T01/T04/T05 và bảng mã người thu T17. |
-| `docs/` | Data card, nhật ký làm sạch, từ điển dữ liệu, bảng trừu tượng hóa, hướng dẫn chạy và phụ lục. |
+| `docs/` | Bảng trừu tượng hóa, hướng dẫn chạy và phụ lục. |
 | `outputs/` | Biểu đồ chất lượng T06. Bằng chứng T10 nằm trong `notebooks/house_style/evidence/`; T12 trong `docs/appendix/`. |
 | `evidence/` | Bằng chứng, ghi chú phỏng vấn đã ẩn danh; xem README bên trong. |
 | `data/survey/notes/` | Ghi chú T01/T04, issues log và phần nhật ký T09 dùng để tái tạo cleaning log. |
@@ -29,7 +30,7 @@ Chọn kernel `.venv` cho notebook. Các lệnh dưới chạy từ thư mục g
 ## Chạy từ các bảng đã xử lý
 
 1. Chạy `python data/survey/scripts/t05_merge.py` để tạo lại ba bảng T05.
-2. Mở `notebooks/01_data.ipynb`, chọn Restart and Run All. Notebook chạy T05, kiểm tra và xuất 11 bảng vào `data/clean/`; nhật ký tại `docs/cleaning_log.csv`, ảnh tại `outputs/t06_quality.png`.
+2. Mở `notebooks/01_data.ipynb`, chọn Restart and Run All. Notebook chạy T05, kiểm tra và xuất 11 bảng vào `data/clean/`; nhật ký tại `data/cleaning_log.csv`, ảnh tại `outputs/t06_quality.png`.
 3. Code biểu đồ đọc CSV từ `data/clean/`. Khi đầu ra nguồn thay đổi, chạy lại notebook để cập nhật các bản sao; không chỉnh trực tiếp CSV trong `data/clean/`.
 4. Kiểm tra màu: từ gốc repository chạy `python -m notebooks.house_style.evidence.generate`. Từ gốc chạy `python -m docs.appendix.t12_honest_vs_misleading` để tạo lại T12. Kiểm thử style: từ gốc repository chạy `python -m unittest discover -s notebooks/house_style/tests`.
 
@@ -67,8 +68,8 @@ Snapshot nguồn có 398 bản ghi, không phải 350. Các tệp mã hóa riên
 
 `01_data.ipynb` hiện kiểm tra từ các đầu ra đã xử lý T01/T02/T04/BACI; các bước tái tạo raw được hướng dẫn riêng phía trên. Không mô tả notebook hiện tại là đã chạy toàn bộ raw BACI.
 
-Xem [data card](docs/data_cards.md), [từ điển dữ liệu](docs/data_dictionary.csv), [hướng dẫn T05/T06](docs/t05_t06_run_guide.md) và [bản đồ đường dẫn cũ → mới](docs/restructure_paths.csv).
+Xem [data card](data/data_cards.md), [từ điển dữ liệu](data/data_dictionary.csv), [hướng dẫn T05/T06](docs/t05_t06_run_guide.md) và [bản đồ đường dẫn cũ → mới](docs/restructure_paths.csv).
 
 ## Các mẫu cần nhóm bổ sung
 
-`t02_hs_agreement.csv` chỉ có tiêu đề cột; cần điền từ hai kết quả mã hóa độc lập thật, không suy ra mức đồng thuận từ bảng HS cuối. `docs/ai_log.csv` và `docs/team_log.md` là mẫu trống để nhóm nhập lịch sử thật. `docs/cleaning_log.csv` đã chứa phần T09; giữ bản nguồn T09 tại `data/survey/notes/t09_cleaning_log_additions.csv` để notebook chạy lại không mất nhật ký.
+`t02_hs_agreement.csv` chỉ có tiêu đề cột; cần điền từ hai kết quả mã hóa độc lập thật, không suy ra mức đồng thuận từ bảng HS cuối. `docs/ai_log.csv` và `evidence/team_log.md` là mẫu trống để nhóm nhập lịch sử thật. `data/cleaning_log.csv` đã chứa phần T09; giữ bản nguồn T09 tại `data/survey/notes/t09_cleaning_log_additions.csv` để notebook chạy lại không mất nhật ký.

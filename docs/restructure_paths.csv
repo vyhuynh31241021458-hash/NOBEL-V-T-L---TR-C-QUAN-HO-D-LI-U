@@ -117,3 +117,8 @@ house_style/trade_flow.py,notebooks/p03_style/trade_flow.py
 house_style/typography.py,notebooks/p03_style/typography.py
 house_style_report.md,docs/appendix/t10_house_style_report.md
 requirements-t05-t06.txt,requirements.txt
+docs/data_cards.md,data/data_cards.md
+docs/cleaning_log.csv,data/cleaning_log.csv
+docs/data_dictionary.csv,data/data_dictionary.csv
+docs/appendix/t10_house_style_report.md,notebooks/house_style/t10_house_style_report.md
+docs/team_log.md,evidence/team_log.md

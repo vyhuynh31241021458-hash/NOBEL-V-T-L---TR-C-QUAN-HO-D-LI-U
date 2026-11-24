@@ -4,4 +4,6 @@ Lưu ảnh nhãn gốc có thời gian, phiếu thực địa, bản phác thả
 
 Nhóm bổ sung đường dẫn chính xác đến thư mục ảnh/ghi âm và kiểm tra quyền truy cập trước khi nộp. Repository hiện chưa chứa đường dẫn được xác minh cho từng loại bằng chứng; không xem thư mục này là đã hoàn thành.
 
+`team_log.md` là nhật ký nhóm. `field_survey/` dành cho bảng xuất và ảnh nhãn.
+
 `interviews/` dành cho ghi chú phỏng vấn đã ẩn danh. Giữ dữ liệu nhận dạng và ghi âm có thông tin cá nhân trong kho nhóm theo sự đồng ý của người tham gia.
