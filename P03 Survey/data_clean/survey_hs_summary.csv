@@ -11,14 +11,14 @@
 03,GO! Tô Hiến Thành,Việt Nam,Cá đông lạnh chưa chế biến,Cao,1
 03,GO! Tô Hiến Thành,Việt Nam,Cá đông lạnh chưa chế biến,Thấp,1
 03,GO! Tô Hiến Thành,Việt Nam,Cá đông lạnh chưa chế biến,Trung bình,2
+03,GO! Tô Hiến Thành,Việt Nam,Cá đông lạnh chưa chế biến,,1
 03,GO! Tô Hiến Thành,Việt Nam,Hải sản,Cao,1
 03,GO! Tô Hiến Thành,Việt Nam,Hải sản,Thấp,1
 03,GO! Tô Hiến Thành,Việt Nam,Hải sản,Trung bình,1
 03,GO! Tô Hiến Thành,Việt Nam,Tôm,Cao,1
 03,GO! Tô Hiến Thành,Việt Nam,Tôm,Thấp,1
 03,GO! Tô Hiến Thành,Việt Nam,Tôm,Trung bình,1
-03,GO! Tô Hiến Thành,Việt Nam,,,1
-09,AEON Bình Tân,Nhật Bản,,,1
+09,AEON Bình Tân,Nhật Bản,Cà phê pha sẵn,,1
 16,AEON Tạ Quang Bửu,Việt Nam,Cá một nắng và cá chế biến,Cao,1
 17,GO! An Lạc,Thái Lan,Kẹo và thạch,Trung bình,1
 17,GO! An Lạc,Thổ Nhĩ Kỳ,Kẹo và thạch,Cao,1
@@ -45,14 +45,14 @@
 20,AEON Bình Tân,Malaysia,Bánh và snack,Trung bình,1
 20,AEON Bình Tân,Thái Lan,Bánh và snack,Cao,1
 20,GO! An Lạc,Ba Lan,Nước trái cây và nước giải khát vị trái cây,Trung bình,1
-20,GO! An Lạc,Malaysia,,,1
+20,GO! An Lạc,Malaysia,Bánh và snack,,1
 20,GO! An Lạc,Thái Lan,Nước trái cây và nước giải khát vị trái cây,Trung bình,1
 20,GO! An Lạc,Việt Nam,Bánh và snack,Thấp,1
 20,GO! An Lạc,Việt Nam,Bánh và snack,Trung bình,1
 20,GO! An Lạc,Việt Nam,Nước trái cây và nước giải khát vị trái cây,Thấp,1
 20,GO! An Lạc,Việt Nam,Nước trái cây và nước giải khát vị trái cây,Trung bình,1
-21,AEON Bình Tân,Việt Nam,,,1
-21,GO! An Lạc,Thái Lan,,,1
+21,AEON Bình Tân,Việt Nam,Cà phê pha sẵn,,1
+21,GO! An Lạc,Thái Lan,Nước thạch,,1
 21,GO! An Lạc,Việt Nam,Kẹo và thạch,Thấp,1
 22,AEON Bình Tân,Hàn Quốc,Cà phê pha sẵn,Cao,1
 22,AEON Bình Tân,Hàn Quốc,Nước có ga,Cao,1
@@ -74,15 +74,20 @@
 22,AEON Bình Tân,Việt Nam,Nước tăng lực,Trung bình,3
 22,AEON Bình Tân,Việt Nam,Trà đóng chai,Thấp,1
 22,AEON Bình Tân,Việt Nam,Trà đóng chai,Trung bình,2
+22,GO! An Lạc,Hàn Quốc,Nước gạo,,1
 22,GO! An Lạc,Hàn Quốc,Nước trái cây và nước giải khát vị trái cây,Thấp,1
-22,GO! An Lạc,Hàn Quốc,,,1
-22,GO! An Lạc,Indonesia,,,1
+22,GO! An Lạc,Indonesia,Nước thể thao,,1
 22,GO! An Lạc,Singapore,Trà đóng chai,Cao,1
 22,GO! An Lạc,Việt Nam,Cà phê pha sẵn,Thấp,1
 22,GO! An Lạc,Việt Nam,Cà phê pha sẵn,Trung bình,2
+22,GO! An Lạc,Việt Nam,Kombucha,,2
 22,GO! An Lạc,Việt Nam,Nước có ga,Cao,1
 22,GO! An Lạc,Việt Nam,Nước có ga,Thấp,1
+22,GO! An Lạc,Việt Nam,Nước dừa,,2
+22,GO! An Lạc,Việt Nam,Nước gạo,,1
 22,GO! An Lạc,Việt Nam,Nước khoáng và nước uống,Cao,1
+22,GO! An Lạc,Việt Nam,Nước thể thao,,1
+22,GO! An Lạc,Việt Nam,Nước trái cây và nước giải khát vị trái cây,,1
 22,GO! An Lạc,Việt Nam,Nước tăng lực,Thấp,2
 22,GO! An Lạc,Việt Nam,Nước yến,Thấp,1
 22,GO! An Lạc,Việt Nam,Nước yến,Trung bình,2
@@ -91,11 +96,12 @@
 22,GO! An Lạc,Việt Nam,Trà đóng chai,Trung bình,1
 22,GO! An Lạc,Việt Nam,Đồ uống từ sữa,Thấp,1
 22,GO! An Lạc,Việt Nam,Đồ uống từ sữa,Trung bình,1
-22,GO! An Lạc,Việt Nam,,,7
 22,GO! An Lạc,Đài Loan,Trà đóng chai,Cao,1
 33,AEON Bình Tân,Ba Lan,Dưỡng da mặt,Thấp,1
-33,AEON Bình Tân,Canada,,,1
-33,AEON Bình Tân,Hàn Quốc,,,2
+33,AEON Bình Tân,Canada,Toner,,1
+33,AEON Bình Tân,Hàn Quốc,Mặt nạ dưỡng da,,1
+33,AEON Bình Tân,Hàn Quốc,Toner,,1
+33,AEON Bình Tân,Nhật Bản,Dưỡng da mặt,,1
 33,AEON Bình Tân,Nhật Bản,Dưỡng và tạo kiểu tóc,Cao,1
 33,AEON Bình Tân,Nhật Bản,Dưỡng và tạo kiểu tóc,Thấp,1
 33,AEON Bình Tân,Nhật Bản,Dưỡng và tạo kiểu tóc,Trung bình,1
@@ -103,89 +109,99 @@
 33,AEON Bình Tân,Nhật Bản,Dầu xả và kem ủ tóc,Cao,1
 33,AEON Bình Tân,Nhật Bản,Dầu xả và kem ủ tóc,Thấp,1
 33,AEON Bình Tân,Nhật Bản,Son môi,Cao,1
-33,AEON Bình Tân,Nhật Bản,,,3
-33,AEON Bình Tân,Singapore,,,1
+33,AEON Bình Tân,Nhật Bản,Tẩy trang,,2
+33,AEON Bình Tân,Singapore,Chống nắng,,1
 33,AEON Bình Tân,Thái Lan,Dưỡng thể,Thấp,3
 33,AEON Bình Tân,Thái Lan,Dầu gội,Thấp,1
 33,AEON Bình Tân,Thái Lan,Dầu xả và kem ủ tóc,Thấp,1
 33,AEON Bình Tân,Thái Lan,Trang điểm mặt,Thấp,1
+33,AEON Bình Tân,Trung Quốc,Dưỡng da cho bé,,1
 33,AEON Bình Tân,Trung Quốc,Dưỡng và tạo kiểu tóc,Thấp,1
 33,AEON Bình Tân,Trung Quốc,Dưỡng và tạo kiểu tóc,Trung bình,2
 33,AEON Bình Tân,Trung Quốc,Son môi,Cao,1
 33,AEON Bình Tân,Trung Quốc,Trang điểm mặt,Cao,1
 33,AEON Bình Tân,Trung Quốc,Trang điểm mặt,Trung bình,1
-33,AEON Bình Tân,Trung Quốc,,,1
+33,AEON Bình Tân,Việt Nam,Chống nắng,,1
 33,AEON Bình Tân,Việt Nam,Dưỡng và tạo kiểu tóc,Cao,1
 33,AEON Bình Tân,Việt Nam,Dầu gội,Trung bình,1
 33,AEON Bình Tân,Việt Nam,Dầu xả và kem ủ tóc,Trung bình,1
+33,AEON Bình Tân,Việt Nam,Dầu xả và kem ủ tóc,,1
 33,AEON Bình Tân,Việt Nam,Son môi,Thấp,1
-33,AEON Bình Tân,Việt Nam,,,2
-33,GO! An Lạc,Hàn Quốc,,,1
+33,GO! An Lạc,Hàn Quốc,Kem đánh răng,,1
 33,GO! An Lạc,Indonesia,Dưỡng và tạo kiểu tóc,Cao,1
 33,GO! An Lạc,Nhật Bản,Dầu xả và kem ủ tóc,Trung bình,1
-33,GO! An Lạc,Nhật Bản,,,1
+33,GO! An Lạc,Nhật Bản,Nhuộm tóc,,1
+33,GO! An Lạc,Thái Lan,Chống nắng,,1
 33,GO! An Lạc,Thái Lan,Dưỡng thể,Trung bình,1
 33,GO! An Lạc,Thái Lan,Dưỡng và tạo kiểu tóc,Thấp,1
 33,GO! An Lạc,Thái Lan,Dầu gội,Thấp,1
+33,GO! An Lạc,Thái Lan,Dầu gội,,1
 33,GO! An Lạc,Thái Lan,Dầu xả và kem ủ tóc,Cao,1
-33,GO! An Lạc,Thái Lan,,,3
+33,GO! An Lạc,Thái Lan,Nước súc miệng,,1
 33,GO! An Lạc,Trung Quốc,Dưỡng thể,Cao,1
-33,GO! An Lạc,Trung Quốc,,,1
+33,GO! An Lạc,Trung Quốc,Tẩy trang,,1
+33,GO! An Lạc,Việt Nam,Chống nắng,,1
 33,GO! An Lạc,Việt Nam,Dưỡng da mặt,Cao,1
 33,GO! An Lạc,Việt Nam,Dưỡng da mặt,Trung bình,1
 33,GO! An Lạc,Việt Nam,Dưỡng thể,Cao,1
+33,GO! An Lạc,Việt Nam,Dưỡng và tạo kiểu tóc,,1
 33,GO! An Lạc,Việt Nam,Dầu gội,Cao,2
+33,GO! An Lạc,Việt Nam,Dầu xả và kem ủ tóc,,1
+33,GO! An Lạc,Việt Nam,Kem đánh răng,,2
+33,GO! An Lạc,Việt Nam,Khử mùi,,2
 33,GO! An Lạc,Việt Nam,Son môi,Thấp,1
 33,GO! An Lạc,Việt Nam,Son môi,Trung bình,1
-33,GO! An Lạc,Việt Nam,,,8
-34,AEON Bình Tân,Ba Lan,,,1
+33,GO! An Lạc,Việt Nam,Tẩy tế bào chết,,1
+34,AEON Bình Tân,Ba Lan,Vệ sinh nhà tắm và bồn cầu,,1
 34,AEON Bình Tân,Hàn Quốc,Sữa rửa mặt,Cao,1
 34,AEON Bình Tân,Nhật Bản,Sữa rửa mặt,Trung bình,1
+34,AEON Bình Tân,Nhật Bản,Tẩy quần áo,,1
 34,AEON Bình Tân,Nhật Bản,Vệ sinh nhà tắm và bồn cầu,Cao,1
-34,AEON Bình Tân,Nhật Bản,,,1
 34,AEON Bình Tân,Pháp,Sữa rửa mặt,Cao,1
 34,AEON Bình Tân,Trung Quốc,Nước giặt,Cao,1
+34,AEON Bình Tân,Việt Nam,Bột giặt,,1
 34,AEON Bình Tân,Việt Nam,Nước giặt,Thấp,1
 34,AEON Bình Tân,Việt Nam,Nước lau sàn,Trung bình,2
 34,AEON Bình Tân,Việt Nam,Nước rửa chén,Trung bình,1
 34,AEON Bình Tân,Việt Nam,Nước xả vải,Thấp,1
 34,AEON Bình Tân,Việt Nam,Sữa tắm,Thấp,2
+34,AEON Bình Tân,Việt Nam,Tẩy quần áo,,1
+34,AEON Bình Tân,Việt Nam,Vệ sinh máy giặt,,1
 34,AEON Bình Tân,Việt Nam,Vệ sinh nhà tắm và bồn cầu,Thấp,1
 34,AEON Bình Tân,Việt Nam,Vệ sinh nhà tắm và bồn cầu,Trung bình,1
-34,AEON Bình Tân,Việt Nam,,,3
-34,AEON Bình Tân,Úc,,,1
+34,AEON Bình Tân,Úc,Nước lau sàn,,1
 34,AEON Tạ Quang Bửu,Việt Nam,Nước giặt,Cao,1
 34,AEON Tạ Quang Bửu,Việt Nam,Nước rửa chén,Cao,1
 34,AEON Tạ Quang Bửu,Việt Nam,Nước rửa chén,Thấp,1
 34,AEON Tạ Quang Bửu,Việt Nam,Nước xả vải,Cao,1
 34,AEON Tạ Quang Bửu,Việt Nam,Nước xả vải,Trung bình,1
-34,AEON Tạ Quang Bửu,Việt Nam,,,1
+34,AEON Tạ Quang Bửu,Việt Nam,Nước xả vải,,1
 34,GO! An Lạc,Mỹ,Sữa tắm,Thấp,1
 34,GO! An Lạc,Nhật Bản,Sữa rửa mặt,Thấp,1
 34,GO! An Lạc,Thái Lan,Sữa rửa mặt,Thấp,1
-34,GO! An Lạc,Trung Quốc,,,1
+34,GO! An Lạc,Trung Quốc,Viên giặt,,1
 34,GO! An Lạc,Việt Nam,Nước giặt,Thấp,2
 34,GO! An Lạc,Việt Nam,Nước giặt,Trung bình,2
 34,GO! An Lạc,Việt Nam,Nước lau sàn,Cao,1
 34,GO! An Lạc,Việt Nam,Nước lau sàn,Thấp,1
 34,GO! An Lạc,Việt Nam,Nước rửa chén,Cao,1
 34,GO! An Lạc,Việt Nam,Nước rửa chén,Thấp,1
+34,GO! An Lạc,Việt Nam,Nước rửa tay,,1
 34,GO! An Lạc,Việt Nam,Nước xả vải,Thấp,1
 34,GO! An Lạc,Việt Nam,Sữa rửa mặt,Trung bình,1
 34,GO! An Lạc,Việt Nam,Sữa tắm,Cao,2
 34,GO! An Lạc,Việt Nam,Sữa tắm,Trung bình,2
 34,GO! An Lạc,Việt Nam,Vệ sinh nhà tắm và bồn cầu,Thấp,1
-34,GO! An Lạc,Việt Nam,,,1
-34,GO! An Lạc,Úc,,,1
-34,GO! Tô Hiến Thành,Hàn Quốc,,,1
-34,GO! Tô Hiến Thành,Trung Quốc,,,1
+34,GO! An Lạc,Úc,Nước rửa chén,,1
+34,GO! Tô Hiến Thành,Hàn Quốc,Vệ sinh nhà tắm và bồn cầu,,1
+34,GO! Tô Hiến Thành,Trung Quốc,Vệ sinh nhà tắm và bồn cầu,,1
 34,GO! Tô Hiến Thành,Việt Nam,Nước lau sàn,Cao,1
 34,GO! Tô Hiến Thành,Việt Nam,Nước lau sàn,Thấp,1
+34,GO! Tô Hiến Thành,Việt Nam,Nước lau sàn,,1
 34,GO! Tô Hiến Thành,Việt Nam,Vệ sinh nhà tắm và bồn cầu,Cao,1
-34,GO! Tô Hiến Thành,Việt Nam,,,1
 38,GO! An Lạc,Nhật Bản,Dụng cụ học tập khác,Trung bình,1
-38,GO! An Lạc,Việt Nam,,,1
-39,AEON Bình Tân,Trung Quốc,,,1
+38,GO! An Lạc,Việt Nam,Xử lý bể phốt,,1
+39,AEON Bình Tân,Trung Quốc,Giá đỡ điện thoại,,1
 39,AEON Bình Tân,Việt Nam,Dụng cụ học tập khác,Cao,1
 39,AEON Bình Tân,Việt Nam,Dụng cụ học tập khác,Trung bình,1
 39,GO! An Lạc,Trung Quốc,Dụng cụ học tập khác,Cao,1
@@ -193,30 +209,32 @@
 42,GO! An Lạc,Trung Quốc,Túi đựng bút,Cao,1
 42,GO! An Lạc,Trung Quốc,Túi đựng bút,Thấp,3
 42,GO! An Lạc,Trung Quốc,Túi đựng bút,Trung bình,2
+42,GO! An Lạc,Việt Nam,Dây nịt,,1
 42,GO! An Lạc,Việt Nam,Túi đựng bút,Thấp,3
 42,GO! An Lạc,Việt Nam,Túi đựng bút,Trung bình,1
-42,GO! An Lạc,Việt Nam,,,1
+48,AEON Bình Tân,Việt Nam,Giấy in,,1
+48,AEON Bình Tân,Việt Nam,Túi giấy,,1
 48,AEON Bình Tân,Việt Nam,Vở và sổ,Thấp,1
 48,AEON Bình Tân,Việt Nam,Vở và sổ,Trung bình,1
-48,AEON Bình Tân,Việt Nam,,,2
 48,GO! An Lạc,Trung Quốc,Vở và sổ,Cao,1
 48,GO! An Lạc,Việt Nam,Vở và sổ,Thấp,1
-49,AEON Bình Tân,Việt Nam,,,1
-49,GO! An Lạc,Trung Quốc,,,2
+49,AEON Bình Tân,Việt Nam,Lịch,,1
+49,GO! An Lạc,Trung Quốc,Nhãn dán,,2
 61,AEON Bình Tân,Việt Nam,Áo khoác và áo len,Cao,1
 61,AEON Bình Tân,Việt Nam,Áo thun và polo,Cao,6
 61,AEON Bình Tân,Việt Nam,Áo thun và polo,Trung bình,3
+61,GO! An Lạc,Việt Nam,Tất,,2
 61,GO! An Lạc,Việt Nam,Váy và đầm,Thấp,1
 61,GO! An Lạc,Việt Nam,Áo khoác và áo len,Thấp,1
 61,GO! An Lạc,Việt Nam,Áo thun và polo,Thấp,7
 61,GO! An Lạc,Việt Nam,Áo thun và polo,Trung bình,3
-61,GO! An Lạc,Việt Nam,,,2
 62,AEON Bình Tân,Campuchia,Quần dài,Cao,1
+62,AEON Bình Tân,Campuchia,Quần short,,1
 62,AEON Bình Tân,Campuchia,Áo sơ mi và áo kiểu,Cao,1
-62,AEON Bình Tân,Campuchia,,,1
 62,AEON Bình Tân,Việt Nam,Quần dài,Trung bình,2
 62,AEON Bình Tân,Việt Nam,Váy và đầm,Cao,1
 62,GO! An Lạc,Việt Nam,Quần dài,Thấp,2
+62,GO! An Lạc,Việt Nam,Quần short,,1
 62,GO! An Lạc,Việt Nam,Váy và đầm,Cao,1
 62,GO! An Lạc,Việt Nam,Váy và đầm,Thấp,2
 62,GO! An Lạc,Việt Nam,Váy và đầm,Trung bình,2
@@ -224,23 +242,27 @@
 62,GO! An Lạc,Việt Nam,Áo sơ mi và áo kiểu,Cao,1
 62,GO! An Lạc,Việt Nam,Áo sơ mi và áo kiểu,Thấp,3
 62,GO! An Lạc,Việt Nam,Áo sơ mi và áo kiểu,Trung bình,2
-62,GO! An Lạc,Việt Nam,,,1
-64,GO! An Lạc,Thái Lan,,,1
-64,GO! An Lạc,Việt Nam,,,1
-65,AEON Bình Tân,Trung Quốc,,,1
-65,GO! An Lạc,Việt Nam,,,3
+64,GO! An Lạc,Thái Lan,Dép và sandal,,1
+64,GO! An Lạc,Việt Nam,Dép và sandal,,1
+65,AEON Bình Tân,Trung Quốc,Nón thời trang,,1
+65,GO! An Lạc,Việt Nam,Nón bảo hiểm,,2
+65,GO! An Lạc,Việt Nam,Nón thời trang,,1
 82,AEON Bình Tân,Việt Nam,Dụng cụ học tập khác,Thấp,1
-82,GO! An Lạc,Trung Quốc,,,1
-82,GO! An Lạc,Việt Nam,,,1
-84,AEON Bình Tân,Trung Quốc,,,3
+82,GO! An Lạc,Trung Quốc,Kéo,,1
+82,GO! An Lạc,Việt Nam,Kéo,,1
+84,AEON Bình Tân,Trung Quốc,Bàn phím,,1
+84,AEON Bình Tân,Trung Quốc,Chuột máy tính,,2
 84,AEON Bình Tân,Việt Nam,Dụng cụ học tập khác,Thấp,1
-85,AEON Bình Tân,Thái Lan,,,1
+85,AEON Bình Tân,Thái Lan,Tai nghe có dây,,1
 85,AEON Bình Tân,Trung Quốc,Cáp sạc,Cao,1
 85,AEON Bình Tân,Trung Quốc,Cáp sạc,Thấp,2
 85,AEON Bình Tân,Trung Quốc,Cáp sạc,Trung bình,1
-85,AEON Bình Tân,Trung Quốc,,,9
+85,AEON Bình Tân,Trung Quốc,Củ sạc,,2
+85,AEON Bình Tân,Trung Quốc,Sạc dự phòng,,3
+85,AEON Bình Tân,Trung Quốc,Tai nghe không dây,,4
 85,AEON Bình Tân,Việt Nam,Dụng cụ học tập khác,Cao,1
 90,AEON Bình Tân,Việt Nam,Dụng cụ học tập khác,Trung bình,1
+95,AEON Bình Tân,Trung Quốc,Thú nhồi bông,,1
 95,AEON Bình Tân,Trung Quốc,Đồ chơi bàn và vận động,Cao,1
 95,AEON Bình Tân,Trung Quốc,Đồ chơi bàn và vận động,Trung bình,1
 95,AEON Bình Tân,Trung Quốc,Đồ chơi lắp ráp và xếp hình,Cao,3
@@ -253,7 +275,6 @@
 95,AEON Bình Tân,Trung Quốc,Đồ chơi xe điều khiển,Cao,1
 95,AEON Bình Tân,Trung Quốc,Đồ chơi xe điều khiển,Thấp,1
 95,AEON Bình Tân,Trung Quốc,Đồ chơi xe điều khiển,Trung bình,1
-95,AEON Bình Tân,Trung Quốc,,,1
 95,AEON Bình Tân,Việt Nam,Đồ chơi bàn và vận động,Thấp,1
 95,AEON Bình Tân,Việt Nam,Đồ chơi lắp ráp và xếp hình,Thấp,1
 95,AEON Bình Tân,Việt Nam,Đồ chơi lắp ráp và xếp hình,Trung bình,1
@@ -261,21 +282,21 @@
 95,GO! An Lạc,Trung Quốc,Đồ chơi nhập vai,Trung bình,1
 95,GO! Tô Hiến Thành,Trung Quốc,Đồ chơi lắp ráp và xếp hình,Thấp,2
 95,GO! Tô Hiến Thành,Trung Quốc,Đồ chơi lắp ráp và xếp hình,Trung bình,1
+95,GO! Tô Hiến Thành,Trung Quốc,Đồ chơi lắp ráp và xếp hình,,1
 95,GO! Tô Hiến Thành,Trung Quốc,Đồ chơi xe mô hình,Thấp,1
 95,GO! Tô Hiến Thành,Trung Quốc,Đồ chơi xe mô hình,Trung bình,1
 95,GO! Tô Hiến Thành,Trung Quốc,Đồ chơi xe điều khiển,Cao,1
 95,GO! Tô Hiến Thành,Trung Quốc,Đồ chơi xe điều khiển,Thấp,1
-95,GO! Tô Hiến Thành,Trung Quốc,,,1
 95,GO! Tô Hiến Thành,Việt Nam,Đồ chơi lắp ráp và xếp hình,Cao,1
 95,GO! Tô Hiến Thành,Việt Nam,Đồ chơi lắp ráp và xếp hình,Thấp,2
 95,GO! Tô Hiến Thành,Việt Nam,Đồ chơi nhập vai,Cao,1
 95,GO! Tô Hiến Thành,Việt Nam,Đồ chơi nhập vai,Thấp,1
 95,GO! Tô Hiến Thành,Việt Nam,Đồ chơi xe mô hình,Thấp,1
+96,AEON Bình Tân,Việt Nam,Bút bi,,1
 96,AEON Bình Tân,Việt Nam,Bút và màu vẽ,Cao,1
 96,AEON Bình Tân,Việt Nam,Bút và màu vẽ,Trung bình,1
-96,AEON Bình Tân,Việt Nam,,,1
+96,GO! An Lạc,Việt Nam,Bút bi,,5
 96,GO! An Lạc,Việt Nam,Bút gel,Cao,3
 96,GO! An Lạc,Việt Nam,Bút gel,Thấp,4
 96,GO! An Lạc,Việt Nam,Bút gel,Trung bình,3
 96,GO! An Lạc,Việt Nam,Bút và màu vẽ,Thấp,1
-96,GO! An Lạc,Việt Nam,,,5

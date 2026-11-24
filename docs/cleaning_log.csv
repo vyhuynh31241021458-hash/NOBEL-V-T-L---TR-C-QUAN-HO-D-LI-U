@@ -1,0 +1,132 @@
+﻿record_id,field,issue,action
+490,partner_iso3,Mã nhóm BACI S19,"Giữ nhóm Other Asia, nes trong đối chiếu kim ngạch"
+AEON_140,brand,Thiếu dữ liệu,Giữ trống theo dữ liệu T01
+GO_121,brand,Thiếu dữ liệu,Giữ trống theo dữ liệu T01
+GO_122,brand,Thiếu dữ liệu,Giữ trống theo dữ liệu T01
+GO_123,brand,Thiếu dữ liệu,Giữ trống theo dữ liệu T01
+GO_124,brand,Thiếu dữ liệu,Giữ trống theo dữ liệu T01
+GO_128,brand,Thiếu dữ liệu,Giữ trống theo dữ liệu T01
+GO_129,brand,Thiếu dữ liệu,Giữ trống theo dữ liệu T01
+GO_134,brand,Thiếu dữ liệu,Giữ trống theo dữ liệu T01
+GO_135,brand,Thiếu dữ liệu,Giữ trống theo dữ liệu T01
+GO_139,brand,Thiếu dữ liệu,Giữ trống theo dữ liệu T01
+GO_140,brand,Thiếu dữ liệu,Giữ trống theo dữ liệu T01
+GO_196,brand,Thiếu dữ liệu,Giữ trống theo dữ liệu T01
+GO_197,brand,Thiếu dữ liệu,Giữ trống theo dữ liệu T01
+GO_199,brand,Thiếu dữ liệu,Giữ trống theo dữ liệu T01
+GO_206,brand,Thiếu dữ liệu,Giữ trống theo dữ liệu T01
+GO_040,spec_text,Thiếu dữ liệu,Giữ trống theo dữ liệu T01
+GO_041,spec_text,Thiếu dữ liệu,Giữ trống theo dữ liệu T01
+GO_044,spec_text,Thiếu dữ liệu,Giữ trống theo dữ liệu T01
+GO_046,spec_text,Thiếu dữ liệu,Giữ trống theo dữ liệu T01
+GO_047,spec_text,Thiếu dữ liệu,Giữ trống theo dữ liệu T01
+GO_056,spec_text,Thiếu dữ liệu,Giữ trống theo dữ liệu T01
+GO_057,spec_text,Thiếu dữ liệu,Giữ trống theo dữ liệu T01
+GO_133,spec_text,Thiếu dữ liệu,Giữ trống theo dữ liệu T01
+AEON_026,price,Cần xác minh,Giữ cờ đối chiếu từ T01
+AEON_112,price,Cần xác minh,Giữ cờ đối chiếu từ T01
+AEON_113,price,Cần xác minh,Giữ cờ đối chiếu từ T01
+AEON_114,price,Cần xác minh,Giữ cờ đối chiếu từ T01
+AEON_116,price,Cần xác minh,Giữ cờ đối chiếu từ T01
+AEON_118,price,Cần xác minh,Giữ cờ đối chiếu từ T01
+AEON_119,price,Cần xác minh,Giữ cờ đối chiếu từ T01
+AEON_123,price,Cần xác minh,Giữ cờ đối chiếu từ T01
+AEON_186,origin,Cần xác minh,Giữ cờ đối chiếu từ T01
+GO_147,origin,Cần xác minh,Giữ cờ đối chiếu từ T01
+GO_192,price,Cần xác minh,Giữ cờ đối chiếu từ T01
+GO_203,spec,Cần xác minh,Giữ cờ đối chiếu từ T01
+GO_209,origin,Cần xác minh,Giữ cờ đối chiếu từ T01
+GO_210,origin,Cần xác minh,Giữ cờ đối chiếu từ T01
+AEON_020,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+AEON_022,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+AEON_024,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+AEON_026,price_tier,Chưa xếp mức giá,Giá thiếu hoặc cần xác minh theo Task 1
+AEON_027,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+AEON_029,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+AEON_030,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+AEON_031,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+AEON_032,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+AEON_066,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+AEON_067,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+AEON_074,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+AEON_077,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+AEON_082,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+AEON_083,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+AEON_084,price_tier,Chưa xếp mức giá,Thiếu khối lượng hoặc dung tích hợp lệ
+AEON_087,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+AEON_090,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+AEON_110,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+AEON_111,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+AEON_112,price_tier,Chưa xếp mức giá,Giá thiếu hoặc cần xác minh theo Task 1
+AEON_113,price_tier,Chưa xếp mức giá,Giá thiếu hoặc cần xác minh theo Task 1
+AEON_114,price_tier,Chưa xếp mức giá,Giá thiếu hoặc cần xác minh theo Task 1
+AEON_115,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+AEON_116,price_tier,Chưa xếp mức giá,Giá thiếu hoặc cần xác minh theo Task 1
+AEON_117,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+AEON_118,price_tier,Chưa xếp mức giá,Giá thiếu hoặc cần xác minh theo Task 1
+AEON_119,price_tier,Chưa xếp mức giá,Giá thiếu hoặc cần xác minh theo Task 1
+AEON_120,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+AEON_121,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+AEON_122,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+AEON_123,price_tier,Chưa xếp mức giá,Giá thiếu hoặc cần xác minh theo Task 1
+AEON_136,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+AEON_140,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+AEON_144,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+AEON_163,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+AEON_164,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+AEON_165,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+AEON_170,price_tier,Chưa xếp mức giá,P33 và P67 trùng nhau
+AEON_180,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_001,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_002,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_004,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_008,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_016,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_017,price_tier,Chưa xếp mức giá,Tổng khối lượng của quy cách bán chưa rõ
+GO_018,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_019,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_020,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_021,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_027,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_030,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_040,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_041,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_044,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_046,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_047,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_053,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_054,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_056,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_057,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_071,price_tier,Chưa xếp mức giá,Tổng khối lượng của quy cách bán chưa rõ
+GO_092,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_093,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_096,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_100,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_116,price_tier,Chưa xếp mức giá,P33 và P67 trùng nhau
+GO_117,price_tier,Chưa xếp mức giá,P33 và P67 trùng nhau
+GO_118,price_tier,Chưa xếp mức giá,P33 và P67 trùng nhau
+GO_119,price_tier,Chưa xếp mức giá,P33 và P67 trùng nhau
+GO_120,price_tier,Chưa xếp mức giá,P33 và P67 trùng nhau
+GO_131,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_132,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_139,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_140,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_144,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_145,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_147,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_148,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_156,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_160,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_166,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_167,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_168,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_171,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_172,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_173,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_177,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_179,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_181,price_tier,Chưa xếp mức giá,Nhóm dưới 3 mẫu hợp lệ
+GO_192,price_tier,Chưa xếp mức giá,Giá thiếu hoặc cần xác minh theo Task 1
+GO_203,price_tier,Chưa xếp mức giá,Quy cách cần xác minh theo Task 1
+,hs2,Chuẩn hóa mã,"Dùng mã dạng hai ký tự, giữ số 0 đầu"

@@ -46,9 +46,11 @@ def merge_records(base, lookup, label):
     check_key(lookup, [key], label)
     extra = lookup.loc[~lookup[key].isin(base[key]), key].tolist()
     missing = base.loc[~base[key].isin(lookup[key]), key].tolist()
-    print(f"{label}: thiếu {len(missing)} mã, dư {len(extra)} mã.")
     if missing or extra:
-        print(f"  Thiếu: {missing[:20]} | Dư: {extra[:20]}")
+        raise ValueError(
+            f"{label}: thiếu {len(missing)} mã {missing[:10]}, "
+            f"dư {len(extra)} mã {extra[:10]}."
+        )
     overlap = (set(base.columns) & set(lookup.columns)) - {key}
     if overlap:
         raise ValueError(f"{label}: tên cột trùng bảng chính {sorted(overlap)}")
@@ -63,7 +65,7 @@ def run(args):
     if len(base) != args.expected_rows:
         raise ValueError(f"Task 1 có {len(base)} mẫu, dự kiến {args.expected_rows}.")
 
-    price_columns = ["record_id", "category_clean", "price_tier", "price_normalized"]
+    price_columns = ["record_id", "category_clean", "price_tier", "price_normalized", "task4_note"]
     prices = read_table(args.segment, {
         "Mã sản phẩm": "record_id",
         "category_clean (ngành hàng đã được phân loại)": "category_clean",
@@ -81,13 +83,19 @@ def run(args):
     }, hs_columns)
     hs["hs2"] = chapter_codes(hs["hs2"], "HS2022", allow_missing=True)
     hs = hs.rename(columns={"hs_section": "hs2022_section", "hs_note": "hs2022_note"})
-    hs_fields = [c for c in hs if c != "record_id" and c.startswith("hs2022_")]
-    # Retain the other Task 2 fields, including the original classification notes.
-    hs = hs.rename(columns={c: f"hs2022_{c}" for c in hs
-                            if c not in {"record_id", "hs2", *hs_fields}})
+    hs_columns = ["record_id", "hs2022_section", "hs2"]
+    if "hs2022_note" in hs:
+        hs_columns.append("hs2022_note")
 
     final = merge_records(base, prices[price_columns].copy(), "Task 4")
-    final = merge_records(final, hs, "Task 2")
+    final = merge_records(final, hs[hs_columns].copy(), "Task 2")
+    if args.collectors:
+        collectors = read_table(args.collectors, {}, ["record_id", "collector"])
+        final = merge_records(final, collectors[["record_id", "collector"]].copy(), "Người thu")
+        final["collector"] = final.collector.str.strip().replace("", pd.NA)
+    else:
+        final["collector"] = pd.NA
+
     if not final["record_id"].equals(base["record_id"]):
         raise RuntimeError("Thứ tự hoặc số lượng record_id đã thay đổi sau ghép.")
 
@@ -98,6 +106,8 @@ def run(args):
     check_key(baci, trade_keys, "BACI product_year")
     if not baci["year"].str.fullmatch(r"[0-9]{4}").all():
         raise ValueError("BACI product_year: năm không hợp lệ.")
+    if not baci["trade_flow"].isin({"Export", "Import"}).all():
+        raise ValueError("BACI product_year: chiều thương mại không hợp lệ.")
     baci["trade_usd"] = pd.to_numeric(baci["trade_usd"], errors="raise")
     if baci["trade_usd"].isna().any() or not baci["trade_usd"].between(0, float("inf"), inclusive="left").all():
         raise ValueError("BACI product_year: kim ngạch thiếu hoặc không hợp lệ.")
@@ -129,10 +139,27 @@ def run(args):
     print(f"Task 5: {len(base)} mẫu đầu vào, {len(final)} mẫu đầu ra; {len(baci_summary)} dòng BACI.")
 
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="T05 — Ghép khảo sát và tổng hợp BACI theo HS Chapter")
-    for option in ("survey", "segment", "hs", "product-year", "output-dir"):
-        parser.add_argument(f"--{option}", required=True)
-    parser.add_argument("--partner-year")
+def main():
+    root = Path(__file__).resolve().parents[2]
+    survey_dir = root / "P03 Survey" / "data_clean"
+    baci_dir = root / "P03 Baci" / "data_clean"
+    defaults = {
+        "survey": survey_dir / "survey_clean.csv",
+        "segment": root / "P03 category price" / "data_clean" / "survey_segment_All.csv",
+        "hs": survey_dir / "HS2022_FINAL.csv",
+        "product-year": baci_dir / "product_year.csv",
+        "partner-year": baci_dir / "partner_year.csv",
+        "collectors": root / "docs" / "collector_by_record.csv",
+        "output-dir": survey_dir,
+    }
+    parser = argparse.ArgumentParser(
+        description="T05: Ghép khảo sát và tổng hợp BACI theo HS Chapter."
+    )
+    for option, default in defaults.items():
+        parser.add_argument(f"--{option}", type=Path, default=default)
     parser.add_argument("--expected-rows", type=int, default=398)
     run(parser.parse_args())
+
+
+if __name__ == "__main__":
+    main()
