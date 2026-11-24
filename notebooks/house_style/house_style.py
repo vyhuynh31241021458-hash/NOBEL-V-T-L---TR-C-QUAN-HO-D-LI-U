@@ -3,9 +3,9 @@
 Gộp các quy tắc màu, font, định dạng số, bố cục và mô phỏng thị giác
 từ package p03_style cũ. Các quy tắc và hàm xử lý được giữ nguyên.
 
-Trong notebook: from house_style import apply_style, PARTNER_COLORS
-Từ gốc repository: from notebooks.house_style import apply_style
-Font đi kèm: assets/fonts/. Bằng chứng và trình tạo ảnh: evidence/house_style/.
+Trong notebook: from house_style.house_style import apply_style, PARTNER_COLORS
+Từ gốc repository: from notebooks.house_style.house_style import apply_style
+Font, ảnh minh chứng và kiểm thử nằm cùng thư mục với file code này.
 """
 
 
@@ -59,7 +59,7 @@ from pathlib import Path
 
 from matplotlib import font_manager
 
-FONT_DIR = Path(__file__).resolve().parents[1] / "assets" / "fonts"
+FONT_DIR = Path(__file__).with_name("fonts")
 SANS_FONTS = ("Bricolage Grotesque", "DejaVu Sans")
 EDITORIAL_FONTS = ("Platypi", "DejaVu Sans")
 AXIS_TEXT_COLOR = "#444444"

@@ -10,10 +10,10 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.ticker import FuncFormatter
 
-from notebooks.house_style import apply_style, format_number
-from notebooks.house_style import ACCENT_COLOR
-from notebooks.house_style import BAR_WIDTH, SLIDE_SIZE
-from notebooks.house_style import DIRECT_LABEL, SOURCE, SUBTITLE
+from notebooks.house_style.house_style import apply_style, format_number
+from notebooks.house_style.house_style import ACCENT_COLOR
+from notebooks.house_style.house_style import BAR_WIDTH, SLIDE_SIZE
+from notebooks.house_style.house_style import DIRECT_LABEL, SOURCE, SUBTITLE
 
 APPENDIX = Path(__file__).resolve().parent
 SOURCE_CSV = APPENDIX.parents[1] / "data" / "clean" / "trade_year.csv"

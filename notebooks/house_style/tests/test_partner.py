@@ -1,7 +1,7 @@
 from unittest import TestCase
 
-from notebooks.house_style import ordered_present
-from notebooks.house_style import PARTNER_COLORS, PARTNER_HATCHES, PARTNER_ORDER, partner_group
+from notebooks.house_style.house_style import ordered_present
+from notebooks.house_style.house_style import PARTNER_COLORS, PARTNER_HATCHES, PARTNER_ORDER, partner_group
 
 class PartnerTests(TestCase):
     def test_fixed_order_and_colors(self):

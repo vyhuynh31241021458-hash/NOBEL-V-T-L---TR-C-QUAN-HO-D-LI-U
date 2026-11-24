@@ -8,9 +8,9 @@ from matplotlib.backends.backend_agg import FigureCanvasAgg
 from matplotlib.figure import Figure
 from matplotlib.ft2font import FT2Font
 
-from notebooks.house_style import apply_style
-from notebooks.house_style import AXIS_LABEL_GAP
-from notebooks.house_style import (
+from notebooks.house_style.house_style import apply_style
+from notebooks.house_style.house_style import AXIS_LABEL_GAP
+from notebooks.house_style.house_style import (
     ANNOTATION, AXIS_TEXT_COLOR, AXIS_TEXT_WEIGHT, DIRECT_LABEL, EDITORIAL_FONTS,
     FONT_DIR, KPI, SANS_FONTS, SOURCE, SUBTITLE,
 )

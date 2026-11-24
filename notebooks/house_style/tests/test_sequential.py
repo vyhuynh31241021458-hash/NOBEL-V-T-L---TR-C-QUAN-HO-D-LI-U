@@ -1,9 +1,9 @@
 from unittest import TestCase
 
 import numpy as np
-from notebooks.house_style import grayscale
-from notebooks.house_style import MISSING_COLOR, color_for_value
-from notebooks.house_style import SEQUENTIAL_COLORS, sequential_norm
+from notebooks.house_style.house_style import grayscale
+from notebooks.house_style.house_style import MISSING_COLOR, color_for_value
+from notebooks.house_style.house_style import SEQUENTIAL_COLORS, sequential_norm
 
 class SequentialTests(TestCase):
     def test_lightness_and_missing(self):

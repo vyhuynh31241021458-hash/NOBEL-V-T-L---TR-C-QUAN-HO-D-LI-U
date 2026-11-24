@@ -4,14 +4,14 @@
 
 | Thư mục | Nội dung |
 | --- | --- |
-| `notebooks/` | `01_data.ipynb` và một file code style duy nhất `house_style.py`. Font trong `assets/fonts/`; kiểm thử trong `tests/house_style/`. |
+| `notebooks/` | `01_data.ipynb` và thư mục `house_style/` chứa code, fonts, evidence, tests và README của style. |
 | `data/clean/` | 11 bảng CSV dùng vẽ biểu đồ; bản sao nguyên nội dung từ các đầu ra bên dưới. |
 | `data/baci/` | Toàn bộ `P03 Baci/` cũ được chuyển nguyên khối; giữ nguyên script và cấu trúc bên trong. |
 | `data/survey/scripts/` | Code T01, T04, T05; chỉ cập nhật vị trí đọc/ghi và tên tệp. |
 | `data/survey/data_raw/` | Khảo sát gốc 398 bản ghi và bản phân loại HS hiện có, giữ nguyên dữ liệu. |
 | `data/survey/data_clean/` | Đầu ra T01/T04/T05 và bảng mã người thu T17. |
 | `docs/` | Data card, nhật ký làm sạch, từ điển dữ liệu, bảng trừu tượng hóa, hướng dẫn chạy và phụ lục. |
-| `outputs/` | Biểu đồ chất lượng T06. Bằng chứng T10 nằm trong `evidence/house_style/`; T12 trong `docs/appendix/`. |
+| `outputs/` | Biểu đồ chất lượng T06. Bằng chứng T10 nằm trong `notebooks/house_style/evidence/`; T12 trong `docs/appendix/`. |
 | `evidence/` | Bằng chứng, ghi chú phỏng vấn đã ẩn danh; xem README bên trong. |
 | `data/survey/notes/` | Ghi chú T01/T04, issues log và phần nhật ký T09 dùng để tái tạo cleaning log. |
 
@@ -31,7 +31,7 @@ Chọn kernel `.venv` cho notebook. Các lệnh dưới chạy từ thư mục g
 1. Chạy `python data/survey/scripts/t05_merge.py` để tạo lại ba bảng T05.
 2. Mở `notebooks/01_data.ipynb`, chọn Restart and Run All. Notebook chạy T05, kiểm tra và xuất 11 bảng vào `data/clean/`; nhật ký tại `docs/cleaning_log.csv`, ảnh tại `outputs/t06_quality.png`.
 3. Code biểu đồ đọc CSV từ `data/clean/`. Khi đầu ra nguồn thay đổi, chạy lại notebook để cập nhật các bản sao; không chỉnh trực tiếp CSV trong `data/clean/`.
-4. Kiểm tra màu: từ gốc repository chạy `python -m evidence.house_style.generate`. Từ gốc chạy `python -m docs.appendix.t12_honest_vs_misleading` để tạo lại T12. Kiểm thử style: từ gốc repository chạy `python -m unittest discover -s tests/house_style`.
+4. Kiểm tra màu: từ gốc repository chạy `python -m notebooks.house_style.evidence.generate`. Từ gốc chạy `python -m docs.appendix.t12_honest_vs_misleading` để tạo lại T12. Kiểm thử style: từ gốc repository chạy `python -m unittest discover -s notebooks/house_style/tests`.
 
 ## Tái tạo khảo sát T01 → T04 → T05
 

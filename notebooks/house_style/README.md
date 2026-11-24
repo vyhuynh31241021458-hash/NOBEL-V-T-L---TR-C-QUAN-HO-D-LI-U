@@ -1,6 +1,6 @@
 # House style P03
 
-Toàn bộ code được gộp trong `notebooks/house_style.py`. Từ notebook, dùng `from house_style import ...`; từ gốc repository, dùng `from notebooks.house_style import ...`.
+Toàn bộ code được gộp trong `notebooks/house_style/house_style.py`. Từ notebook, dùng `from house_style.house_style import ...`; từ gốc repository, dùng `from notebooks.house_style.house_style import ...`.
 
 Bộ quy chuẩn Matplotlib dùng chung cho báo cáo BACI và khảo sát. Phần A quy định cách trình bày, phần B minh họa cách áp dụng, phần C lưu kết quả kiểm tra.
 
@@ -27,14 +27,14 @@ Tham chiếu bài giảng gồm Lecture 2 slide 15–17, 20 và Lecture 3 slide 
 
 Bricolage Grotesque tạo hệ chữ thống nhất cho phần tiêu đề và số liệu. Platypi tạo phân biệt bằng chữ serif ở phần phụ đề và lời diễn giải. Kích thước, màu chữ và nền trắng theo cùng hệ phân cấp của House Style.
 
-`apply_style()` đăng ký các font đi kèm bằng `matplotlib.font_manager.fontManager.addfont()` trước khi áp dụng cấu hình, nên có thể vẽ ngay cả trên máy chưa cài hai font. Bricolage Grotesque dùng ba bản tĩnh Regular 400, Medium 500 và Bold 700 được tạo từ font biến thiên gốc, với độ rộng 100 và cỡ quang học 14. Platypi dùng bản upright gốc. Các tệp font và giấy phép SIL Open Font License 1.1 nằm trong `assets/fonts/` từ gốc repository. [Nguồn Bricolage Grotesque](https://github.com/google/fonts/tree/main/ofl/bricolagegrotesque) · [Nguồn Platypi](https://github.com/google/fonts/tree/main/ofl/platypi)
+`apply_style()` đăng ký các font đi kèm bằng `matplotlib.font_manager.fontManager.addfont()` trước khi áp dụng cấu hình, nên có thể vẽ ngay cả trên máy chưa cài hai font. Bricolage Grotesque dùng ba bản tĩnh Regular 400, Medium 500 và Bold 700 được tạo từ font biến thiên gốc, với độ rộng 100 và cỡ quang học 14. Platypi dùng bản upright gốc. Các tệp font và giấy phép SIL Open Font License 1.1 nằm trong `notebooks/house_style/fonts/` từ gốc repository. [Nguồn Bricolage Grotesque](https://github.com/google/fonts/tree/main/ofl/bricolagegrotesque) · [Nguồn Platypi](https://github.com/google/fonts/tree/main/ofl/platypi)
 
 Trong khối `with apply_style()`, chữ mặc định dùng Bricolage Grotesque. Khi thêm phụ đề, lời diễn giải, KPI hoặc nguồn, truyền bộ thuộc tính theo vai trò.
 
 `SUBTITLE`, `ANNOTATION` và `SOURCE` căn giữa chữ theo điểm neo. Dùng `x=0.5` trong `fig.text()` để căn giữa toàn hình. Với chú thích riêng từng ô, đặt điểm neo ở giữa ô đó.
 
 ```python
-from house_style import ANNOTATION, KPI, SOURCE, SUBTITLE
+from house_style.house_style import ANNOTATION, KPI, SOURCE, SUBTITLE
 
 # Đặt các lệnh trong khối with apply_style() của biểu đồ.
 fig.text(0.5, 0.91, "Kim ngạch xuất khẩu · Tỷ USD", **SUBTITLE)
@@ -49,7 +49,7 @@ fig.text(0.5, 0.02, "Nguồn: Dữ liệu minh họa", **SOURCE)
 
 ```python
 import matplotlib.pyplot as plt
-from house_style import PARTNER_COLORS, apply_style
+from house_style.house_style import PARTNER_COLORS, apply_style
 
 with apply_style():
     fig, ax = plt.subplots()
@@ -64,17 +64,17 @@ Chạy các lệnh kiểm thử/tạo ảnh từ gốc repository bằng Python 
 
 ```powershell
 python -m pip install matplotlib==3.10.8 numpy==2.3.5 colorspacious==1.1.2
-python -m unittest discover -s tests/house_style -v
-python -m evidence.house_style.generate
+python -m unittest discover -s notebooks/house_style/tests -v
+python -m notebooks.house_style.evidence.generate
 ```
 
 | Chế độ | Bảng màu | Biểu đồ |
 | --- | --- | --- |
-| Màu gốc | [PNG](../evidence/house_style/original/palette_original.png) | [PNG](../evidence/house_style/original/charts_original.png) |
-| Protanopia | [PNG](../evidence/house_style/protanopia/palette_protanopia.png) | [PNG](../evidence/house_style/protanopia/charts_protanopia.png) |
-| Deuteranopia | [PNG](../evidence/house_style/deuteranopia/palette_deuteranopia.png) | [PNG](../evidence/house_style/deuteranopia/charts_deuteranopia.png) |
-| Tritanopia | [PNG](../evidence/house_style/tritanopia/palette_tritanopia.png) | [PNG](../evidence/house_style/tritanopia/charts_tritanopia.png) |
-| Thang xám | [PNG](../evidence/house_style/greyscale/palette_greyscale.png) | [PNG](../evidence/house_style/greyscale/charts_greyscale.png) |
+| Màu gốc | [PNG](evidence/original/palette_original.png) | [PNG](evidence/original/charts_original.png) |
+| Protanopia | [PNG](evidence/protanopia/palette_protanopia.png) | [PNG](evidence/protanopia/charts_protanopia.png) |
+| Deuteranopia | [PNG](evidence/deuteranopia/palette_deuteranopia.png) | [PNG](evidence/deuteranopia/charts_deuteranopia.png) |
+| Tritanopia | [PNG](evidence/tritanopia/palette_tritanopia.png) | [PNG](evidence/tritanopia/charts_tritanopia.png) |
+| Thang xám | [PNG](evidence/greyscale/palette_greyscale.png) | [PNG](evidence/greyscale/charts_greyscale.png) |
 
 Mô phỏng dùng mô hình Machado của Colorspacious với mức 100. Ảnh bảng màu ghi mã HEX gốc để đối chiếu. Ảnh biểu đồ giữ nguyên dữ liệu, vị trí và nhãn giữa các chế độ.
 
@@ -100,3 +100,16 @@ Mô phỏng dùng mô hình Machado của Colorspacious với mức 100. Ảnh b
 | Xuất ảnh | Kiểm tra trực quan | Ảnh PNG 300 DPI. Nới khoảng trống phía âm để tách nhãn giá trị khỏi tên đối tác. |
 
 Bảng 21 màu HS dùng để giữ ánh xạ nhất quán. Các mẫu kiểm tra khả năng đọc bằng nhãn trực tiếp và sáu section minh họa.
+
+## Cấu trúc gói bàn giao
+
+```text
+house_style/
+├── house_style.py
+├── fonts/
+├── evidence/
+├── tests/
+└── README.md
+```
+
+Mở notebook trong `notebooks/` và dùng `from house_style.house_style import apply_style`. Từ gốc repository dùng `from notebooks.house_style.house_style import apply_style`. Chạy kiểm thử và script tạo ảnh từ gốc repository theo các lệnh phía trên.
