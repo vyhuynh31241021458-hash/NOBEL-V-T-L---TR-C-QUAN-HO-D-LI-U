@@ -8,6 +8,7 @@ Bộ quy chuẩn Matplotlib dùng chung cho báo cáo BACI và khảo sát. Ph�
 
 | Thành phần | Quy chuẩn và cách sử dụng |
 | --- | --- |
+| Việt Nam | Dùng đỏ trầm `#A51C30` cho Việt Nam qua `COUNTRY_COLORS["VNM"]`. |
 | Đối tác | Top 5 theo tổng xuất khẩu + nhập khẩu BACI 2005–2024 từ `partner_year.csv`. Thứ tự cố định CHN → USA → KOR → JPN → THA → Khác. Dùng mã ISO3 để tra màu và giữ thứ tự tương đối khi lọc. Biểu đồ xếp hạng có thể đổi thứ tự theo giá trị và giữ màu theo ISO3. |
 | Khác và dữ liệu thiếu | `Other` hiển thị là Khác, xám `#BDBDBD` và đứng cuối. Gộp đối tác hợp lệ ngoài Top 5, bỏ dòng tổng hợp như World. Dữ liệu thiếu dùng `#EEEEEE` kèm nhãn N/A hoặc khoảng trống. Giá trị 0 có nhãn số riêng. |
 | Chiều thương mại | Xuất khẩu `#22577A`, nét liền, marker tròn. Nhập khẩu `#B86E24`, nét đứt, marker vuông. Khi cần mã hóa cả đối tác lẫn chiều thương mại, dùng màu cho đối tác và nét hoặc họa tiết cho chiều thương mại. |

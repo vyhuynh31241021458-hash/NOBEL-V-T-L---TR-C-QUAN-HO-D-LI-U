@@ -233,6 +233,8 @@ HS_LABELS = MappingProxyType({
 # ========================================================================
 from types import MappingProxyType
 
+COUNTRY_COLORS = MappingProxyType({"VNM": "#A51C30"})
+
 PARTNER_ORDER = ("CHN", "USA", "KOR", "JPN", "THA", OTHER)
 PARTNER_COLORS = MappingProxyType(dict(zip(
     PARTNER_ORDER, ("#0072B2", "#E69F00", "#009E73", "#CC79A7", "#D55E00", OTHER_COLOR),
@@ -367,4 +369,4 @@ def declutter(ax, quantitative_axis="y"):
 
 style_context = apply_style
 
-__all__ = ['HS_COLORS', 'HS_ORDER', 'OTHER_COLOR', 'PARTNER_COLORS', 'PARTNER_ORDER', 'DIVERGING_CMAP', 'SEQUENTIAL_CMAP', 'diverging_norm', 'sequential_norm', 'format_number', 'format_percent', 'format_percentage_points', 'format_usd', 'format_vnd', 'format_balance', 'format_growth', 'apply_style', 'style_context', 'MISSING_COLOR', 'TRADE_FLOW_COLORS', 'TRADE_FLOW_ORDER', 'format_year', 'OTHER', 'MISSING_LABEL', 'WORLD_CODES', 'ColorRole', 'is_partner_code', 'ordered_present', 'color_for_value', 'FONT_DIR', 'SANS_FONTS', 'EDITORIAL_FONTS', 'AXIS_TEXT_COLOR', 'AXIS_TEXT_WEIGHT', 'FONT_FILES', 'register_fonts', 'TYPOGRAPHY', 'SUBTITLE', 'ANNOTATION', 'DIRECT_LABEL', 'KPI', 'SOURCE', 'SEQUENTIAL_COLORS', 'HS_LABELS', 'PARTNER_MARKERS', 'PARTNER_HATCHES', 'PARTNER_LINESTYLES', 'PARTNER_LABELS', 'partner_group', 'TRADE_FLOW_LABELS', 'TRADE_FLOW_LINESTYLES', 'TRADE_FLOW_MARKERS', 'TRADE_FLOW_HATCHES', 'ACCENT_COLOR', 'CONTEXT_COLOR', 'HIGHLIGHT_LINEWIDTH', 'highlight_colors', 'CVD_TYPES', 'simulate_cvd', 'grayscale', 'SLIDE_SIZE', 'BAR_WIDTH', 'AXIS_LABEL_GAP', 'ZERO_LINE', 'THEME', 'declutter']
+__all__ = ['HS_COLORS', 'HS_ORDER', 'OTHER_COLOR', 'COUNTRY_COLORS', 'PARTNER_COLORS', 'PARTNER_ORDER', 'DIVERGING_CMAP', 'SEQUENTIAL_CMAP', 'diverging_norm', 'sequential_norm', 'format_number', 'format_percent', 'format_percentage_points', 'format_usd', 'format_vnd', 'format_balance', 'format_growth', 'apply_style', 'style_context', 'MISSING_COLOR', 'TRADE_FLOW_COLORS', 'TRADE_FLOW_ORDER', 'format_year', 'OTHER', 'MISSING_LABEL', 'WORLD_CODES', 'ColorRole', 'is_partner_code', 'ordered_present', 'color_for_value', 'FONT_DIR', 'SANS_FONTS', 'EDITORIAL_FONTS', 'AXIS_TEXT_COLOR', 'AXIS_TEXT_WEIGHT', 'FONT_FILES', 'register_fonts', 'TYPOGRAPHY', 'SUBTITLE', 'ANNOTATION', 'DIRECT_LABEL', 'KPI', 'SOURCE', 'SEQUENTIAL_COLORS', 'HS_LABELS', 'PARTNER_MARKERS', 'PARTNER_HATCHES', 'PARTNER_LINESTYLES', 'PARTNER_LABELS', 'partner_group', 'TRADE_FLOW_LABELS', 'TRADE_FLOW_LINESTYLES', 'TRADE_FLOW_MARKERS', 'TRADE_FLOW_HATCHES', 'ACCENT_COLOR', 'CONTEXT_COLOR', 'HIGHLIGHT_LINEWIDTH', 'highlight_colors', 'CVD_TYPES', 'simulate_cvd', 'grayscale', 'SLIDE_SIZE', 'BAR_WIDTH', 'AXIS_LABEL_GAP', 'ZERO_LINE', 'THEME', 'declutter']
