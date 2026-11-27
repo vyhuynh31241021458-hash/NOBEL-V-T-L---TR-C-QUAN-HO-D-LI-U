@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-27T03:35:11.215158</dc:date>
+    <dc:date>2026-11-28T00:22:45.681225</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -30,24 +30,24 @@ z
   </g>
   <g id="axes_1">
    <g id="patch_2">
-    <path d="M 189 320.76 
-L 718.2 320.76 
-L 718.2 87.12 
-L 189 87.12 
+    <path d="M 196.56 324.72 
+L 718.2 324.72 
+L 718.2 110.88 
+L 196.56 110.88 
 z
 " style="fill: #ffffff"/>
    </g>
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
      <g id="line2d_1">
-      <path d="M 189 320.76 
-L 189 87.12 
-" clip-path="url(#pb9fe504afb)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.25; stroke-width: 0.8; stroke-linecap: square"/>
+      <path d="M 196.56 324.72 
+L 196.56 110.88 
+" clip-path="url(#p47a9276b58)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.25; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_2"/>
      <g id="text_1">
       <!-- 0% -->
-      <g style="fill: #444444" transform="translate(181.085156 332.76) scale(0.1 -0.1)">
+      <g style="fill: #444444" transform="translate(188.645156 336.72) scale(0.1 -0.1)">
        <defs>
         <path id="BricolageGrotesque-14pt-30" d="M 2086 -90 
 Q 1702 -90 1388 64 
@@ -155,14 +155,14 @@ z
     </g>
     <g id="xtick_2">
      <g id="line2d_3">
-      <path d="M 294.84 320.76 
-L 294.84 87.12 
-" clip-path="url(#pb9fe504afb)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.25; stroke-width: 0.8; stroke-linecap: square"/>
+      <path d="M 300.888 324.72 
+L 300.888 110.88 
+" clip-path="url(#p47a9276b58)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.25; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_4"/>
      <g id="text_2">
       <!-- 10% -->
-      <g style="fill: #444444" transform="translate(285.395469 332.76) scale(0.1 -0.1)">
+      <g style="fill: #444444" transform="translate(291.443469 336.72) scale(0.1 -0.1)">
        <defs>
         <path id="BricolageGrotesque-14pt-31" d="M 819 0 
 L 819 3238 
@@ -184,14 +184,14 @@ z
     </g>
     <g id="xtick_3">
      <g id="line2d_5">
-      <path d="M 400.68 320.76 
-L 400.68 87.12 
-" clip-path="url(#pb9fe504afb)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.25; stroke-width: 0.8; stroke-linecap: square"/>
+      <path d="M 405.216 324.72 
+L 405.216 110.88 
+" clip-path="url(#p47a9276b58)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.25; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_6"/>
      <g id="text_3">
       <!-- 20% -->
-      <g style="fill: #444444" transform="translate(389.900312 332.76) scale(0.1 -0.1)">
+      <g style="fill: #444444" transform="translate(394.436312 336.72) scale(0.1 -0.1)">
        <defs>
         <path id="BricolageGrotesque-14pt-32" d="M 314 0 
 L 314 685 
@@ -234,14 +234,14 @@ z
     </g>
     <g id="xtick_4">
      <g id="line2d_7">
-      <path d="M 506.52 320.76 
-L 506.52 87.12 
-" clip-path="url(#pb9fe504afb)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.25; stroke-width: 0.8; stroke-linecap: square"/>
+      <path d="M 509.544 324.72 
+L 509.544 110.88 
+" clip-path="url(#p47a9276b58)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.25; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_8"/>
      <g id="text_4">
       <!-- 30% -->
-      <g style="fill: #444444" transform="translate(495.655156 332.76) scale(0.1 -0.1)">
+      <g style="fill: #444444" transform="translate(498.679156 336.72) scale(0.1 -0.1)">
        <defs>
         <path id="BricolageGrotesque-14pt-33" d="M 1766 -90 
 Q 1376 -90 1091 -3 
@@ -285,14 +285,14 @@ z
     </g>
     <g id="xtick_5">
      <g id="line2d_9">
-      <path d="M 612.36 320.76 
-L 612.36 87.12 
-" clip-path="url(#pb9fe504afb)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.25; stroke-width: 0.8; stroke-linecap: square"/>
+      <path d="M 613.872 324.72 
+L 613.872 110.88 
+" clip-path="url(#p47a9276b58)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.25; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_10"/>
      <g id="text_5">
       <!-- 40% -->
-      <g style="fill: #444444" transform="translate(601.540469 332.76) scale(0.1 -0.1)">
+      <g style="fill: #444444" transform="translate(603.052469 336.72) scale(0.1 -0.1)">
        <defs>
         <path id="BricolageGrotesque-14pt-34" d="M 173 922 
 L 173 1587 
@@ -323,14 +323,14 @@ z
     </g>
     <g id="xtick_6">
      <g id="line2d_11">
-      <path d="M 718.2 320.76 
-L 718.2 87.12 
-" clip-path="url(#pb9fe504afb)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.25; stroke-width: 0.8; stroke-linecap: square"/>
+      <path d="M 718.2 324.72 
+L 718.2 110.88 
+" clip-path="url(#p47a9276b58)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.25; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_12"/>
      <g id="text_6">
       <!-- 50% -->
-      <g style="fill: #444444" transform="translate(707.314844 332.76) scale(0.1 -0.1)">
+      <g style="fill: #444444" transform="translate(707.314844 336.72) scale(0.1 -0.1)">
        <defs>
         <path id="BricolageGrotesque-14pt-35" d="M 1856 -90 
 Q 1402 -90 1072 48 
@@ -375,7 +375,7 @@ z
     </g>
     <g id="text_7">
      <!-- Tỷ trọng (%) -->
-     <g style="fill: #444444" transform="translate(422.305 347.872656) scale(0.11 -0.11)">
+     <g style="fill: #444444" transform="translate(426.085 351.832656) scale(0.11 -0.11)">
       <defs>
        <path id="BricolageGrotesque-14pt-54" d="M 1446 0 
 L 1446 4224 
@@ -681,7 +681,7 @@ z
      <g id="line2d_13"/>
      <g id="text_8">
       <!-- Trung Quốc -->
-      <g style="fill: #444444" transform="translate(129.848437 114.590479) scale(0.1 -0.1)">
+      <g style="fill: #444444" transform="translate(137.408437 133.560156) scale(0.1 -0.1)">
        <defs>
         <path id="BricolageGrotesque-14pt-75" d="M 1568 -83 
 Q 1018 -83 736 301 
@@ -852,7 +852,7 @@ z
      <g id="line2d_14"/>
      <g id="text_9">
       <!-- Hàn Quốc -->
-      <g style="fill: #444444" transform="translate(138.390625 152.229037) scale(0.1 -0.1)">
+      <g style="fill: #444444" transform="translate(145.950625 169.154844) scale(0.1 -0.1)">
        <defs>
         <path id="BricolageGrotesque-14pt-48" d="M 3354 0 
 L 3354 4224 
@@ -948,7 +948,7 @@ z
      <g id="line2d_15"/>
      <g id="text_10">
       <!-- Singapore -->
-      <g style="fill: #444444" transform="translate(136.089063 188.652752) scale(0.1 -0.1)">
+      <g style="fill: #444444" transform="translate(143.649063 203.534688) scale(0.1 -0.1)">
        <defs>
         <path id="BricolageGrotesque-14pt-53" d="M 2029 -83 
 Q 1606 -83 1289 6 
@@ -1190,7 +1190,7 @@ z
      <g id="line2d_16"/>
      <g id="text_11">
       <!-- Hồng Kông (Trung Quốc) -->
-      <g style="fill: #444444" transform="translate(69.901562 227.656935) scale(0.1 -0.1)">
+      <g style="fill: #444444" transform="translate(77.461562 240.495) scale(0.1 -0.1)">
        <defs>
         <path id="BricolageGrotesque-14pt-1ed3" d="M 1926 -83 
 Q 1453 -83 1091 125 
@@ -1329,7 +1329,7 @@ z
      <g id="line2d_17"/>
      <g id="text_12">
       <!-- Nhật Bản -->
-      <g style="fill: #444444" transform="translate(140.810937 264.325963) scale(0.1 -0.1)">
+      <g style="fill: #444444" transform="translate(148.370937 275.120156) scale(0.1 -0.1)">
        <defs>
         <path id="BricolageGrotesque-14pt-4e" d="M 550 0 
 L 550 4224 
@@ -1570,7 +1570,7 @@ z
      <g id="line2d_18"/>
      <g id="text_13">
       <!-- Thái Lan -->
-      <g style="fill: #444444" transform="translate(145.409375 301.649677) scale(0.1 -0.1)">
+      <g style="fill: #444444" transform="translate(152.969375 310.4) scale(0.1 -0.1)">
        <defs>
         <path id="BricolageGrotesque-14pt-e1" d="M 1267 -83 
 Q 998 -83 780 22 
@@ -1658,38 +1658,38 @@ z
     </g>
    </g>
    <g id="LineCollection_1">
-    <path d="M 369.889216 109.730323 
-L 652.40685 109.730323 
-" clip-path="url(#pb9fe504afb)" style="fill: none; stroke: #8d959b; stroke-width: 1.5"/>
-    <path d="M 309.410574 147.414194 
-L 359.208978 147.414194 
-" clip-path="url(#pb9fe504afb)" style="fill: none; stroke: #8d959b; stroke-width: 1.5"/>
-    <path d="M 238.761306 185.098065 
-L 323.206201 185.098065 
-" clip-path="url(#pb9fe504afb)" style="fill: none; stroke: #8d959b; stroke-width: 1.5"/>
-    <path d="M 231.873813 222.781935 
-L 246.504111 222.781935 
-" clip-path="url(#pb9fe504afb)" style="fill: none; stroke: #8d959b; stroke-width: 1.5"/>
-    <path d="M 235.285218 260.465806 
-L 318.818477 260.465806 
-" clip-path="url(#pb9fe504afb)" style="fill: none; stroke: #8d959b; stroke-width: 1.5"/>
-    <path d="M 223.325111 298.149677 
-L 275.157649 298.149677 
-" clip-path="url(#pb9fe504afb)" style="fill: none; stroke: #8d959b; stroke-width: 1.5"/>
+    <path d="M 374.865084 128.7 
+L 653.346752 128.7 
+" clip-path="url(#p47a9276b58)" style="fill: none; stroke: #8d959b; stroke-width: 1.5"/>
+    <path d="M 315.250423 164.34 
+L 364.337421 164.34 
+" clip-path="url(#p47a9276b58)" style="fill: none; stroke: #8d959b; stroke-width: 1.5"/>
+    <path d="M 245.61043 199.98 
+L 328.84897 199.98 
+" clip-path="url(#p47a9276b58)" style="fill: none; stroke: #8d959b; stroke-width: 1.5"/>
+    <path d="M 238.82133 235.62 
+L 253.242624 235.62 
+" clip-path="url(#p47a9276b58)" style="fill: none; stroke: #8d959b; stroke-width: 1.5"/>
+    <path d="M 242.184 271.26 
+L 324.523927 271.26 
+" clip-path="url(#p47a9276b58)" style="fill: none; stroke: #8d959b; stroke-width: 1.5"/>
+    <path d="M 230.394753 306.9 
+L 281.486825 306.9 
+" clip-path="url(#p47a9276b58)" style="fill: none; stroke: #8d959b; stroke-width: 1.5"/>
    </g>
    <g id="patch_3">
-    <path d="M 189 320.76 
-L 189 87.12 
+    <path d="M 196.56 324.72 
+L 196.56 110.88 
 " style="fill: none; stroke: #aaaaaa; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="patch_4">
-    <path d="M 189 320.76 
-L 718.2 320.76 
+    <path d="M 196.56 324.72 
+L 718.2 324.72 
 " style="fill: none; stroke: #aaaaaa; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="PathCollection_1">
     <defs>
-     <path id="maa1bca19e3" d="M 0 2.5 
+     <path id="m70520878cf" d="M 0 2.5 
 C 0.663008 2.5 1.29895 2.236584 1.767767 1.767767 
 C 2.236584 1.29895 2.5 0.663008 2.5 0 
 C 2.5 -0.663008 2.236584 -1.29895 1.767767 -1.767767 
@@ -1701,18 +1701,18 @@ C -1.29895 2.236584 -0.663008 2.5 0 2.5
 z
 " style="stroke: #b86e24"/>
     </defs>
-    <g clip-path="url(#pb9fe504afb)">
-     <use xlink:href="#maa1bca19e3" x="369.889216" y="109.730323" style="fill: #ffffff; stroke: #b86e24"/>
-     <use xlink:href="#maa1bca19e3" x="309.410574" y="147.414194" style="fill: #ffffff; stroke: #b86e24"/>
-     <use xlink:href="#maa1bca19e3" x="323.206201" y="185.098065" style="fill: #ffffff; stroke: #b86e24"/>
-     <use xlink:href="#maa1bca19e3" x="231.873813" y="222.781935" style="fill: #ffffff; stroke: #b86e24"/>
-     <use xlink:href="#maa1bca19e3" x="318.818477" y="260.465806" style="fill: #ffffff; stroke: #b86e24"/>
-     <use xlink:href="#maa1bca19e3" x="275.157649" y="298.149677" style="fill: #ffffff; stroke: #b86e24"/>
+    <g clip-path="url(#p47a9276b58)">
+     <use xlink:href="#m70520878cf" x="374.865084" y="128.7" style="fill: #ffffff; stroke: #b86e24"/>
+     <use xlink:href="#m70520878cf" x="315.250423" y="164.34" style="fill: #ffffff; stroke: #b86e24"/>
+     <use xlink:href="#m70520878cf" x="328.84897" y="199.98" style="fill: #ffffff; stroke: #b86e24"/>
+     <use xlink:href="#m70520878cf" x="238.82133" y="235.62" style="fill: #ffffff; stroke: #b86e24"/>
+     <use xlink:href="#m70520878cf" x="324.523927" y="271.26" style="fill: #ffffff; stroke: #b86e24"/>
+     <use xlink:href="#m70520878cf" x="281.486825" y="306.9" style="fill: #ffffff; stroke: #b86e24"/>
     </g>
    </g>
    <g id="text_14">
     <!-- 17.1% -->
-    <g style="fill: #222222" transform="translate(359.962497 101.730323) scale(0.09 -0.09)">
+    <g style="fill: #222222" transform="translate(364.938365 120.241719) scale(0.09 -0.09)">
      <defs>
       <path id="BricolageGrotesque-14pt-37" d="M 896 0 
 Q 896 461 979 957 
@@ -1751,7 +1751,7 @@ z
    </g>
    <g id="text_15">
     <!-- 11.4% -->
-    <g style="fill: #222222" transform="translate(299.052137 139.414194) scale(0.09 -0.09)">
+    <g style="fill: #222222" transform="translate(304.891986 155.881719) scale(0.09 -0.09)">
      <use xlink:href="#BricolageGrotesque-14pt-31"/>
      <use xlink:href="#BricolageGrotesque-14pt-31" transform="translate(30.599991 0)"/>
      <use xlink:href="#BricolageGrotesque-14pt-2e" transform="translate(61.199982 0)"/>
@@ -1761,7 +1761,7 @@ z
    </g>
    <g id="text_16">
     <!-- 12.7% -->
-    <g style="fill: #222222" transform="translate(312.077842 177.098065) scale(0.09 -0.09)">
+    <g style="fill: #222222" transform="translate(317.72061 191.521719) scale(0.09 -0.09)">
      <use xlink:href="#BricolageGrotesque-14pt-31"/>
      <use xlink:href="#BricolageGrotesque-14pt-32" transform="translate(30.599991 0)"/>
      <use xlink:href="#BricolageGrotesque-14pt-2e" transform="translate(87.899979 0)"/>
@@ -1771,7 +1771,7 @@ z
    </g>
    <g id="text_17">
     <!-- 4.1% -->
-    <g style="fill: #222222" transform="translate(222.892094 214.781935) scale(0.09 -0.09)">
+    <g style="fill: #222222" transform="translate(229.839611 227.161719) scale(0.09 -0.09)">
      <use xlink:href="#BricolageGrotesque-14pt-34"/>
      <use xlink:href="#BricolageGrotesque-14pt-2e" transform="translate(58.099991 0)"/>
      <use xlink:href="#BricolageGrotesque-14pt-31" transform="translate(75.799988 0)"/>
@@ -1780,7 +1780,7 @@ z
    </g>
    <g id="text_18">
     <!-- 12.3% -->
-    <g style="fill: #222222" transform="translate(307.217618 252.465806) scale(0.09 -0.09)">
+    <g style="fill: #222222" transform="translate(312.923068 262.801719) scale(0.09 -0.09)">
      <use xlink:href="#BricolageGrotesque-14pt-31"/>
      <use xlink:href="#BricolageGrotesque-14pt-32" transform="translate(30.599991 0)"/>
      <use xlink:href="#BricolageGrotesque-14pt-2e" transform="translate(87.899979 0)"/>
@@ -1790,7 +1790,7 @@ z
    </g>
    <g id="text_19">
     <!-- 8.1% -->
-    <g style="fill: #222222" transform="translate(265.910149 290.149677) scale(0.09 -0.09)">
+    <g style="fill: #222222" transform="translate(272.239325 298.441719) scale(0.09 -0.09)">
      <defs>
       <path id="BricolageGrotesque-14pt-38" d="M 2048 -96 
 Q 1549 -96 1171 32 
@@ -1868,25 +1868,25 @@ z
    </g>
    <g id="PathCollection_2">
     <defs>
-     <path id="m6df510776f" d="M -2.5 2.5 
+     <path id="m3510a1e2c5" d="M -2.5 2.5 
 L 2.5 2.5 
 L 2.5 -2.5 
 L -2.5 -2.5 
 z
 " style="stroke: #b86e24"/>
     </defs>
-    <g clip-path="url(#pb9fe504afb)">
-     <use xlink:href="#m6df510776f" x="652.40685" y="109.730323" style="fill: #b86e24; stroke: #b86e24"/>
-     <use xlink:href="#m6df510776f" x="359.208978" y="147.414194" style="fill: #b86e24; stroke: #b86e24"/>
-     <use xlink:href="#m6df510776f" x="238.761306" y="185.098065" style="fill: #b86e24; stroke: #b86e24"/>
-     <use xlink:href="#m6df510776f" x="246.504111" y="222.781935" style="fill: #b86e24; stroke: #b86e24"/>
-     <use xlink:href="#m6df510776f" x="235.285218" y="260.465806" style="fill: #b86e24; stroke: #b86e24"/>
-     <use xlink:href="#m6df510776f" x="223.325111" y="298.149677" style="fill: #b86e24; stroke: #b86e24"/>
+    <g clip-path="url(#p47a9276b58)">
+     <use xlink:href="#m3510a1e2c5" x="653.346752" y="128.7" style="fill: #b86e24; stroke: #b86e24"/>
+     <use xlink:href="#m3510a1e2c5" x="364.337421" y="164.34" style="fill: #b86e24; stroke: #b86e24"/>
+     <use xlink:href="#m3510a1e2c5" x="245.61043" y="199.98" style="fill: #b86e24; stroke: #b86e24"/>
+     <use xlink:href="#m3510a1e2c5" x="253.242624" y="235.62" style="fill: #b86e24; stroke: #b86e24"/>
+     <use xlink:href="#m3510a1e2c5" x="242.184" y="271.26" style="fill: #b86e24; stroke: #b86e24"/>
+     <use xlink:href="#m3510a1e2c5" x="230.394753" y="306.9" style="fill: #b86e24; stroke: #b86e24"/>
     </g>
    </g>
    <g id="text_20">
     <!-- 43.8% -->
-    <g style="fill: #222222" transform="translate(639.26685 123.730323) scale(0.09 -0.09)">
+    <g style="fill: #222222" transform="translate(640.206752 142) scale(0.09 -0.09)">
      <use xlink:href="#BricolageGrotesque-14pt-34"/>
      <use xlink:href="#BricolageGrotesque-14pt-33" transform="translate(58.099991 0)"/>
      <use xlink:href="#BricolageGrotesque-14pt-2e" transform="translate(117.099976 0)"/>
@@ -1896,7 +1896,7 @@ z
    </g>
    <g id="text_21">
     <!-- 16.1% -->
-    <g style="fill: #222222" transform="translate(348.58054 161.414194) scale(0.09 -0.09)">
+    <g style="fill: #222222" transform="translate(353.708983 177.64) scale(0.09 -0.09)">
      <defs>
       <path id="BricolageGrotesque-14pt-36" d="M 2195 -96 
 Q 1350 -96 873 448 
@@ -1958,7 +1958,7 @@ z
    </g>
    <g id="text_22">
     <!-- 4.7% -->
-    <g style="fill: #222222" transform="translate(228.973806 199.098065) scale(0.09 -0.09)">
+    <g style="fill: #222222" transform="translate(235.82293 213.28) scale(0.09 -0.09)">
      <use xlink:href="#BricolageGrotesque-14pt-34"/>
      <use xlink:href="#BricolageGrotesque-14pt-2e" transform="translate(58.099991 0)"/>
      <use xlink:href="#BricolageGrotesque-14pt-37" transform="translate(75.799988 0)"/>
@@ -1967,7 +1967,7 @@ z
    </g>
    <g id="text_23">
     <!-- 5.4% -->
-    <g style="fill: #222222" transform="translate(236.22583 236.781935) scale(0.09 -0.09)">
+    <g style="fill: #222222" transform="translate(242.964342 248.92) scale(0.09 -0.09)">
      <use xlink:href="#BricolageGrotesque-14pt-35"/>
      <use xlink:href="#BricolageGrotesque-14pt-2e" transform="translate(59.399994 0)"/>
      <use xlink:href="#BricolageGrotesque-14pt-34" transform="translate(77.099991 0)"/>
@@ -1976,7 +1976,7 @@ z
    </g>
    <g id="text_24">
     <!-- 4.4% -->
-    <g style="fill: #222222" transform="translate(225.065999 274.465806) scale(0.09 -0.09)">
+    <g style="fill: #222222" transform="translate(231.964782 284.56) scale(0.09 -0.09)">
      <use xlink:href="#BricolageGrotesque-14pt-34"/>
      <use xlink:href="#BricolageGrotesque-14pt-2e" transform="translate(58.099991 0)"/>
      <use xlink:href="#BricolageGrotesque-14pt-34" transform="translate(75.799988 0)"/>
@@ -1985,47 +1985,17 @@ z
    </g>
    <g id="text_25">
     <!-- 3.2% -->
-    <g style="fill: #222222" transform="translate(213.100971 312.149677) scale(0.09 -0.09)">
+    <g style="fill: #222222" transform="translate(220.170612 320.2) scale(0.09 -0.09)">
      <use xlink:href="#BricolageGrotesque-14pt-33"/>
      <use xlink:href="#BricolageGrotesque-14pt-2e" transform="translate(58.999985 0)"/>
      <use xlink:href="#BricolageGrotesque-14pt-32" transform="translate(76.699982 0)"/>
      <use xlink:href="#BricolageGrotesque-14pt-25" transform="translate(133.999969 0)"/>
     </g>
    </g>
-   <g id="legend_1">
-    <g id="PathCollection_3">
-     <g>
-      <use xlink:href="#maa1bca19e3" x="594.732812" y="100.495" style="fill: #ffffff; stroke: #b86e24"/>
-     </g>
-    </g>
-    <g id="text_26">
-     <!-- 2005 -->
-     <g style="fill: #222222" transform="translate(612.732812 103.12) scale(0.1 -0.1)">
-      <use xlink:href="#BricolageGrotesque-14pt-32"/>
-      <use xlink:href="#BricolageGrotesque-14pt-30" transform="translate(57.299988 0)"/>
-      <use xlink:href="#BricolageGrotesque-14pt-30" transform="translate(122.399979 0)"/>
-      <use xlink:href="#BricolageGrotesque-14pt-35" transform="translate(187.499969 0)"/>
-     </g>
-    </g>
-    <g id="PathCollection_4">
-     <g>
-      <use xlink:href="#m6df510776f" x="667.421875" y="100.495" style="fill: #b86e24; stroke: #b86e24"/>
-     </g>
-    </g>
-    <g id="text_27">
-     <!-- 2024 -->
-     <g style="fill: #222222" transform="translate(685.421875 103.12) scale(0.1 -0.1)">
-      <use xlink:href="#BricolageGrotesque-14pt-32"/>
-      <use xlink:href="#BricolageGrotesque-14pt-30" transform="translate(57.299988 0)"/>
-      <use xlink:href="#BricolageGrotesque-14pt-32" transform="translate(122.399979 0)"/>
-      <use xlink:href="#BricolageGrotesque-14pt-34" transform="translate(179.699966 0)"/>
-     </g>
-    </g>
-   </g>
   </g>
-  <g id="text_28">
+  <g id="text_26">
    <!-- C04B · Thay đổi tỷ trọng đối tác nhập khẩu -->
-   <g style="fill: #222222" transform="translate(193.296094 30.133125) scale(0.18 -0.18)">
+   <g style="fill: #222222" transform="translate(193.296094 34.093125) scale(0.18 -0.18)">
     <defs>
      <path id="BricolageGrotesque-14ptBold-43" d="M 2406 -90 
 Q 1914 -90 1526 48 
@@ -3076,9 +3046,9 @@ z
     <use xlink:href="#BricolageGrotesque-14ptBold-75" transform="translate(1990.299576 0)"/>
    </g>
   </g>
-  <g id="text_29">
+  <g id="text_27">
    <!-- Việt Nam · 2005 và 2024 -->
-   <g style="fill: #555555" transform="translate(305.751562 43.56) scale(0.12 -0.12)">
+   <g style="fill: #555555" transform="translate(305.751562 55.44) scale(0.12 -0.12)">
     <defs>
      <path id="Platypi-Light-56" d="M 2125 -77 
 L 262 4333 
@@ -3580,7 +3550,7 @@ z
     <use xlink:href="#Platypi-Light-34" transform="translate(1139.699814 0)"/>
    </g>
   </g>
-  <g id="text_30">
+  <g id="text_28">
    <!-- Nguồn dữ liệu: CEPII BACI HS2002 V202601 · partner_year.csv -->
    <g style="fill: #555555" transform="translate(248.284688 382.14) scale(0.09 -0.09)">
     <defs>
@@ -4055,10 +4025,40 @@ z
     <use xlink:href="#BricolageGrotesque-14pt-76" transform="translate(2829.39946 0)"/>
    </g>
   </g>
+  <g id="legend_1">
+   <g id="PathCollection_3">
+    <g>
+     <use xlink:href="#m70520878cf" x="325.766406" y="83.224844" style="fill: #ffffff; stroke: #b86e24"/>
+    </g>
+   </g>
+   <g id="text_29">
+    <!-- 2005 -->
+    <g style="fill: #222222" transform="translate(343.766406 85.849844) scale(0.1 -0.1)">
+     <use xlink:href="#BricolageGrotesque-14pt-32"/>
+     <use xlink:href="#BricolageGrotesque-14pt-30" transform="translate(57.299988 0)"/>
+     <use xlink:href="#BricolageGrotesque-14pt-30" transform="translate(122.399979 0)"/>
+     <use xlink:href="#BricolageGrotesque-14pt-35" transform="translate(187.499969 0)"/>
+    </g>
+   </g>
+   <g id="PathCollection_4">
+    <g>
+     <use xlink:href="#m3510a1e2c5" x="398.455469" y="83.224844" style="fill: #b86e24; stroke: #b86e24"/>
+    </g>
+   </g>
+   <g id="text_30">
+    <!-- 2024 -->
+    <g style="fill: #222222" transform="translate(416.455469 85.849844) scale(0.1 -0.1)">
+     <use xlink:href="#BricolageGrotesque-14pt-32"/>
+     <use xlink:href="#BricolageGrotesque-14pt-30" transform="translate(57.299988 0)"/>
+     <use xlink:href="#BricolageGrotesque-14pt-32" transform="translate(122.399979 0)"/>
+     <use xlink:href="#BricolageGrotesque-14pt-34" transform="translate(179.699966 0)"/>
+    </g>
+   </g>
+  </g>
  </g>
  <defs>
-  <clipPath id="pb9fe504afb">
-   <rect x="189" y="87.12" width="529.2" height="233.64"/>
+  <clipPath id="p47a9276b58">
+   <rect x="196.56" y="110.88" width="521.64" height="213.84"/>
   </clipPath>
  </defs>
 </svg>
