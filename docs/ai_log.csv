@@ -1,1 +1,2 @@
 date,member,tool,prompt,used_content,modified_or_rejected_content
+2026-11-27,Vân,Codex,Lập trình hai biểu đồ C01 theo phác thảo và cấu trúc notebook chung của nhóm.,Tạo C01.ipynb; áp dụng House Style; xuất C01A/C01B tiếng Việt dạng PNG/SVG và kiểm tra dữ liệu.,"Điều chỉnh nhãn và khoảng cách tiêu đề; thêm bảng số liệu, chú giải hai màu cố định cho cán cân; đồng bộ hình notebook và output; kiểm tra đủ năm, trùng khóa, cán cân; người phụ trách và CHECK cần tự đọc, xác nhận trước khi merge."
