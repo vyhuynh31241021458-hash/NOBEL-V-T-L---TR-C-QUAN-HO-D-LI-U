@@ -1,0 +1,4 @@
+issue_id,category,description,evidence,correction,status
+I01,Information Design,Thiếu nhãn giá trị và thông điệp kết luận,Code không có data labels hoặc action title,Bổ sung nhãn tại các năm quan trọng và tiêu đề kết luận,Confirmed
+I02,Visual Clutter,Trục X hiển thị 20 năm xoay 45 độ và lưới dày,plt.xticks(df['year'], rotation=45) và plt.grid(True),Chỉ giữ 5 mốc năm và tối giản gridlines,Confirmed
+I03,Accessibility,Hai đường cùng kiểu nét liền và sử dụng màu mặc định,Code sử dụng hai màu mặc định nhưng không thiết lập linestyle khác nhau,Phối hợp màu sắc và kiểu nét để phân biệt,Confirmed

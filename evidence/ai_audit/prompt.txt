@@ -1,0 +1,1 @@
+Đọc file trade_year.csv và tạo biểu đồ đường thể hiện kim ngạch xuất khẩu (export_usd) và nhập khẩu (import_usd) của Việt Nam giai đoạn 2005–2024. Dùng chung trục Y, đơn vị tỷ USD, có tiêu đề, chú giải và nhãn trục. Sử dụng Python Matplotlib, không tự tạo hoặc thay đổi dữ liệu.
