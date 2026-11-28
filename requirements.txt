@@ -4,3 +4,4 @@ matplotlib==3.10.8
 ipykernel==7.4.0
 nbconvert==7.17.2
 colorspacious==1.1.2
+scikit-learn==1.8.0
