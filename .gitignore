@@ -10,7 +10,10 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
+# Survey data
 /data/survey/data_clean/survey_segment_final.csv
 /data/survey/data_clean/survey_segment_unclassified.csv
 
-P03 Baci/data_raw/
+# Ignore large datasets
+data_raw/
+vietnam_trade_2005_2024.csv
